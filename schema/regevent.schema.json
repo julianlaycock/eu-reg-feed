@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/julianlaycock/eu-reg-feed/schema/regevent.schema.json",
+  "title": "RegEvent",
+  "description": "An open schema for machine-readable EU regulatory change events.",
+  "type": "object",
+  "required": ["id", "type", "regulator", "title", "published", "url"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (URI). Format: urn:regevent:{regulator}:{year}:{sequence}"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "consultation",
+        "final_rule",
+        "guidance",
+        "guideline",
+        "opinion",
+        "qa_update",
+        "transposition",
+        "deadline",
+        "warning",
+        "speech",
+        "report",
+        "delegated_act",
+        "implementing_technical_standard",
+        "regulatory_technical_standard"
+      ],
+      "description": "Classification of the regulatory event."
+    },
+    "regulator": {
+      "type": "string",
+      "description": "Identifier for the publishing authority.",
+      "enum": [
+        "esma",
+        "eba",
+        "eiopa",
+        "eurlex",
+        "bafin",
+        "cssf",
+        "amf",
+        "cnmv",
+        "fma_at"
+      ]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 country code, or 'EU' for EU-level.",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the regulatory event in its original language."
+    },
+    "title_lang": {
+      "type": "string",
+      "description": "ISO 639-1 language code for the title.",
+      "pattern": "^[a-z]{2}$",
+      "default": "en"
+    },
+    "summary": {
+      "type": ["string", "null"],
+      "description": "Brief summary or description of the event."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL to the source publication."
+    },
+    "published": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Publication date (ISO 8601)."
+    },
+    "effective_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date the rule/guidance takes effect."
+    },
+    "response_deadline": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Deadline for consultation responses."
+    },
+    "affected_legislation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "celex": { "type": ["string", "null"] },
+          "eli": { "type": ["string", "null"] }
+        },
+        "required": ["name"]
+      },
+      "description": "Legislation this event relates to (AIFMD, MiFID II, EMIR, etc.)."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Free-form classification tags (e.g., 'AIFMD', 'CCP', 'sustainable-finance')."
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "mime_type": { "type": "string" }
+        },
+        "required": ["url"]
+      },
+      "description": "Related documents (PDFs, response forms, etc.)."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,53 @@
+{
+  "name": "eu-reg-feed",
+  "version": "0.1.0",
+  "description": "Open standard and reference implementation for machine-readable EU regulatory change feeds",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "fetch": "node dist/cli.js fetch",
+    "serve": "node dist/cli.js serve",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "eu",
+    "regulatory",
+    "compliance",
+    "esma",
+    "eba",
+    "eiopa",
+    "bafin",
+    "cssf",
+    "aifmd",
+    "mifid",
+    "open-data",
+    "rss",
+    "atom",
+    "json-feed"
+  ],
+  "author": "Julian Laycock <julian.laycock@caelith.tech>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianlaycock/eu-reg-feed.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.2.0",
+    "eslint": "^9.0.0"
+  }
+}

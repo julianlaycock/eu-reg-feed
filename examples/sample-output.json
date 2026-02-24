@@ -1,0 +1,63 @@
+{
+  "schema": "https://github.com/julianlaycock/eu-reg-feed/schema/regevent.schema.json",
+  "version": "0.1.0",
+  "generated_at": "2026-02-24T17:30:00.000Z",
+  "total_events": 3,
+  "total_errors": 0,
+  "sources": [
+    { "regulator": "esma", "events": 1, "errors": [], "fetched_at": "2026-02-24T17:30:00.000Z" },
+    { "regulator": "cssf", "events": 2, "errors": [], "fetched_at": "2026-02-24T17:30:01.000Z" }
+  ],
+  "events": [
+    {
+      "id": "urn:regevent:cssf:2026:warning-capman",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.capman-holding.com",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/02/warning-concerning-the-website-www-capman-holding-com/",
+      "published": "2026-02-24T14:06:21.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": ["investor-protection"],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:covered-bonds-page",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Launch of a dedicated page for the Luxembourgish covered bonds framework on the CSSF website",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/02/launch-of-a-dedicated-page-for-the-luxembourgish-covered-bonds-lettres-de-gage-framework-on-the-cssf-website/",
+      "published": "2026-02-23T07:55:32.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": ["covered-bonds"],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:esma:2026:consultation-ccp-collateral",
+      "type": "consultation",
+      "regulator": "esma",
+      "jurisdiction": "EU",
+      "title": "Consultation on guarantees as CCP collateral and on certain aspects of CCP investment policy",
+      "title_lang": "en",
+      "summary": "Open consultation — responses accepted",
+      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-guarantees-ccp-collateral-and-certain-aspects-ccp-investment",
+      "published": "2026-02-23T00:00:00.000Z",
+      "effective_date": null,
+      "response_deadline": "2026-04-30",
+      "affected_legislation": [
+        { "name": "EMIR" }
+      ],
+      "tags": ["CCP"],
+      "attachments": []
+    }
+  ]
+}
