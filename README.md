@@ -36,15 +36,14 @@ eu-reg-feed provides two things:
 ## Quick Start
 
 ```bash
-npm install eu-reg-feed
-
-# Or clone and run directly
 git clone https://github.com/julianlaycock/eu-reg-feed.git
 cd eu-reg-feed
 npm install
 npm run build
 npm start -- fetch --pretty
 ```
+
+> npm package publication is planned — tracked in [#8](https://github.com/julianlaycock/eu-reg-feed/issues/8). Until then, use a local clone.
 
 ## Output Format
 
@@ -117,6 +116,8 @@ The full JSON Schema is at [`schema/regevent.schema.json`](schema/regevent.schem
 | `transposition` | National transposition of EU directive |
 | `deadline` | Regulatory deadline or filing date |
 | `warning` | Investor warning or fraud alert |
+| `speech` | Speech or public statement |
+| `report` | Report, study, or communiqué |
 | `delegated_act` | EU delegated act |
 | `implementing_technical_standard` | ITS publication |
 | `regulatory_technical_standard` | RTS publication |
