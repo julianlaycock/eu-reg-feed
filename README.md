@@ -24,8 +24,8 @@ eu-reg-feed provides two things:
 | Regulator | Jurisdiction | Method | Status |
 |-----------|-------------|--------|--------|
 | ESMA | EU | HTML scraping | ✅ Working |
+| EBA | EU | Native RSS | ✅ Working |
 | CSSF | Luxembourg | Native RSS | ✅ Working |
-| EBA | EU | Planned | 🔜 |
 | EIOPA | EU | Planned | 🔜 |
 | EUR-Lex | EU | CELLAR/SPARQL | 🔜 |
 | BaFin | Germany | HTML scraping | 🔜 |

@@ -7,6 +7,7 @@
  */
 
 export { CSSFAggregator } from './aggregators/cssf.js';
+export { EBAAggregator } from './aggregators/eba.js';
 export { ESMAAggregator } from './aggregators/esma.js';
 export { Aggregator } from './aggregators/base.js';
 
@@ -21,6 +22,7 @@ export type {
 } from './types.js';
 
 import { CSSFAggregator } from './aggregators/cssf.js';
+import { EBAAggregator } from './aggregators/eba.js';
 import { ESMAAggregator } from './aggregators/esma.js';
 import type { BaseAggregator, AggregatorResult } from './types.js';
 
@@ -28,6 +30,7 @@ import type { BaseAggregator, AggregatorResult } from './types.js';
 export function createAggregators(): BaseAggregator[] {
   return [
     new ESMAAggregator(),
+    new EBAAggregator(),
     new CSSFAggregator(),
   ];
 }
