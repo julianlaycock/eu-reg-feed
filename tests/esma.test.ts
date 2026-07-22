@@ -1,4 +1,11 @@
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 import { ESMAAggregator } from '../src/aggregators/esma.js';
+
+const fixture = readFileSync(
+  resolve(process.cwd(), 'tests', 'fixtures', 'esma-consultations.html'),
+  'utf-8'
+);
 
 describe('ESMAAggregator', () => {
   const agg = new ESMAAggregator();
@@ -8,32 +15,34 @@ describe('ESMAAggregator', () => {
     expect(agg.jurisdiction).toBe('EU');
   });
 
-  it('fetches and parses ESMA consultations', async () => {
-    const result = await agg.fetch();
-    expect(result.regulator).toBe('esma');
-    expect(result.errors).toHaveLength(0);
-    expect(result.events.length).toBeGreaterThan(0);
+  it('parses consultations from the fixture page', () => {
+    const events = agg.parse(fixture);
+    expect(events.length).toBeGreaterThan(0);
 
-    // All events should be consultations
-    for (const event of result.events) {
+    for (const event of events) {
       expect(event.type).toBe('consultation');
       expect(event.regulator).toBe('esma');
       expect(event.jurisdiction).toBe('EU');
+      expect(event.id).toMatch(/^urn:regevent:esma:\d{4}:/);
       expect(event.url).toMatch(/^https:\/\/www\.esma\.europa\.eu/);
-      expect(event.published).toBeTruthy();
-      expect(event.response_deadline).toBeTruthy();
+      expect(event.published).toMatch(/^\d{4}-\d{2}-\d{2}T/);
+      expect(event.response_deadline).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(event.title.length).toBeGreaterThan(0);
     }
-  }, 15000);
+  });
 
-  it('identifies open vs closed consultations', async () => {
-    const result = await agg.fetch();
-    const open = result.events.filter(e =>
-      e.response_deadline && new Date(e.response_deadline) > new Date()
+  it('partitions every event into open or closed by deadline', () => {
+    const events = agg.parse(fixture);
+    const open = events.filter(
+      e => e.response_deadline && new Date(e.response_deadline) > new Date()
     );
-    const closed = result.events.filter(e =>
-      e.response_deadline && new Date(e.response_deadline) <= new Date()
+    const closed = events.filter(
+      e => e.response_deadline && new Date(e.response_deadline) <= new Date()
     );
-    // Should have a mix (ESMA page shows both)
-    expect(open.length + closed.length).toBe(result.events.length);
-  }, 15000);
+    expect(open.length + closed.length).toBe(events.length);
+  });
+
+  it('returns no events for unrelated HTML', () => {
+    expect(agg.parse('<html><body>no consultations here</body></html>')).toEqual([]);
+  });
 });

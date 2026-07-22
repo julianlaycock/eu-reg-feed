@@ -17,6 +17,11 @@ export class CSSFAggregator extends Aggregator {
 
   protected async scrape(): Promise<RegEvent[]> {
     const xml = await this.fetchPage(this.url);
+    return this.parse(xml);
+  }
+
+  /** Parse a CSSF RSS 2.0 document into RegEvents. Exposed for fixture-based testing. */
+  parse(xml: string): RegEvent[] {
     const parser = new XMLParser({
       ignoreAttributes: false,
       attributeNamePrefix: '@_',

@@ -1,4 +1,11 @@
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 import { CSSFAggregator } from '../src/aggregators/cssf.js';
+
+const fixture = readFileSync(
+  resolve(process.cwd(), 'tests', 'fixtures', 'cssf-feed.xml'),
+  'utf-8'
+);
 
 describe('CSSFAggregator', () => {
   const agg = new CSSFAggregator();
@@ -9,28 +16,31 @@ describe('CSSFAggregator', () => {
     expect(agg.url).toBe('https://www.cssf.lu/en/feed/');
   });
 
-  it('fetches live CSSF RSS feed', async () => {
-    const result = await agg.fetch();
-    expect(result.regulator).toBe('cssf');
-    expect(result.errors).toHaveLength(0);
-    expect(result.events.length).toBeGreaterThan(0);
+  it('parses the fixture RSS feed', () => {
+    const events = agg.parse(fixture);
+    expect(events.length).toBeGreaterThan(0);
 
-    // Validate first event structure
-    const event = result.events[0];
-    expect(event.id).toMatch(/^urn:regevent:cssf:/);
-    expect(event.regulator).toBe('cssf');
-    expect(event.jurisdiction).toBe('LU');
-    expect(event.title).toBeTruthy();
-    expect(event.url).toMatch(/^https:\/\/www\.cssf\.lu/);
-    expect(event.published).toBeTruthy();
-    expect(event.title_lang).toBe('en');
-  }, 15000);
+    for (const event of events) {
+      expect(event.id).toMatch(/^urn:regevent:cssf:\d{4}:/);
+      expect(event.regulator).toBe('cssf');
+      expect(event.jurisdiction).toBe('LU');
+      expect(event.title.length).toBeGreaterThan(0);
+      expect(event.url).toMatch(/^https:\/\/www\.cssf\.lu/);
+      expect(event.published).toMatch(/^\d{4}-\d{2}-\d{2}T/);
+      expect(event.title_lang).toBe('en');
+    }
+  });
 
-  it('classifies warnings correctly', async () => {
-    const result = await agg.fetch();
-    const warnings = result.events.filter(e => e.type === 'warning');
-    for (const w of warnings) {
+  it('classifies warnings correctly', () => {
+    const events = agg.parse(fixture);
+    for (const w of events.filter(e => e.type === 'warning')) {
       expect(w.title.toLowerCase()).toContain('warning');
     }
-  }, 15000);
+  });
+
+  it('returns no events for an empty feed', () => {
+    expect(
+      agg.parse('<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>')
+    ).toEqual([]);
+  });
 });

@@ -16,10 +16,11 @@ export class ESMAAggregator extends Aggregator {
 
   protected async scrape(): Promise<RegEvent[]> {
     const html = await this.fetchPage(this.url);
-    return this.parseConsultations(html);
+    return this.parse(html);
   }
 
-  private parseConsultations(html: string): RegEvent[] {
+  /** Parse the ESMA consultations page HTML into RegEvents. Exposed for fixture-based testing. */
+  parse(html: string): RegEvent[] {
     const events: RegEvent[] = [];
     
     // ESMA consultation page has a repeating pattern:
