@@ -1,0 +1,33 @@
+name: Publish feed
+
+on:
+  schedule:
+    - cron: '17 6 * * *'  # daily 06:17 UTC — regulators publish during EU business hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run build
+      - run: node dist/cli.js fetch --pretty > feed/latest.json
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed/latest.json
+          # Skip the commit when nothing but the generation timestamp changed
+          if git diff --cached -I'"generated_at"' --quiet; then
+            echo "No new events — skipping commit"
+          else
+            git commit -m "feed: daily update $(date -u +%F)"
+            git push
+          fi

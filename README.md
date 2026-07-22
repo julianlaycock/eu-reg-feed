@@ -33,6 +33,15 @@ eu-reg-feed provides two things:
 | CNMV | Spain | Planned | 🔜 |
 | FMA | Austria | Planned | 🔜 |
 
+## Live Feed — no install needed
+
+A GitHub Action fetches all sources daily and commits the result to
+[`feed/latest.json`](feed/latest.json). Consume it directly:
+
+```bash
+curl -s https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.json | jq '.events[0]'
+```
+
 ## Quick Start
 
 ```bash
