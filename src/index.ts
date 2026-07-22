@@ -38,9 +38,11 @@ export async function fetchAll(): Promise<AggregatorResult[]> {
   const results: AggregatorResult[] = [];
 
   for (const agg of aggregators) {
-    console.log(`Fetching ${agg.name} (${agg.id})...`);
+    // Progress goes to stderr: stdout is reserved for the JSON document
+    // so `eu-reg-feed fetch | jq` works.
+    console.error(`Fetching ${agg.name} (${agg.id})...`);
     const result = await agg.fetch();
-    console.log(`  → ${result.events.length} events, ${result.errors.length} errors`);
+    console.error(`  → ${result.events.length} events, ${result.errors.length} errors`);
     results.push(result);
   }
 

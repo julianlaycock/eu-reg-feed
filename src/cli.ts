@@ -29,7 +29,7 @@ async function main() {
     const allErrors = filtered.flatMap(r => r.errors);
 
     const output = {
-      schema: 'https://github.com/julianlaycock/eu-reg-feed/schema/regevent.schema.json',
+      schema: 'https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json',
       version: '0.1.0',
       generated_at: new Date().toISOString(),
       total_events: allEvents.length,
