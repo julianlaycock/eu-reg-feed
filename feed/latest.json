@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-07-22T16:57:59.610Z",
+  "generated_at": "2026-07-23T08:45:51.112Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,40 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-07-22T16:57:58.115Z"
+      "fetched_at": "2026-07-23T08:45:49.190Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-07-22T16:57:58.502Z"
+      "fetched_at": "2026-07-23T08:45:49.583Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-07-22T16:57:59.009Z"
+      "fetched_at": "2026-07-23T08:45:50.363Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127490",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Luxempart S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/07/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-luxempart-s-a/",
+      "published": "2026-07-23T06:56:19.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:ssflup127479",
       "type": "guidance",
@@ -203,24 +221,6 @@
       "summary": null,
       "url": "https://www.cssf.lu/en/2026/07/warning-concerning-emails-sent-from-the-address-firstname-lastnamepro-trx-net/",
       "published": "2026-07-10T14:11:27.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127164",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the website www.nexuravg.com",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/warning-concerning-the-website-www-nexuravg-com/",
-      "published": "2026-07-10T13:50:50.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
