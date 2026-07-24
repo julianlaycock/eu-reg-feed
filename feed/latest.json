@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-07-23T08:45:51.112Z",
+  "generated_at": "2026-07-24T08:44:30.662Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,54 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-07-23T08:45:49.190Z"
+      "fetched_at": "2026-07-24T08:44:28.995Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-07-23T08:45:49.583Z"
+      "fetched_at": "2026-07-24T08:44:29.335Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-07-23T08:45:50.363Z"
+      "fetched_at": "2026-07-24T08:44:29.983Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:eba:2026:webaeuropaeu",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 23 July, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/19883",
+      "published": "2026-07-23T15:00:03.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127504",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Dissolution and judicial liquidation: DIVERSIFIED ASSET MANAGEMENT S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/07/dissolution-and-judicial-liquidation-diversified-asset-management-s-a-2/",
+      "published": "2026-07-23T09:07:51.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:ssflup127490",
       "type": "warning",
@@ -212,24 +244,6 @@
       "attachments": []
     },
     {
-      "id": "urn:regevent:cssf:2026:ssflup127170",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning emails sent from the address firstname.lastname@pro-trx.net",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/warning-concerning-emails-sent-from-the-address-firstname-lastnamepro-trx-net/",
-      "published": "2026-07-10T14:11:27.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": []
-    },
-    {
       "id": "urn:regevent:eba:2026:webaeuropaeu",
       "type": "guidance",
       "regulator": "eba",
@@ -319,22 +333,6 @@
       "summary": null,
       "url": "https://www.eba.europa.eu/node/19810",
       "published": "2026-07-02T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:eba:2026:webaeuropaeu",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 1 July, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19806",
-      "published": "2026-07-01T15:00:02.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
