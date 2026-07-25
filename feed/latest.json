@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-07-24T08:44:30.662Z",
+  "generated_at": "2026-07-25T08:25:09.430Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,38 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-07-24T08:44:28.995Z"
+      "fetched_at": "2026-07-25T08:25:07.876Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-07-24T08:44:29.335Z"
+      "fetched_at": "2026-07-25T08:25:08.211Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-07-24T08:44:29.983Z"
+      "fetched_at": "2026-07-25T08:25:08.814Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:eba:2026:webaeuropaeu",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 24 July, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/19890",
+      "published": "2026-07-24T15:00:02.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:eba:2026:webaeuropaeu",
       "type": "guidance",
@@ -317,22 +333,6 @@
       "summary": null,
       "url": "https://www.eba.europa.eu/node/19812",
       "published": "2026-07-03T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:eba:2026:webaeuropaeu",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 2 July, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19810",
-      "published": "2026-07-02T15:00:03.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
