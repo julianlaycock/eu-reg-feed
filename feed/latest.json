@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-03T10:09:07.347Z",
+  "generated_at": "2026-08-04T09:09:59.808Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,72 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-03T10:07:11.939Z"
+      "fetched_at": "2026-08-04T09:09:58.001Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-03T10:09:05.630Z"
+      "fetched_at": "2026-08-04T09:09:58.412Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-03T10:09:06.548Z"
+      "fetched_at": "2026-08-04T09:09:59.088Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127843",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "CSSF press release relating to the publication of Q&#038;A CNC 26/038, entitled “Large associations, associations recognised as being of public utility and foundations: targeted clarifications on the new accounting regime introduced by the Law of 7 August 2023” (only in French)",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/cssf-press-release-relating-to-the-publication-of-qa-cnc-26-038-entitled-large-associations-associations-recognised-as-being-of-public-utility-and-foundations-targeted-clarifications-on-t/",
+      "published": "2026-08-04T06:52:16.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:eba:2026:webaeuropaeu",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 3 August, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/19912",
+      "published": "2026-08-03T15:00:02.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127830",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Gekko Fund SICAV",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-gekko-fund-sicav/",
+      "published": "2026-08-03T13:24:15.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:ssflup127773",
       "type": "guidance",
@@ -35,6 +85,22 @@
       "summary": null,
       "url": "https://www.cssf.lu/en/2026/08/the-cssf-launches-a-dedicated-webpage-to-clarify-the-process-to-notify-and-assess-notifying-material-operations/",
       "published": "2026-08-03T07:45:31.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:cssflup54132",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Processing time of initial authorisations of regulated investment vehicles",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/processing-time-of-initial-authorisations-of-regulated-investment-vehicles/",
+      "published": "2026-08-03T05:00:45.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
@@ -164,60 +230,6 @@
       "attachments": []
     },
     {
-      "id": "urn:regevent:cssf:2026:cssflup27174",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Number of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/number-of-ucis/",
-      "published": "2026-07-28T04:00:17.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:cssflup27232",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Investment policy of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/investment-policy-of-ucis/",
-      "published": "2026-07-28T04:00:10.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127585",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Launch of the ESMA Common Supervisory Action on the risk management function of UCITS Management Companies and Alternative Investment Fund Managers",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/launch-of-the-esma-common-supervisory-action-on-the-risk-management-function-of-ucits-management-companies-and-alternative-investment-fund-managers/",
-      "published": "2026-07-27T08:36:33.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": []
-    },
-    {
       "id": "urn:regevent:eba:2026:webaeuropaeu",
       "type": "guidance",
       "regulator": "eba",
@@ -323,22 +335,6 @@
       "summary": null,
       "url": "https://www.eba.europa.eu/node/19827",
       "published": "2026-07-07T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:eba:2026:webaeuropaeu",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 6 July, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19820",
-      "published": "2026-07-06T15:00:02.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
