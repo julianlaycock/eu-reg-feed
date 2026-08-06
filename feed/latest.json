@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-05T09:07:05.723Z",
+  "generated_at": "2026-08-06T09:07:48.612Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,70 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-05T09:07:03.269Z"
+      "fetched_at": "2026-08-06T09:07:46.566Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-05T09:07:04.039Z"
+      "fetched_at": "2026-08-06T09:07:47.039Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-05T09:07:04.901Z"
+      "fetched_at": "2026-08-06T09:07:47.871Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127911",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Global situation of undertakings for collective investment at the end of June 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/global-situation-of-undertakings-for-collective-investment-at-the-end-of-june-2026/",
+      "published": "2026-08-06T06:28:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:eba:2026:webaeuropaeu",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 5 August, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/19924",
+      "published": "2026-08-05T15:00:03.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127904",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Scheduled maintenance on Friday, 7 August 2026 between 12pm and 2pm",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/scheduled-maintenance-on-friday-7-august-2026-between-12pm-and-2pm/",
+      "published": "2026-08-05T12:51:25.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:ssflup127877",
       "type": "warning",
@@ -196,40 +244,6 @@
       "attachments": []
     },
     {
-      "id": "urn:regevent:cssf:2026:cssflup27353",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Development of net assets and number of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/development-of-net-assets-and-number-of-ucis/",
-      "published": "2026-07-28T04:00:52.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:cssflup27301",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Breakdown according to currency",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/breakdown-according-to-currency/",
-      "published": "2026-07-28T04:00:42.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
       "id": "urn:regevent:eba:2026:webaeuropaeu",
       "type": "guidance",
       "regulator": "eba",
@@ -326,22 +340,6 @@
       "attachments": []
     },
     {
-      "id": "urn:regevent:eba:2026:webaeuropaeu",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 7 July, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19827",
-      "published": "2026-07-07T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
       "id": "urn:regevent:esma:2026:onomydisclosures",
       "type": "consultation",
       "regulator": "esma",
@@ -380,7 +378,7 @@
       "jurisdiction": "EU",
       "title": "Consultation on the Guidelines on stress test scenarios under the MMF Regulation",
       "title_lang": "en",
-      "summary": "Open consultation — responses accepted",
+      "summary": "Closed",
       "url": "https://www.esma.europa.eu/press-news/consultations/consultation-guidelines-stress-test-scenarios-under-mmf-regulation",
       "published": "2026-05-05T00:00:00.000Z",
       "effective_date": null,
