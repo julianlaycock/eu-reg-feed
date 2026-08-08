@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-07T07:43:09.591Z",
+  "generated_at": "2026-08-08T07:17:02.348Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,19 +9,19 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-07T07:43:07.817Z"
+      "fetched_at": "2026-08-08T07:17:00.259Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-07T07:43:08.176Z"
+      "fetched_at": "2026-08-08T07:17:00.531Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-07T07:43:08.857Z"
+      "fetched_at": "2026-08-08T07:17:01.427Z"
     }
   ],
   "events": [
@@ -78,7 +78,7 @@
       "type": "guidance",
       "regulator": "cssf",
       "jurisdiction": "LU",
-      "title": "Scheduled maintenance on Friday, 7 August 2026 between 12pm and 2pm",
+      "title": "Scheduled maintenance on Friday, 7 August 2026 between 12pm and 4pm",
       "title_lang": "en",
       "summary": null,
       "url": "https://www.cssf.lu/en/2026/08/scheduled-maintenance-on-friday-7-august-2026-between-12pm-and-2pm/",
@@ -378,7 +378,7 @@
       "jurisdiction": "EU",
       "title": "Consultation on the Guidelines on stress test scenarios under the MMF Regulation",
       "title_lang": "en",
-      "summary": "Closed",
+      "summary": "Closed — responses published",
       "url": "https://www.esma.europa.eu/press-news/consultations/consultation-guidelines-stress-test-scenarios-under-mmf-regulation",
       "published": "2026-05-05T00:00:00.000Z",
       "effective_date": null,
