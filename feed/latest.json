@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-08T07:17:02.348Z",
+  "generated_at": "2026-08-11T07:38:53.535Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,76 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-08T07:17:00.259Z"
+      "fetched_at": "2026-08-11T07:38:51.885Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-08T07:17:00.531Z"
+      "fetched_at": "2026-08-11T07:38:52.383Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-08T07:17:01.427Z"
+      "fetched_at": "2026-08-11T07:38:52.971Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127951",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities performed under the name of the Luxembourg company Molentis S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-molentis-s-a/",
+      "published": "2026-08-10T08:42:34.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127945",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities performed under the name of the Luxembourg company Gablau Invest Sàrl",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-gablau-invest-sarl/",
+      "published": "2026-08-10T08:34:12.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:ssflup127939",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.3cgroup.se",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-the-website-www-3cgroup-se/",
+      "published": "2026-08-10T08:32:24.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:eba:2026:webaeuropaeu",
       "type": "guidance",
@@ -67,22 +121,6 @@
       "summary": null,
       "url": "https://www.eba.europa.eu/node/19924",
       "published": "2026-08-05T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127904",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Scheduled maintenance on Friday, 7 August 2026 between 12pm and 4pm",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/scheduled-maintenance-on-friday-7-august-2026-between-12pm-and-2pm/",
-      "published": "2026-08-05T12:51:25.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
@@ -220,42 +258,6 @@
       "affected_legislation": [],
       "tags": [
         "AIFMD"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127749",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning fraudulent activities by persons misusing the name of Winvest International S.C.S., FIAR",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-winvest-international-s-c-s-fiar/",
-      "published": "2026-07-30T06:56:35.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:cssflup27191",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Net assets of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/07/net-assets-of-ucis/",
-      "published": "2026-07-28T04:00:57.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
       ],
       "attachments": []
     },
