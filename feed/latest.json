@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-12T07:54:00.704Z",
+  "generated_at": "2026-08-14T07:52:38.456Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,58 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-12T07:53:58.280Z"
+      "fetched_at": "2026-08-14T07:52:36.322Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-12T07:53:58.905Z"
+      "fetched_at": "2026-08-14T07:52:36.731Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-12T07:53:59.748Z"
+      "fetched_at": "2026-08-14T07:52:37.607Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:ssflup128027",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of the Luxembourg company ANGELMAR Corp S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-the-luxembourg-company-angelmar-corp-s-a/",
+      "published": "2026-08-13T08:36:19.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:ssflup128021",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of ICI Invest S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-ici-invest-s-a/",
+      "published": "2026-08-13T07:22:05.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:ssflup127978",
       "type": "warning",
@@ -211,38 +247,6 @@
       "tags": [
         "investor-protection"
       ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127773",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "The CSSF launches a dedicated webpage to clarify the process to notify and assess notifying material operations",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/the-cssf-launches-a-dedicated-webpage-to-clarify-the-process-to-notify-and-assess-notifying-material-operations/",
-      "published": "2026-08-03T07:45:31.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:cssflup54132",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Processing time of initial authorisations of regulated investment vehicles",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/processing-time-of-initial-authorisations-of-regulated-investment-vehicles/",
-      "published": "2026-08-03T05:00:45.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
       "attachments": []
     },
     {
