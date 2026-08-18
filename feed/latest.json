@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-15T06:58:31.333Z",
+  "generated_at": "2026-08-18T07:05:37.447Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,86 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-15T06:58:29.252Z"
+      "fetched_at": "2026-08-18T07:05:35.863Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-15T06:58:29.661Z"
+      "fetched_at": "2026-08-18T07:05:36.338Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-15T06:58:30.466Z"
+      "fetched_at": "2026-08-18T07:05:36.913Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:cssflup27780",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/",
+      "published": "2026-08-17T04:00:55.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:cssflup27765",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Notifications sent by the CSSF to the competent authorities of other EEA Member States",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/notifications-sent-by-the-cssf-to-the-competent-authorities-of-other-eea-member-states/",
+      "published": "2026-08-17T04:00:53.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:cssflup27754",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Notifications received by the CSSF from the competent authorities of other EEA Member States",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/",
+      "published": "2026-08-17T04:00:34.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
+    {
+      "id": "urn:regevent:cssf:2026:cssflup27731",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "CSSF approvals of prospectuses",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/cssf-approvals/",
+      "published": "2026-08-17T04:00:29.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:ssflup128027",
       "type": "warning",
@@ -150,22 +214,6 @@
       "attachments": []
     },
     {
-      "id": "urn:regevent:cssf:2026:ssflup127911",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Global situation of undertakings for collective investment at the end of June 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/global-situation-of-undertakings-for-collective-investment-at-the-end-of-june-2026/",
-      "published": "2026-08-06T06:28:17.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
       "id": "urn:regevent:eba:2026:webaeuropaeu",
       "type": "guidance",
       "regulator": "eba",
@@ -175,40 +223,6 @@
       "summary": null,
       "url": "https://www.eba.europa.eu/node/19924",
       "published": "2026-08-05T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127877",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning fraudulent activities by persons misusing the name of Crest Invest S.A.",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-crest-invest-s-a/",
-      "published": "2026-08-04T12:57:12.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127843",
-      "type": "report",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "CSSF communiqué relating to the publication of Q&#038;A CNC 26/038, entitled “Large associations, associations recognised as being of public utility and foundations: targeted clarifications on the new accounting regime introduced by the Law of 7 August 2023” (only in French)",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/cssf-communique-relating-to-the-publication-of-qa-cnc-26-038-entitled-large-associations-associations-recognised-as-being-of-public-utility-and-foundations-targeted-clarifications-on-the/",
-      "published": "2026-08-04T06:52:16.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
@@ -229,24 +243,6 @@
       "response_deadline": null,
       "affected_legislation": [],
       "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127830",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning fraudulent activities by persons misusing the name of Gekko Fund SICAV",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-gekko-fund-sicav/",
-      "published": "2026-08-03T13:24:15.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
       "attachments": []
     },
     {
