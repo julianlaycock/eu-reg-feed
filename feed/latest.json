@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-18T07:05:37.447Z",
+  "generated_at": "2026-08-19T07:07:00.843Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,38 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-18T07:05:35.863Z"
+      "fetched_at": "2026-08-19T07:06:58.748Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-18T07:05:36.338Z"
+      "fetched_at": "2026-08-19T07:06:59.204Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-18T07:05:36.913Z"
+      "fetched_at": "2026-08-19T07:07:00.024Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:esma:2026:tivityrecognised",
+      "type": "consultation",
+      "regulator": "esma",
+      "jurisdiction": "EU",
+      "title": "Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
+      "title_lang": "en",
+      "summary": "Open consultation — responses accepted",
+      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-reporting-framework-under-emir-clearing-activity-recognised",
+      "published": "2026-08-18T00:00:00.000Z",
+      "effective_date": null,
+      "response_deadline": "2026-10-12",
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:cssf:2026:cssflup27780",
       "type": "guidance",
@@ -641,22 +657,6 @@
       "published": "2025-04-08T00:00:00.000Z",
       "effective_date": null,
       "response_deadline": "2025-06-16",
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:esma:2025:enbondregulation",
-      "type": "consultation",
-      "regulator": "esma",
-      "jurisdiction": "EU",
-      "title": "Consultation on the Technical Standards on the European Green Bond Regulation",
-      "title_lang": "en",
-      "summary": "Closed — responses published",
-      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-technical-standards-european-green-bond-regulation",
-      "published": "2025-04-07T00:00:00.000Z",
-      "effective_date": null,
-      "response_deadline": "2025-05-30",
       "affected_legislation": [],
       "tags": [],
       "attachments": []
