@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.1.0",
-  "generated_at": "2026-08-19T07:07:00.843Z",
+  "generated_at": "2026-08-22T07:00:44.574Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,40 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-08-19T07:06:58.748Z"
+      "fetched_at": "2026-08-22T07:00:42.550Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-19T07:06:59.204Z"
+      "fetched_at": "2026-08-22T07:00:43.152Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-08-19T07:07:00.024Z"
+      "fetched_at": "2026-08-22T07:00:43.904Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:cssf:2026:ssflup128118",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Survey launched by AMLA on Central Contact Points",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/08/survey-launched-by-amla-on-central-contact-points/",
+      "published": "2026-08-21T07:53:19.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "AML"
+      ],
+      "attachments": []
+    },
     {
       "id": "urn:regevent:esma:2026:tivityrecognised",
       "type": "consultation",
@@ -187,24 +205,6 @@
       "summary": null,
       "url": "https://www.cssf.lu/en/2026/08/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-gablau-invest-sarl/",
       "published": "2026-08-10T08:34:12.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "urn:regevent:cssf:2026:ssflup127939",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the website www.3cgroup.se",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/08/warning-concerning-the-website-www-3cgroup-se/",
-      "published": "2026-08-10T08:32:24.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
