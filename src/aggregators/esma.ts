@@ -1,12 +1,19 @@
 import { Aggregator } from './base.js';
 import type { RegEvent, RegulatorId } from '../types.js';
+import { eventRef } from '../ids.js';
+import { extractLegislation } from '../legislation.js';
 
 /**
  * ESMA Aggregator
- * 
+ *
  * ESMA has NO RSS feed and NO API for consultations/publications.
  * We parse the HTML consultation list page.
  * URL: https://www.esma.europa.eu/press-news/consultations
+ *
+ * HTML scraping is brittle by nature: a markup change makes blocks stop
+ * matching, which looks exactly like "ESMA published nothing". That failure
+ * mode is covered by the live canary (`.github/workflows/canary.yml`) rather
+ * than by anything this parser can detect on its own.
  */
 export class ESMAAggregator extends Aggregator {
   readonly id: RegulatorId = 'esma';
@@ -22,7 +29,7 @@ export class ESMAAggregator extends Aggregator {
   /** Parse the ESMA consultations page HTML into RegEvents. Exposed for fixture-based testing. */
   parse(html: string): RegEvent[] {
     const events: RegEvent[] = [];
-    
+
     // ESMA consultation page has a repeating pattern:
     // "From DD/MM/YYYY to DD/MM/YYYY" followed by consultation title link
     // Pattern: date range line → title with link → topic tags → response link
@@ -51,30 +58,22 @@ export class ESMAAggregator extends Aggregator {
         : [];
 
       const published = this.parseEUDate(startDateStr);
-      const responseDeadline = this.parseEUDate(endDateStr);
-      const year = new Date(published).getFullYear();
-      const seq = path.replace(/[^a-zA-Z0-9]/g, '').slice(-16);
-
-      // Determine if consultation is open or closed
-      const isOpen = new Date(responseDeadline) > new Date();
+      const responseDeadline = this.parseEUDate(endDateStr).split('T')[0];
       const hasResponses = content.includes('SEE RESPONSES');
 
-      events.push({
-        id: this.makeId(year, seq),
+      events.push(this.buildEvent({
+        ref: eventRef({ url }),
         type: 'consultation',
-        regulator: this.id,
-        jurisdiction: this.jurisdiction,
         title,
-        title_lang: 'en',
-        summary: isOpen ? 'Open consultation — responses accepted' : hasResponses ? 'Closed — responses published' : 'Closed',
+        // Whether the window is open is `status`, derived from the deadline at
+        // read time. The summary only records what the page itself adds.
+        summary: hasResponses ? 'Responses published' : null,
         url,
         published,
-        effective_date: null,
-        response_deadline: responseDeadline.split('T')[0],
-        affected_legislation: [],
+        response_deadline: responseDeadline,
+        affected_legislation: extractLegislation(title),
         tags,
-        attachments: [],
-      });
+      }));
     }
 
     return events;

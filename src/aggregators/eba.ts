@@ -1,6 +1,7 @@
-import { XMLParser } from 'fast-xml-parser';
 import { Aggregator } from './base.js';
 import type { RegEvent, RegulatorId } from '../types.js';
+import { eventRef } from '../ids.js';
+import { extractLegislation } from '../legislation.js';
 
 /**
  * EBA (European Banking Authority) Aggregator
@@ -11,6 +12,9 @@ import type { RegEvent, RegulatorId } from '../types.js';
  *
  * Item descriptions are raw Drupal markup (not real summaries), so
  * summary is left null rather than shipping noise.
+ *
+ * EBA's guids are Drupal's `<node id> at <site url>` form, which is why the
+ * identifier logic reads the node id rather than any part of the string tail.
  */
 export class EBAAggregator extends Aggregator {
   readonly id: RegulatorId = 'eba';
@@ -25,47 +29,25 @@ export class EBAAggregator extends Aggregator {
 
   /** Parse an EBA RSS 2.0 document into RegEvents. Exposed for fixture-based testing. */
   parse(xml: string): RegEvent[] {
-    const parser = new XMLParser({
-      ignoreAttributes: false,
-      attributeNamePrefix: '@_',
-    });
-    const parsed = parser.parse(xml);
-    const items = parsed?.rss?.channel?.item;
-
-    if (!items) return [];
-
-    const entries = Array.isArray(items) ? items : [items];
     const events: RegEvent[] = [];
 
-    for (const item of entries) {
-      const title = String(item.title ?? '').trim();
-      const link = String(item.link ?? '');
-      const pubDate = item.pubDate ?? '';
-      const guid = item.guid?.['#text'] ?? item.guid ?? link;
+    for (const item of this.parseRSSItems(xml)) {
+      if (!item.title || !item.link || !item.pubDate) continue;
 
-      if (!title || !link || !pubDate) continue;
-
-      const publishedDate = new Date(pubDate);
+      const publishedDate = new Date(item.pubDate);
       if (Number.isNaN(publishedDate.getTime())) continue;
 
-      const seq = String(guid).replace(/[^a-zA-Z0-9]/g, '').slice(-12);
-
-      events.push({
-        id: this.makeId(publishedDate.getFullYear(), seq),
-        type: this.classifyEvent(title),
-        regulator: this.id,
-        jurisdiction: this.jurisdiction,
-        title,
-        title_lang: 'en',
+      events.push(this.buildEvent({
+        ref: eventRef({ guid: item.guid, url: item.link }),
+        type: this.classifyEvent(item.title),
+        title: item.title,
         summary: null,
-        url: link,
+        url: item.link,
         published: publishedDate.toISOString(),
-        effective_date: null,
-        response_deadline: null,
-        affected_legislation: [],
-        tags: this.extractTags(title),
-        attachments: [],
-      });
+        affected_legislation: extractLegislation(item.title),
+        tags: this.extractTags(item.title),
+        attachments: item.enclosures,
+      }));
     }
 
     return events;

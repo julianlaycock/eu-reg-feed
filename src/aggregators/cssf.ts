@@ -1,10 +1,11 @@
-import { XMLParser } from 'fast-xml-parser';
 import { Aggregator } from './base.js';
 import type { RegEvent, RegulatorId } from '../types.js';
+import { eventRef } from '../ids.js';
+import { extractLegislation } from '../legislation.js';
 
 /**
  * CSSF (Luxembourg) Aggregator
- * 
+ *
  * CSSF is the ONLY EU NCA with a properly functioning RSS feed.
  * Feed: https://www.cssf.lu/en/feed/
  * Format: RSS 2.0, hourly updates
@@ -22,46 +23,29 @@ export class CSSFAggregator extends Aggregator {
 
   /** Parse a CSSF RSS 2.0 document into RegEvents. Exposed for fixture-based testing. */
   parse(xml: string): RegEvent[] {
-    const parser = new XMLParser({
-      ignoreAttributes: false,
-      attributeNamePrefix: '@_',
-    });
-    const parsed = parser.parse(xml);
-    const items = parsed?.rss?.channel?.item;
-
-    if (!items) return [];
-
-    const entries = Array.isArray(items) ? items : [items];
     const events: RegEvent[] = [];
 
-    for (const item of entries) {
-      const title = item.title ?? '';
-      const link = item.link ?? '';
-      const pubDate = item.pubDate ?? '';
-      const guid = item.guid?.['#text'] ?? item.guid ?? link;
-      const description = item['content:encoded'] ?? item.description ?? null;
+    for (const item of this.parseRSSItems(xml)) {
+      // One malformed item must not discard the items already parsed: an
+      // unparseable date used to throw out of the whole source for that run.
+      if (!item.title || !item.link || !item.pubDate) continue;
 
-      const type = this.classifyEvent(title);
-      const published = new Date(pubDate).toISOString();
-      const year = new Date(pubDate).getFullYear();
-      const seq = String(guid).replace(/[^a-zA-Z0-9]/g, '').slice(-12);
+      const publishedDate = new Date(item.pubDate);
+      if (Number.isNaN(publishedDate.getTime())) continue;
 
-      events.push({
-        id: this.makeId(year, seq),
-        type,
-        regulator: this.id,
-        jurisdiction: this.jurisdiction,
-        title,
-        title_lang: 'en',
-        summary: typeof description === 'string' && description.length > 0 ? description : null,
-        url: link,
-        published,
-        effective_date: null,
-        response_deadline: null,
-        affected_legislation: [],
-        tags: this.extractTags(title),
-        attachments: [],
-      });
+      const summary = item.description;
+
+      events.push(this.buildEvent({
+        ref: eventRef({ guid: item.guid, url: item.link }),
+        type: this.classifyEvent(item.title),
+        title: item.title,
+        summary,
+        url: item.link,
+        published: publishedDate.toISOString(),
+        affected_legislation: extractLegislation(`${item.title} ${summary ?? ''}`),
+        tags: this.extractTags(item.title),
+        attachments: item.enclosures,
+      }));
     }
 
     return events;
