@@ -20,25 +20,52 @@ AI](https://nlnet.nl/foundation/policies/generativeAI/).
 
 ## Scope
 
-AI assistance is used for implementation work under a specification the
-maintainer sets: refactoring, writing tests, drafting documentation, and
-proposing fixes to defects the maintainer has identified.
+### What the maintainer owns
 
-It is **not** used to decide what the project is for, what the RegEvent schema
-should contain, which regulators to support, or how the standard is governed.
-Those are maintainer decisions, taken before any prompt is written.
+Every engineering decision in this project is the maintainer's. That is not a
+courtesy formula; it is the specific list below, and it is what the assistant is
+never given authority over:
+
+- what the project is for, and which regulators it supports;
+- the RegEvent schema: its field set, its semantics, and what a conforming
+  document means;
+- the identifier scheme and its versioning rules, which form a contract with
+  every consumer of the feed;
+- what counts as a breaking change, and how it is signalled (see the schema
+  change process in [CONTRIBUTING.md](CONTRIBUTING.md));
+- the testing strategy, and what has to pass before anything merges;
+- dependency and licence selection, and therefore the supply chain;
+- failure behaviour: what the tool does when a source is unreachable or changes
+  shape;
+- how the standard is governed, and where stewardship goes next.
+
+The problem, the constraints and the acceptance criteria are fixed before a
+prompt is written. The maintainer decides what merges.
+
+### What the assistant does
+
+Implementation against a specification that already exists: refactoring, writing
+test code, drafting documentation, and fixing defects the maintainer has
+diagnosed. It has no decision-making authority. Where it proposes an approach,
+that proposal is not a decision until the maintainer has evaluated it, tested it
+and accepted it. What the tool provides is execution speed, not judgement.
+
+Nothing is committed that the maintainer could not have written and cannot
+explain.
 
 Specific to release 0.2.0 (the audit-hardening branch, September 2026):
 
-- **AI-assisted**: the v2 identifier scheme (`src/ids.ts`), the feed assembly and
-  collision reporting (`src/feed.ts`), the archive writer (`src/archive.ts`), the
-  ICS/Atom exports (`src/exports.ts`), the legislation citation matcher
-  (`src/legislation.ts`), the rewritten aggregator base class, and the test suite
-  under `tests/`.
-- **Maintainer-written or maintainer-decided**: the RegEvent schema's field set
-  and semantics, the choice of sources, the diagnosis that the v1 identifier
-  scheme was collapsing distinct EBA publications onto one id, and every claim
-  made in this repository's documentation about what regulators publish.
+- **Written with assistance**: the implementation of the v2 identifier scheme
+  (`src/ids.ts`), the feed assembly and collision reporting (`src/feed.ts`), the
+  archive writer (`src/archive.ts`), the ICS/Atom exports (`src/exports.ts`), the
+  legislation citation matcher (`src/legislation.ts`), the rewritten aggregator
+  base class, and the test suite under `tests/`.
+- **Decided by the maintainer**: everything in the list above, including the
+  identifier scheme's requirements and versioning rules that `src/ids.ts`
+  implements; the diagnosis that the v1 scheme was collapsing distinct EBA
+  publications onto one id; the decision to report collisions as errors rather
+  than deduplicate them away; and every claim made in this repository's
+  documentation about what regulators publish.
 
 ## Safeguards
 
