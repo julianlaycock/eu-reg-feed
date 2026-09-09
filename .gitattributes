@@ -1,0 +1,8 @@
+# Text files are stored with LF in the repository and checked out in the
+# platform's own convention, regardless of anyone's core.autocrlf setting.
+* text=auto
+
+# iCalendar requires CRLF (RFC 5545 3.1) and feed/latest.ics is served straight
+# out of the repository by raw.githubusercontent.com, so its bytes must survive
+# unchanged. Normalising it to LF produces a file strict calendar clients reject.
+*.ics -text

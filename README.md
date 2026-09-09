@@ -44,6 +44,17 @@ A GitHub Action fetches all sources daily and commits the result to
 curl -s https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.json | jq '.events[0]'
 ```
 
+The same daily run publishes two derived views of those events, so no JSON
+handling is needed at all:
+
+| View | URL | For |
+|---|---|---|
+| [`feed/latest.ics`](feed/latest.ics) | `https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.ics` | Subscribing to response deadlines in Outlook, Google Calendar or Thunderbird |
+| [`feed/latest.atom`](feed/latest.atom) | `https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom` | Any feed reader |
+
+Both are rendered from the JSON of the same run, so all three always describe
+the same events.
+
 ## Quick Start
 
 ```bash
@@ -112,8 +123,14 @@ npm start -- fetch --source esma             # one regulator only
 npm start -- fetch --format ics > cal.ics    # response deadlines as a calendar
 npm start -- fetch --format atom             # Atom 1.0, for any feed reader
 npm start -- fetch --archive                 # also merge the run into archive/
+npm start -- export --format ics             # re-render a saved feed, no fetching
 npm start -- version
 ```
+
+`export` reads a feed document that already exists (`feed/latest.json` by
+default) and re-renders it as `ics` or `atom`. That is how the daily job
+publishes three formats while hitting each regulator once: fetching per format
+would triple the load on public websites for the same day's data.
 
 The `.ics` export drops into Outlook, Google Calendar or Thunderbird without any
 JSON handling: every consultation with a response deadline becomes an all-day
@@ -192,6 +209,26 @@ The full JSON Schema is at [`schema/regevent.schema.json`](schema/regevent.schem
 | `delegated_act` | EU delegated act |
 | `implementing_technical_standard` | ITS publication |
 | `regulatory_technical_standard` | RTS publication |
+
+## Development
+
+```bash
+npm install
+npm run build
+npm run lint
+npm test          # 96 tests across 12 suites; builds first
+```
+
+`npm test` includes the schema conformance suite: every event in the committed
+feed and in `examples/` is validated against
+[`schema/regevent.schema.json`](schema/regevent.schema.json) with ajv, so a
+schema change that breaks published data fails CI. Tests that hit live regulator
+endpoints are opt-in and live in `tests/live/` (`npm run test:live`); a
+[weekly canary](.github/workflows/canary.yml) runs them against the real sources
+so a source changing shape is caught before it silently empties the feed.
+
+[CONTRIBUTING.md](CONTRIBUTING.md) covers adding a regulator and the change
+process for the schema itself.
 
 ## Companion Project
 

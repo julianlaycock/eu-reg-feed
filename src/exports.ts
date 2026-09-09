@@ -124,7 +124,7 @@ export function toAtom(
   const now = options.now ?? new Date();
   const selfUrl =
     options.selfUrl ??
-    'https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.json';
+    'https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom';
   const title = options.title ?? 'eu-reg-feed — EU regulatory change events';
 
   const entries = events.map(event => {
