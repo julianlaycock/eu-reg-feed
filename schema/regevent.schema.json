@@ -1,14 +1,26 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/julianlaycock/eu-reg-feed/schema/regevent.schema.json",
+  "$id": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "title": "RegEvent",
-  "description": "An open schema for machine-readable EU regulatory change events.",
+  "description": "An open schema for machine-readable EU regulatory change events. Schema version 0.2.0; see CONTRIBUTING.md for the change process.",
   "type": "object",
-  "required": ["id", "type", "regulator", "title", "published", "url"],
+  "required": [
+    "id",
+    "type",
+    "regulator",
+    "jurisdiction",
+    "title",
+    "url",
+    "published",
+    "status",
+    "retrieved_at",
+    "content_hash"
+  ],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique identifier (URI). Format: urn:regevent:{regulator}:{year}:{sequence}"
+      "description": "Opaque, globally unique identifier: urn:regevent:v2:{regulator}:{ref}. The v2 segment is the identifier scheme version, bumped when ref derivation changes so consumers can detect it. Treat the ref as opaque: it is the source system's own key where one exists, otherwise a slug or hash of the canonical URL.",
+      "pattern": "^urn:regevent:v[0-9]+:[a-z_]+:[A-Za-z0-9._~-]+$"
     },
     "type": {
       "type": "string",
@@ -61,7 +73,10 @@
       "default": "en"
     },
     "summary": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Brief summary or description of the event."
     },
     "url": {
@@ -75,12 +90,18 @@
       "description": "Publication date (ISO 8601)."
     },
     "effective_date": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "date",
       "description": "Date the rule/guidance takes effect."
     },
     "response_deadline": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "date",
       "description": "Deadline for consultation responses."
     },
@@ -89,17 +110,33 @@
       "items": {
         "type": "object",
         "properties": {
-          "name": { "type": "string" },
-          "celex": { "type": ["string", "null"] },
-          "eli": { "type": ["string", "null"] }
+          "name": {
+            "type": "string"
+          },
+          "celex": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "eli": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         },
-        "required": ["name"]
+        "required": [
+          "name"
+        ]
       },
-      "description": "Legislation this event relates to (AIFMD, MiFID II, EMIR, etc.)."
+      "description": "Legal acts this event relates to. celex/eli are populated only when resolved against EUR-Lex; a recognised citation with no resolved identifier carries name alone rather than a guessed one."
     },
     "tags": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Free-form classification tags (e.g., 'AIFMD', 'CCP', 'sustainable-finance')."
     },
     "attachments": {
@@ -107,14 +144,48 @@
       "items": {
         "type": "object",
         "properties": {
-          "url": { "type": "string", "format": "uri" },
-          "title": { "type": "string" },
-          "mime_type": { "type": "string" }
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string"
+          },
+          "mime_type": {
+            "type": "string"
+          },
+          "length": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Size in bytes, when the source declares one."
+          }
         },
-        "required": ["url"]
+        "required": [
+          "url"
+        ]
       },
       "description": "Related documents (PDFs, response forms, etc.)."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "closed",
+        "unknown"
+      ],
+      "description": "Response state at retrieval time for events with a response window; 'unknown' when the event has no deadline. Derived from response_deadline, so a consumer can recompute it against their own clock."
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this pipeline retrieved the item, as distinct from when the source says it was published."
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "Truncated SHA-256 over title, summary, canonical URL and published date. Changes when the source edits the publication, so consumers can detect revisions without diffing whole records."
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$comment": "Identifier scheme v2. See src/ids.ts for how refs are derived."
 }

@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
-    branches: [main]
+    branches: [main, develop]
 
 jobs:
   test:
@@ -20,4 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm install
       - run: npm run build
+      - run: npm run lint
+      # Includes the schema conformance suite: every event in the committed
+      # feed and example is validated against schema/regevent.schema.json.
       - run: npm test

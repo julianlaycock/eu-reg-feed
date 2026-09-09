@@ -40,9 +40,24 @@ export interface Attachment {
   url: string;
   title?: string;
   mime_type?: string;
+  /** Size in bytes, when the source declares one (RSS enclosures do). */
+  length?: number;
 }
 
+/**
+ * Lifecycle state of an event that has a response window.
+ *
+ * Derived from `response_deadline` against the reader's clock, not frozen into
+ * prose at fetch time — a consultation that was open when it was scraped is not
+ * open forever.
+ */
+export type RegEventStatus = 'open' | 'closed' | 'unknown';
+
 export interface RegEvent {
+  /**
+   * Opaque versioned URN: `urn:regevent:v2:<regulator>:<ref>`.
+   * See `src/ids.ts` for how `<ref>` is derived and why the scheme is versioned.
+   */
   id: string;
   type: RegEventType;
   regulator: RegulatorId;
@@ -57,6 +72,12 @@ export interface RegEvent {
   affected_legislation: AffectedLegislation[];
   tags: string[];
   attachments: Attachment[];
+  /** Response state for consultation-shaped events; `unknown` when there is no deadline. */
+  status: RegEventStatus;
+  /** When this pipeline retrieved the item, as opposed to when the source says it was published. */
+  retrieved_at: string;
+  /** Fingerprint of title + summary + canonical URL + published date; changes when the source edits the text. */
+  content_hash: string;
 }
 
 export interface AggregatorResult {

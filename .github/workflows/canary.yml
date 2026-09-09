@@ -1,0 +1,28 @@
+name: Source canary
+
+# The scrapers depend on markup and feed URLs owned by the regulators, who
+# change them without notice. The unit suite runs against frozen fixtures, so it
+# stays green while a source silently stops parsing. This job hits the real
+# endpoints on a schedule so that breakage is caught by a failing run rather
+# than by a consumer noticing a source has quietly gone to zero.
+
+on:
+  schedule:
+    - cron: '43 5 * * 1'  # weekly, Monday 05:43 UTC, before the daily feed run
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run build
+      - name: Live source tests
+        run: npm run test:live

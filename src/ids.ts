@@ -1,0 +1,141 @@
+/**
+ * Event identifiers.
+ *
+ * A RegEvent id is an opaque, versioned URN:
+ *
+ *   urn:regevent:v2:<regulator>:<ref>
+ *
+ * The `v2` segment is the identifier *scheme* version, not the schema version.
+ * It exists so that a future change to how refs are derived is visible to
+ * consumers instead of silently re-identifying the same publication.
+ *
+ * Scheme v1 (pre-0.2.0) built the ref from the last 12–16 alphanumeric
+ * characters of the source guid. That truncation discarded the only part that
+ * varied for sources whose guid ends in a constant tail — nine distinct EBA
+ * publications collapsed onto a single id. v2 never truncates without a hash.
+ *
+ * Ref derivation, in order of preference:
+ *   1. the source system's own primary key, where the regulator exposes one
+ *      (`node-19966`, `p-128470`) — stable across cosmetic URL changes;
+ *   2. a slug of the canonical URL's last path segment, with a hash suffix when
+ *      it is long enough that truncation could collide;
+ *   3. a pure hash of the canonical URL, when there is nothing readable to use.
+ */
+
+import { createHash } from 'node:crypto';
+
+export const ID_SCHEME_VERSION = 'v2';
+
+/** Longest human-readable slug kept verbatim before hashing takes over. */
+const MAX_SLUG_LENGTH = 48;
+
+/** First `length` hex characters of the SHA-256 of `input`. */
+export function shortHash(input: string, length = 16): string {
+  return createHash('sha256').update(input).digest('hex').slice(0, length);
+}
+
+/**
+ * Normalise a URL for hashing so that trivial differences (trailing slash,
+ * tracking parameters, fragment, scheme) do not produce a different id for the
+ * same publication.
+ */
+export function canonicalUrl(rawUrl: string): string {
+  try {
+    const url = new URL(rawUrl);
+    url.hash = '';
+    url.protocol = 'https:';
+    url.hostname = url.hostname.toLowerCase().replace(/^www\./, '');
+    for (const param of [...url.searchParams.keys()]) {
+      if (/^(utm_|fbclid|gclid|mc_cid|mc_eid)/i.test(param)) url.searchParams.delete(param);
+    }
+    url.pathname = url.pathname.replace(/\/+$/, '');
+    return url.toString();
+  } catch {
+    return rawUrl.trim();
+  }
+}
+
+/** Lowercase, hyphen-separated, ASCII-only rendering of `input`. */
+export function slugify(input: string): string {
+  return input
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+/**
+ * The source system's own identifier, if the guid exposes one.
+ *
+ * Handles the two shapes the current sources use:
+ *   - Drupal (EBA, ESMA):    `19966 at https://www.eba.europa.eu` → `node-19966`
+ *   - WordPress (CSSF):      `https://www.cssf.lu/?p=128470`      → `p-128470`
+ *
+ * Returns null when no native key is recognisable, so the caller can fall back.
+ */
+export function nativeRef(guid: string): string | null {
+  const raw = String(guid ?? '').trim();
+  if (!raw) return null;
+
+  const drupal = raw.match(/^(\d+)\s+at\s+https?:\/\//i) ?? raw.match(/\/node\/(\d+)\b/);
+  if (drupal) return `node-${drupal[1]}`;
+
+  const wordpress = raw.match(/[?&]p=(\d+)\b/);
+  if (wordpress) return `p-${wordpress[1]}`;
+
+  return null;
+}
+
+/**
+ * A readable ref derived from the canonical URL's last path segment.
+ *
+ * Long slugs are truncated for legibility, but only ever with a hash of the
+ * full canonical URL appended — so two publications whose slugs share a prefix
+ * still get distinct ids.
+ */
+export function urlRef(rawUrl: string): string {
+  const canonical = canonicalUrl(rawUrl);
+  let segment = '';
+  try {
+    const segments = new URL(canonical).pathname.split('/').filter(Boolean);
+    segment = segments[segments.length - 1] ?? '';
+  } catch {
+    segment = '';
+  }
+
+  const slug = slugify(segment);
+  if (!slug) return `u-${shortHash(canonical)}`;
+  if (slug.length <= MAX_SLUG_LENGTH) return slug;
+  return `${slug.slice(0, MAX_SLUG_LENGTH).replace(/-+$/, '')}-${shortHash(canonical, 8)}`;
+}
+
+/**
+ * Best available ref for a publication: native key first, URL slug second.
+ */
+export function eventRef(options: { guid?: string | null; url: string }): string {
+  const native = options.guid ? nativeRef(options.guid) : null;
+  return native ?? urlRef(options.url);
+}
+
+/** Build the full URN for an event. */
+export function makeEventId(regulator: string, ref: string): string {
+  return `urn:regevent:${ID_SCHEME_VERSION}:${regulator}:${ref}`;
+}
+
+/**
+ * Fingerprint of the fields a consumer would consider "the content".
+ *
+ * Lets a consumer (and the archive) tell "same publication, edited text" apart
+ * from "same publication, unchanged" without diffing whole records.
+ */
+export function contentHash(parts: {
+  title: string;
+  summary?: string | null;
+  url: string;
+  published: string;
+}): string {
+  return shortHash(
+    [parts.title.trim(), (parts.summary ?? '').trim(), canonicalUrl(parts.url), parts.published].join('\u0000')
+  );
+}
