@@ -11,8 +11,9 @@ track the ones on the roadmap.
 2. Create `src/aggregators/<id>.ts` extending the `Aggregator` base class.
    - RSS available → copy the pattern in [`src/aggregators/eba.ts`](src/aggregators/eba.ts)
    - HTML scraping needed → copy [`src/aggregators/esma.ts`](src/aggregators/esma.ts)
-3. Implement `parse(content: string): RegEvent[]` (pure, testable) and
-   `scrape()` (fetch + parse). Build every event with the inherited
+3. Implement `scrape()` (fetch + parse), the one abstract member, and keep the
+   parsing itself in a public `parse(content: string): RegEvent[]` so it can be
+   tested against a fixture without touching the network. Build every event with the inherited
    `buildEvent()`: it derives the id, `status`, `retrieved_at` and
    `content_hash`, so all sources identify events the same way. Never
    construct an id by hand.
