@@ -5,10 +5,26 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:EU regulatory deadlines
 BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9
+ adafeeb
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:ESMA: Consultation on the update to the Guidelines on disclosure re
+ quirements under the Prospectus Regulation
+DESCRIPTION:Published: 2026-09-09\nhttps://www.esma.europa.eu/press-news/co
+ nsultations/consultation-update-guidelines-disclosure-requirements-under-p
+ rospectus
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-update
+ -guidelines-disclosure-requirements-under-prospectus
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5
  343b289
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:ESMA: Consultation on the reporting framework under EMIR for cleari
@@ -23,8 +39,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-technical-advice-selected-kpis-unde-d
  c015ade
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:ESMA: Consultation on technical advice on selected KPIs under the T
@@ -39,8 +55,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-amendments-guidelines-standardised-90
  c7e0d6
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 SUMMARY:ESMA: Consultation on Amendments to the Guidelines on standardised 
@@ -55,8 +71,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-guidelines-stress-test-scenarios-un-3
  ce39d05
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:ESMA: Consultation on the Guidelines on stress test scenarios under
@@ -71,8 +87,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:call-evidence-market-structure-european-equity-m-3
  86b860e
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:ESMA: Call for Evidence on the market structure of European equity 
@@ -87,8 +103,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-paper-guidelines-endorsement-under-3f
  346730
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260530
 SUMMARY:ESMA: Consultation Paper for Guidelines on Endorsement under Articl
@@ -103,8 +119,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:call-evidence-restricted-subscription-and-privat-a
  0c3c558
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:ESMA: Call for Evidence on the restricted subscription and private 
@@ -119,8 +135,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-regulatory-standards-post-trade-ris-2
  6704627
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260420
 DTEND;VALUE=DATE:20260421
 SUMMARY:ESMA: Consultation on the regulatory standards on the post-trade ri
@@ -135,8 +151,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-joint-esma-and-eba-guidelines-asses-5
  970d538
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 SUMMARY:ESMA: Consultation on the joint ESMA and EBA guidelines on the asse
@@ -152,8 +168,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-guarantees-ccp-collateral-and-certa-7
  1e1a9c2
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 SUMMARY:ESMA: Consultation on guarantees as CCP collateral and on certain a
@@ -168,8 +184,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-mar-guidelines-delay-disclosure-ins-a
  249a363
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260429
 DTEND;VALUE=DATE:20260430
 SUMMARY:ESMA: Consultation on MAR Guidelines on delay in the disclosure of 
@@ -184,8 +200,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-emir-3-draft-rts-participation-requ-5
  b433702
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20260105
 DTEND;VALUE=DATE:20260106
 SUMMARY:ESMA: Consultation on the EMIR 3 draft RTS on Participation Require
@@ -200,8 +216,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-emir-3-draft-rts-margin-transparenc-4
  5ae25ca
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250908
 DTEND;VALUE=DATE:20250909
 SUMMARY:ESMA: Consultation on EMIR 3 draft RTS on Margin Transparency requi
@@ -216,8 +232,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-draft-rts-information-clearing-fees-6
  a0f22fc
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250908
 DTEND;VALUE=DATE:20250909
 SUMMARY:ESMA: Consultation on the Draft RTS on information on clearing fees
@@ -232,8 +248,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:discussion-paper-integrated-collection-funds-dat-3
  742e831
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250921
 DTEND;VALUE=DATE:20250922
 SUMMARY:ESMA: Discussion Paper on the integrated collection of funds’ dat
@@ -248,8 +264,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:call-evidence-comprehensive-approach-simplificat-6
  43b3504
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250919
 DTEND;VALUE=DATE:20250920
 SUMMARY:ESMA: Call for evidence on a comprehensive approach for the simplif
@@ -264,8 +280,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-methodology-calculation-market-capi-6
  75dcef1
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250725
 DTEND;VALUE=DATE:20250726
 SUMMARY:ESMA: Consultation on the Methodology for the calculation of market
@@ -279,8 +295,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:call-evidence-retail-investor-journey-understand-2
  ab446eb
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250721
 DTEND;VALUE=DATE:20250722
 SUMMARY:ESMA: Call for evidence on the retail investor journey: understandi
@@ -295,8 +311,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:urn:regevent:v2:esma:consultation-technical-standards-under-regulatio-4
  aa8c274
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
+DTSTAMP:20260909T112642Z
+LAST-MODIFIED:20260909T112637Z
 DTSTART;VALUE=DATE:20250620
 DTEND;VALUE=DATE:20250621
 SUMMARY:ESMA: Consultation on the Technical Standards under the Regulation 
@@ -306,22 +322,6 @@ DESCRIPTION:Responses published\nPublished: 2025-05-02\nhttps://www.esma.eu
  gulation-transparency-and
 URL:https://www.esma.europa.eu/press-news/consultations/consultation-techni
  cal-standards-under-regulation-transparency-and
-CATEGORIES:consultation
-END:VEVENT
-BEGIN:VEVENT
-UID:urn:regevent:v2:esma:consultation-draft-technical-standards-further-d-5
- 080140f
-DTSTAMP:20260909T100612Z
-LAST-MODIFIED:20260909T084630Z
-DTSTART;VALUE=DATE:20250616
-DTEND;VALUE=DATE:20250617
-SUMMARY:ESMA: Consultation on the Draft technical standards to further deta
- il the new EMIR clearing thresholds regime
-DESCRIPTION:Responses published\nPublished: 2025-04-08\nhttps://www.esma.eu
- ropa.eu/press-news/consultations/consultation-draft-technical-standards-fu
- rther-detail-new-emir-clearing
-URL:https://www.esma.europa.eu/press-news/consultations/consultation-draft-
- technical-standards-further-detail-new-emir-clearing
 CATEGORIES:consultation
 END:VEVENT
 END:VCALENDAR

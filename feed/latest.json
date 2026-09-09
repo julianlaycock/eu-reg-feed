@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.2.0",
-  "generated_at": "2026-09-09T08:46:35.647Z",
+  "generated_at": "2026-09-09T11:26:42.910Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,19 +9,19 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-09-09T08:46:30.415Z"
+      "fetched_at": "2026-09-09T11:26:37.201Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-09T08:46:32.715Z"
+      "fetched_at": "2026-09-09T11:26:39.586Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-09T08:46:35.317Z"
+      "fetched_at": "2026-09-09T11:26:42.175Z"
     }
   ],
   "events": [
@@ -43,8 +43,27 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "54155866c43a1f95"
+    },
+    {
+      "id": "urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb",
+      "type": "consultation",
+      "regulator": "esma",
+      "jurisdiction": "EU",
+      "title": "Consultation on the update to the Guidelines on disclosure requirements under the Prospectus Regulation",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-update-guidelines-disclosure-requirements-under-prospectus",
+      "published": "2026-09-09T00:00:00.000Z",
+      "effective_date": null,
+      "response_deadline": "2026-11-09",
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "open",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
+      "content_hash": "b54534735ad6b41f"
     },
     {
       "id": "urn:regevent:v2:cssf:p-128470",
@@ -64,7 +83,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "6d0609ce0f6a0d92"
     },
     {
@@ -83,7 +102,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "a779f3e744d4d20f"
     },
     {
@@ -102,7 +121,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "a292f9ff2001416b"
     },
     {
@@ -121,7 +140,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "c84d2f6e7097c883"
     },
     {
@@ -142,7 +161,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "00e67628019f4bf6"
     },
     {
@@ -161,7 +180,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "72d1c343ddbdb349"
     },
     {
@@ -182,7 +201,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "0b30f49ac8231443"
     },
     {
@@ -203,7 +222,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "4cf30f6f01f9c9a6"
     },
     {
@@ -224,7 +243,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
+      "retrieved_at": "2026-09-09T11:26:42.175Z",
       "content_hash": "8d313d37ab56153a"
     },
     {
@@ -243,7 +262,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "6e33f68f1fcf69dc"
     },
     {
@@ -262,7 +281,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "197701961dc261ad"
     },
     {
@@ -281,7 +300,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "a475c32b5814428e"
     },
     {
@@ -304,7 +323,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -323,7 +342,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "f8935aad4b1bab0b"
     },
     {
@@ -342,7 +361,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "299b43cfc1e91ba5"
     },
     {
@@ -361,7 +380,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "f910231e0577faef"
     },
     {
@@ -380,7 +399,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "b5a54c45ef0c8c0b"
     },
     {
@@ -399,7 +418,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "548a4fa170f139c5"
     },
     {
@@ -418,7 +437,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "da7b377c5cb7956f"
     },
     {
@@ -437,7 +456,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -456,7 +475,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -475,7 +494,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -494,7 +513,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -513,7 +532,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -532,7 +551,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -555,7 +574,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -574,7 +593,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -593,7 +612,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -612,7 +631,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -635,7 +654,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -658,7 +677,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -677,7 +696,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -696,7 +715,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -715,7 +734,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -734,7 +753,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -753,7 +772,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -772,31 +791,8 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
       "content_hash": "b5dbdc1fa68aa80a"
-    },
-    {
-      "id": "urn:regevent:v2:esma:consultation-draft-technical-standards-further-d-5080140f",
-      "type": "consultation",
-      "regulator": "esma",
-      "jurisdiction": "EU",
-      "title": "Consultation on the Draft technical standards to further detail the new EMIR clearing thresholds regime",
-      "title_lang": "en",
-      "summary": "Responses published",
-      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-draft-technical-standards-further-detail-new-emir-clearing",
-      "published": "2025-04-08T00:00:00.000Z",
-      "effective_date": null,
-      "response_deadline": "2025-06-16",
-      "affected_legislation": [
-        {
-          "name": "EMIR (Regulation (EU) No 648/2012)"
-        }
-      ],
-      "tags": [],
-      "attachments": [],
-      "status": "closed",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
-      "content_hash": "ab64f6b0353787d0"
     },
     {
       "id": "urn:regevent:v2:eba:node-17072",
@@ -814,7 +810,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "retrieved_at": "2026-09-09T11:26:39.586Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]

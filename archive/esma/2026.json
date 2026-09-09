@@ -1,8 +1,28 @@
 {
   "regulator": "esma",
   "year": 2026,
-  "updated_at": "2026-09-09T08:46:35.664Z",
+  "updated_at": "2026-09-09T11:26:42.922Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb",
+      "type": "consultation",
+      "regulator": "esma",
+      "jurisdiction": "EU",
+      "title": "Consultation on the update to the Guidelines on disclosure requirements under the Prospectus Regulation",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-update-guidelines-disclosure-requirements-under-prospectus",
+      "published": "2026-09-09T00:00:00.000Z",
+      "effective_date": null,
+      "response_deadline": "2026-11-09",
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "open",
+      "retrieved_at": "2026-09-09T11:26:37.201Z",
+      "content_hash": "b54534735ad6b41f",
+      "first_seen": "2026-09-09T11:26:37.201Z"
+    },
     {
       "id": "urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5343b289",
       "type": "consultation",

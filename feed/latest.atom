@@ -3,7 +3,7 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-09T10:06:12.867Z</updated>
+  <updated>2026-09-09T11:26:43.047Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
   <entry>
     <id>urn:regevent:v2:cssf:p-128522</id>
@@ -13,6 +13,15 @@
     <author><name>CSSF</name></author>
     <category term="warning"/>
     <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb</id>
+    <title>Consultation on the update to the Guidelines on disclosure requirements under the Prospectus Regulation</title>
+    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-update-guidelines-disclosure-requirements-under-prospectus"/>
+    <updated>2026-09-09T00:00:00.000Z</updated>
+    <author><name>ESMA</name></author>
+    <category term="consultation"/>
+    <summary>Response deadline: 2026-11-09 (open)</summary>
   </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128470</id>
@@ -353,17 +362,6 @@ Response deadline: 2025-07-21 (closed)</summary>
     <category term="consultation"/>
     <summary>Responses published
 Response deadline: 2025-06-20 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-draft-technical-standards-further-d-5080140f</id>
-    <title>Consultation on the Draft technical standards to further detail the new EMIR clearing thresholds regime</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-draft-technical-standards-further-detail-new-emir-clearing"/>
-    <updated>2025-04-08T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2025-06-16 (closed)
-Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-17072</id>
