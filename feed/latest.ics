@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eu-reg-feed//0.2.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EU regulatory deadlines
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5
+ 343b289
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:ESMA: Consultation on the reporting framework under EMIR for cleari
+ ng activity at recognised third-country CCPs
+DESCRIPTION:Published: 2026-08-18\nhttps://www.esma.europa.eu/press-news/co
+ nsultations/consultation-reporting-framework-under-emir-clearing-activity-
+ recognised
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-report
+ ing-framework-under-emir-clearing-activity-recognised
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-technical-advice-selected-kpis-unde-d
+ c015ade
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:ESMA: Consultation on technical advice on selected KPIs under the T
+ axonomy Disclosures Delegated Act
+DESCRIPTION:Responses published\nPublished: 2026-07-01\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-technical-advice-selected-kp
+ is-under-taxonomy-disclosures
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-techni
+ cal-advice-selected-kpis-under-taxonomy-disclosures
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-amendments-guidelines-standardised-90
+ c7e0d6
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:ESMA: Consultation on Amendments to the Guidelines on standardised 
+ procedures and messaging protocols under CSDR
+DESCRIPTION:Responses published\nPublished: 2026-05-26\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-amendments-guidelines-standa
+ rdised-procedures-and-messaging
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-amendm
+ ents-guidelines-standardised-procedures-and-messaging
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-guidelines-stress-test-scenarios-un-3
+ ce39d05
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:ESMA: Consultation on the Guidelines on stress test scenarios under
+  the MMF Regulation
+DESCRIPTION:Responses published\nPublished: 2026-05-05\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-guidelines-stress-test-scena
+ rios-under-mmf-regulation
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-guidel
+ ines-stress-test-scenarios-under-mmf-regulation
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:call-evidence-market-structure-european-equity-m-3
+ 86b860e
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:ESMA: Call for Evidence on the market structure of European equity 
+ markets
+DESCRIPTION:Responses published\nPublished: 2026-04-30\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/call-evidence-market-structure-european-e
+ quity-markets
+URL:https://www.esma.europa.eu/press-news/consultations/call-evidence-marke
+ t-structure-european-equity-markets
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-paper-guidelines-endorsement-under-3f
+ 346730
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+SUMMARY:ESMA: Consultation Paper for Guidelines on Endorsement under Articl
+ e 11 of the ESG Rating Regulation
+DESCRIPTION:Responses published\nPublished: 2026-04-29\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-paper-guidelines-endorsement
+ -under-article-11-esg-rating
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-paper-
+ guidelines-endorsement-under-article-11-esg-rating
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:call-evidence-restricted-subscription-and-privat-a
+ 0c3c558
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:ESMA: Call for Evidence on the restricted subscription and private 
+ credit ratings
+DESCRIPTION:Responses published\nPublished: 2026-04-16\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/call-evidence-restricted-subscription-and
+ -private-credit-ratings
+URL:https://www.esma.europa.eu/press-news/consultations/call-evidence-restr
+ icted-subscription-and-private-credit-ratings
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-regulatory-standards-post-trade-ris-2
+ 6704627
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:ESMA: Consultation on the regulatory standards on the post-trade ri
+ sk reduction services under EMIR 3
+DESCRIPTION:Responses published\nPublished: 2026-02-26\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-regulatory-standards-post-tr
+ ade-risk-reduction-services-under
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-regula
+ tory-standards-post-trade-risk-reduction-services-under
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-joint-esma-and-eba-guidelines-asses-5
+ 970d538
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:ESMA: Consultation on the joint ESMA and EBA guidelines on the asse
+ ssment of the suitability of members of the management body and key functi
+ on holders
+DESCRIPTION:Published: 2026-02-25\nhttps://www.esma.europa.eu/press-news/co
+ nsultations/consultation-joint-esma-and-eba-guidelines-assessment-suitabil
+ ity-members
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-joint-
+ esma-and-eba-guidelines-assessment-suitability-members
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-guarantees-ccp-collateral-and-certa-7
+ 1e1a9c2
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:ESMA: Consultation on guarantees as CCP collateral and on certain a
+ spects of CCP investment policy
+DESCRIPTION:Responses published\nPublished: 2026-02-23\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-guarantees-ccp-collateral-an
+ d-certain-aspects-ccp-investment
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-guaran
+ tees-ccp-collateral-and-certain-aspects-ccp-investment
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-mar-guidelines-delay-disclosure-ins-a
+ 249a363
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:ESMA: Consultation on MAR Guidelines on delay in the disclosure of 
+ inside information
+DESCRIPTION:Responses published\nPublished: 2026-02-19\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-mar-guidelines-delay-disclos
+ ure-inside-information
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-mar-gu
+ idelines-delay-disclosure-inside-information
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-emir-3-draft-rts-participation-requ-5
+ b433702
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:ESMA: Consultation on the EMIR 3 draft RTS on Participation Require
+ ments
+DESCRIPTION:Responses published\nPublished: 2025-10-09\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-emir-3-draft-rts-participati
+ on-requirements
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-emir-3
+ -draft-rts-participation-requirements
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-emir-3-draft-rts-margin-transparenc-4
+ 5ae25ca
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250908
+DTEND;VALUE=DATE:20250909
+SUMMARY:ESMA: Consultation on EMIR 3 draft RTS on Margin Transparency requi
+ rements
+DESCRIPTION:Responses published\nPublished: 2025-06-24\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-emir-3-draft-rts-margin-tran
+ sparency-requirements
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-emir-3
+ -draft-rts-margin-transparency-requirements
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-draft-rts-information-clearing-fees-6
+ a0f22fc
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250908
+DTEND;VALUE=DATE:20250909
+SUMMARY:ESMA: Consultation on the Draft RTS on information on clearing fees
+  and associated costs
+DESCRIPTION:Responses published\nPublished: 2025-06-24\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-draft-rts-information-cleari
+ ng-fees-and-associated-costs
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-draft-
+ rts-information-clearing-fees-and-associated-costs
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:discussion-paper-integrated-collection-funds-dat-3
+ 742e831
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250921
+DTEND;VALUE=DATE:20250922
+SUMMARY:ESMA: Discussion Paper on the integrated collection of funds’ dat
+ a
+DESCRIPTION:Responses published\nPublished: 2025-06-23\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/discussion-paper-integrated-collection-fu
+ nds-data
+URL:https://www.esma.europa.eu/press-news/consultations/discussion-paper-in
+ tegrated-collection-funds-data
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:call-evidence-comprehensive-approach-simplificat-6
+ 43b3504
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250919
+DTEND;VALUE=DATE:20250920
+SUMMARY:ESMA: Call for evidence on a comprehensive approach for the simplif
+ ication of financial transaction reporting
+DESCRIPTION:Responses published\nPublished: 2025-06-23\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/call-evidence-comprehensive-approach-simp
+ lification-financial-transaction
+URL:https://www.esma.europa.eu/press-news/consultations/call-evidence-compr
+ ehensive-approach-simplification-financial-transaction
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-methodology-calculation-market-capi-6
+ 75dcef1
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250725
+DTEND;VALUE=DATE:20250726
+SUMMARY:ESMA: Consultation on the Methodology for the calculation of market
+  capitalisation
+DESCRIPTION:Published: 2025-06-19\nhttps://www.esma.europa.eu/press-news/co
+ nsultations/consultation-methodology-calculation-market-capitalisation
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-method
+ ology-calculation-market-capitalisation
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:call-evidence-retail-investor-journey-understand-2
+ ab446eb
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250721
+DTEND;VALUE=DATE:20250722
+SUMMARY:ESMA: Call for evidence on the retail investor journey: understandi
+ ng retail participation in capital markets
+DESCRIPTION:Responses published\nPublished: 2025-05-21\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/call-evidence-retail-investor-journey-und
+ erstanding-retail-participation
+URL:https://www.esma.europa.eu/press-news/consultations/call-evidence-retai
+ l-investor-journey-understanding-retail-participation
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-technical-standards-under-regulatio-4
+ aa8c274
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250620
+DTEND;VALUE=DATE:20250621
+SUMMARY:ESMA: Consultation on the Technical Standards under the Regulation 
+ on the transparency and integrity of ESG rating activities
+DESCRIPTION:Responses published\nPublished: 2025-05-02\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-technical-standards-under-re
+ gulation-transparency-and
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-techni
+ cal-standards-under-regulation-transparency-and
+CATEGORIES:consultation
+END:VEVENT
+BEGIN:VEVENT
+UID:urn:regevent:v2:esma:consultation-draft-technical-standards-further-d-5
+ 080140f
+DTSTAMP:20260909T100612Z
+LAST-MODIFIED:20260909T084630Z
+DTSTART;VALUE=DATE:20250616
+DTEND;VALUE=DATE:20250617
+SUMMARY:ESMA: Consultation on the Draft technical standards to further deta
+ il the new EMIR clearing thresholds regime
+DESCRIPTION:Responses published\nPublished: 2025-04-08\nhttps://www.esma.eu
+ ropa.eu/press-news/consultations/consultation-draft-technical-standards-fu
+ rther-detail-new-emir-clearing
+URL:https://www.esma.europa.eu/press-news/consultations/consultation-draft-
+ technical-standards-further-detail-new-emir-clearing
+CATEGORIES:consultation
+END:VEVENT
+END:VCALENDAR
