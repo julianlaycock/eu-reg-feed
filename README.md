@@ -7,7 +7,9 @@
 
 ## The Problem
 
-EU regulators publish consultations, guidelines, final rules, and deadlines across dozens of websites — each in a different format, language, and structure. ESMA has **no RSS feed and no API**. BaFin's listed RSS URLs **return 404**. Most National Competent Authorities (NCAs) publish only as unstructured HTML or PDF.
+EU regulators publish consultations, guidelines, final rules, and deadlines across dozens of websites — each in a different format, language, and structure. Where machine-readable output exists at all, it is a news feed rather than a regulatory one: ESMA's RSS (`https://www.esma.europa.eu/rss.xml`) carries the ten most recent press items with no consultation list, no response deadlines and no legislative references, which is why the consultations page is parsed instead. BaFin's conventional RSS paths return 404. Most National Competent Authorities (NCAs) publish only as unstructured HTML or PDF, and none publishes stable identifiers for the events themselves.
+
+*Endpoint behaviour above verified 2026-09-09; see [`.github/workflows/canary.yml`](.github/workflows/canary.yml) for the scheduled job that re-checks the sources.*
 
 The only way to track EU regulatory changes programmatically today is through commercial vendors charging **€25K–500K/year** (CUBE, Thomson Reuters Regulatory Intelligence, Wolters Kluwer OneSumX). Small fund managers, fintechs, and researchers are locked out.
 
@@ -23,7 +25,7 @@ eu-reg-feed provides two things:
 
 | Regulator | Jurisdiction | Method | Status |
 |-----------|-------------|--------|--------|
-| ESMA | EU | HTML scraping | ✅ Working |
+| ESMA | EU | HTML scraping (consultations; RSS covers news only) | ✅ Working |
 | EBA | EU | Native RSS | ✅ Working |
 | CSSF | Luxembourg | Native RSS | ✅ Working |
 | EIOPA | EU | Planned | 🔜 |
@@ -60,24 +62,79 @@ All events conform to the [RegEvent JSON Schema](schema/regevent.schema.json):
 
 ```json
 {
-  "id": "urn:regevent:cssf:2026:warning-capman",
-  "type": "warning",
-  "regulator": "cssf",
-  "jurisdiction": "LU",
-  "title": "Warning concerning the website www.capman-holding.com",
+  "id": "urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5343b289",
+  "type": "consultation",
+  "regulator": "esma",
+  "jurisdiction": "EU",
+  "title": "Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
   "title_lang": "en",
   "summary": null,
-  "url": "https://www.cssf.lu/en/2026/02/warning-concerning-the-website-www-capman-holding-com/",
-  "published": "2026-02-24T14:06:21.000Z",
+  "url": "https://www.esma.europa.eu/press-news/consultations/consultation-reporting-framework-under-emir-clearing-activity-recognised",
+  "published": "2026-08-18T00:00:00.000Z",
   "effective_date": null,
-  "response_deadline": null,
-  "affected_legislation": [],
-  "tags": ["investor-protection"],
-  "attachments": []
+  "response_deadline": "2026-10-12",
+  "affected_legislation": [{ "name": "EMIR (Regulation (EU) No 648/2012)" }],
+  "tags": [],
+  "attachments": [],
+  "status": "open",
+  "retrieved_at": "2026-09-09T08:41:03.376Z",
+  "content_hash": "5ec8d5bc5585111c"
 }
 ```
 
 See [`examples/sample-output.json`](examples/sample-output.json) for a full multi-source output.
+
+### Identifiers
+
+`id` is an opaque, versioned URN: `urn:regevent:v2:<regulator>:<ref>`. The `v2`
+segment is the *identifier scheme* version, separate from the schema version, so
+a future change to how refs are derived is visible to consumers instead of
+silently re-identifying the same publication.
+
+The ref is the source system's own key where the regulator exposes one
+(`node-19966` for EBA's Drupal, `p-128470` for CSSF's WordPress), otherwise a
+slug of the canonical URL — hash-suffixed when it is long enough that truncation
+could collide. Treat it as opaque; parse the URN, not the ref.
+
+Two further fields make change detection possible without diffing whole records:
+
+- `content_hash` — fingerprint of title, summary, canonical URL and publication
+  date. It changes when a regulator edits a publication in place.
+- `status` — `open` / `closed` / `unknown`, derived from `response_deadline` at
+  retrieval time. Response state is never baked into the summary text, which
+  would go stale the moment the window closed.
+
+## CLI
+
+```bash
+npm start -- fetch --pretty                  # JSON feed for every source
+npm start -- fetch --source esma             # one regulator only
+npm start -- fetch --format ics > cal.ics    # response deadlines as a calendar
+npm start -- fetch --format atom             # Atom 1.0, for any feed reader
+npm start -- fetch --archive                 # also merge the run into archive/
+npm start -- version
+```
+
+The `.ics` export drops into Outlook, Google Calendar or Thunderbird without any
+JSON handling: every consultation with a response deadline becomes an all-day
+event on its closing date.
+
+`fetch` exits **1** when a source failed or two events collided on one id, so a
+degraded run fails CI instead of quietly publishing a short feed. The document is
+still written first, so the partial result can be inspected — and published.
+
+## Archive
+
+`feed/latest.json` is a snapshot of what the regulators are showing today;
+anything that scrolls off their front pages disappears from it. `--archive`
+maintains the durable copy in `archive/<regulator>/<year>.json`:
+
+- new events are appended, never overwritten;
+- an event whose `content_hash` changed keeps its old title and summary in a
+  `revisions[]` entry, so an edit by the regulator is recorded rather than lost;
+- `first_seen` records the run that first saw the publication;
+- a file is only rewritten when something actually changed, so a quiet day
+  produces no diff at all.
 
 ## Use as a Library
 
@@ -101,9 +158,14 @@ console.log(result.events);
 eu-reg-feed is designed to be extended. To add a new regulator:
 
 1. Create a new file in `src/aggregators/` extending the `Aggregator` base class
-2. Implement the `scrape()` method to fetch and parse the regulator's publications
-3. Map output to `RegEvent` types
-4. Add tests in `tests/`
+2. Implement `scrape()`; use the inherited `fetchPage()` (retries, timeout and
+   User-Agent) and, for an RSS source, `parseRSSItems()`
+3. Build each event with `buildEvent()` — it derives the id, `status`,
+   `retrieved_at` and `content_hash` so every source identifies events the same way
+4. Add a fixture under `tests/fixtures/` and a test that calls
+   `assertValidRegEvents()` from [`tests/conformance.ts`](tests/conformance.ts):
+   one call validates the whole batch against the published JSON Schema and
+   checks that ids are unique and belong to their regulator
 5. Register in `src/index.ts`
 
 See [`src/aggregators/cssf.ts`](src/aggregators/cssf.ts) for the simplest example (RSS-based) or [`src/aggregators/esma.ts`](src/aggregators/esma.ts) for HTML scraping.
@@ -138,6 +200,13 @@ eu-reg-feed is the monitoring counterpart to [**open-annex-iv**](https://github.
 Together they form a complete open-source regulatory data layer:
 - **open-annex-iv** → data OUT to regulators (XML filing generation)
 - **eu-reg-feed** → data IN from regulators (change monitoring)
+
+## Generative AI
+
+Parts of this codebase are written with an AI coding assistant, under review by
+the maintainer. What is assisted, what is not, and how each session is logged is
+documented in [AI-USE.md](AI-USE.md), with per-session records in
+[`docs/ai-provenance/`](docs/ai-provenance/).
 
 ## License
 
