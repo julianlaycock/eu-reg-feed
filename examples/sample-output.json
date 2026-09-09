@@ -1,63 +1,92 @@
 {
-  "schema": "https://github.com/julianlaycock/eu-reg-feed/schema/regevent.schema.json",
-  "version": "0.1.0",
-  "generated_at": "2026-02-24T17:30:00.000Z",
+  "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
+  "version": "0.2.0",
+  "generated_at": "2026-09-09T08:41:08.297Z",
   "total_events": 3,
   "total_errors": 0,
   "sources": [
-    { "regulator": "esma", "events": 1, "errors": [], "fetched_at": "2026-02-24T17:30:00.000Z" },
-    { "regulator": "cssf", "events": 2, "errors": [], "fetched_at": "2026-02-24T17:30:01.000Z" }
+    {
+      "regulator": "esma",
+      "events": 1,
+      "errors": [],
+      "fetched_at": "2026-09-09T08:41:03.376Z"
+    },
+    {
+      "regulator": "eba",
+      "events": 1,
+      "errors": [],
+      "fetched_at": "2026-09-09T08:41:05.657Z"
+    },
+    {
+      "regulator": "cssf",
+      "events": 1,
+      "errors": [],
+      "fetched_at": "2026-09-09T08:41:07.974Z"
+    }
   ],
   "events": [
     {
-      "id": "urn:regevent:cssf:2026:warning-capman",
+      "id": "urn:regevent:v2:cssf:p-128522",
       "type": "warning",
       "regulator": "cssf",
       "jurisdiction": "LU",
-      "title": "Warning concerning the website www.capman-holding.com",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of DAC Investments S.à r.l.",
       "title_lang": "en",
       "summary": null,
-      "url": "https://www.cssf.lu/en/2026/02/warning-concerning-the-website-www-capman-holding-com/",
-      "published": "2026-02-24T14:06:21.000Z",
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-dac-investments-s-a-r-l/",
+      "published": "2026-09-09T07:10:42.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
-      "tags": ["investor-protection"],
-      "attachments": []
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-09T08:41:07.974Z",
+      "content_hash": "54155866c43a1f95"
     },
     {
-      "id": "urn:regevent:cssf:2026:covered-bonds-page",
+      "id": "urn:regevent:v2:eba:node-19966",
       "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Launch of a dedicated page for the Luxembourgish covered bonds framework on the CSSF website",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 27 August, 2026",
       "title_lang": "en",
       "summary": null,
-      "url": "https://www.cssf.lu/en/2026/02/launch-of-a-dedicated-page-for-the-luxembourgish-covered-bonds-lettres-de-gage-framework-on-the-cssf-website/",
-      "published": "2026-02-23T07:55:32.000Z",
+      "url": "https://www.eba.europa.eu/node/19966",
+      "published": "2026-08-27T15:00:02.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
-      "tags": ["covered-bonds"],
-      "attachments": []
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-09T08:41:05.657Z",
+      "content_hash": "6e33f68f1fcf69dc"
     },
     {
-      "id": "urn:regevent:esma:2026:consultation-ccp-collateral",
+      "id": "urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5343b289",
       "type": "consultation",
       "regulator": "esma",
       "jurisdiction": "EU",
-      "title": "Consultation on guarantees as CCP collateral and on certain aspects of CCP investment policy",
+      "title": "Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
       "title_lang": "en",
-      "summary": "Open consultation — responses accepted",
-      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-guarantees-ccp-collateral-and-certain-aspects-ccp-investment",
-      "published": "2026-02-23T00:00:00.000Z",
+      "summary": null,
+      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-reporting-framework-under-emir-clearing-activity-recognised",
+      "published": "2026-08-18T00:00:00.000Z",
       "effective_date": null,
-      "response_deadline": "2026-04-30",
+      "response_deadline": "2026-10-12",
       "affected_legislation": [
-        { "name": "EMIR" }
+        {
+          "name": "EMIR (Regulation (EU) No 648/2012)"
+        }
       ],
-      "tags": ["CCP"],
-      "attachments": []
+      "tags": [],
+      "attachments": [],
+      "status": "open",
+      "retrieved_at": "2026-09-09T08:41:03.376Z",
+      "content_hash": "5ec8d5bc5585111c"
     }
   ]
 }

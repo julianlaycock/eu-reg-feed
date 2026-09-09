@@ -18,16 +18,35 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm run build
-      - run: node dist/cli.js fetch --pretty > feed/latest.json
+
+      # The CLI exits 1 when a source failed or ids collided. A degraded run
+      # still produces a usable feed for everything that did work, so publish it
+      # and fail the job at the end instead of losing the day's data entirely.
+      - name: Fetch and archive
+        id: fetch
+        run: |
+          set +e
+          node dist/cli.js fetch --pretty --archive > feed/latest.json
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
       - name: Commit updated feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feed/latest.json
+          git add -- feed/latest.json
+          if [ -d archive ]; then
+            git add -- archive
+          fi
           # Skip the commit when nothing but run timestamps changed
-          if git diff --cached -I'"(generated_at|fetched_at)"' --quiet; then
+          if git diff --cached -I'"(generated_at|fetched_at|updated_at)"' --quiet; then
             echo "No new events — skipping commit"
           else
             git commit -m "feed: daily update $(date -u +%F)"
             git push
           fi
+
+      - name: Fail if the run was degraded
+        if: steps.fetch.outputs.status != '0'
+        run: |
+          echo "::error::fetch exited ${{ steps.fetch.outputs.status }} — a source failed or ids collided; see the fetch step log"
+          exit 1

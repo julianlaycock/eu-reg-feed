@@ -13,8 +13,30 @@ describe('RegEvent JSON Schema', () => {
 
   it('defines all required properties', () => {
     expect(schema.required).toEqual(
-      expect.arrayContaining(['id', 'type', 'regulator', 'title', 'published', 'url'])
+      expect.arrayContaining([
+        'id',
+        'type',
+        'regulator',
+        'jurisdiction',
+        'title',
+        'published',
+        'url',
+        'status',
+        'retrieved_at',
+        'content_hash',
+      ])
     );
+  });
+
+  it('pins the identifier scheme version in the id pattern', () => {
+    const pattern = new RegExp(schema.properties.id.pattern);
+    expect(pattern.test('urn:regevent:v2:eba:node-19966')).toBe(true);
+    // Scheme v1 ids (no version segment) are no longer valid.
+    expect(pattern.test('urn:regevent:eba:2026:webaeuropaeu')).toBe(false);
+  });
+
+  it('defines the response status enum', () => {
+    expect(schema.properties.status.enum).toEqual(['open', 'closed', 'unknown']);
   });
 
   it('defines event type enum', () => {

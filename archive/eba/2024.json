@@ -1,0 +1,27 @@
+{
+  "regulator": "eba",
+  "year": 2024,
+  "updated_at": "2026-09-09T08:46:35.660Z",
+  "events": [
+    {
+      "id": "urn:regevent:v2:eba:node-17072",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation",
+      "published": "2024-06-28T08:22:54.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-09T08:46:32.715Z",
+      "content_hash": "680fcc63e9bdc1dc",
+      "first_seen": "2026-09-09T08:46:32.715Z"
+    }
+  ]
+}
