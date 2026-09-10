@@ -1,8 +1,28 @@
 {
   "regulator": "eba",
   "year": 2026,
-  "updated_at": "2026-09-09T08:46:35.662Z",
+  "updated_at": "2026-09-10T11:23:08.311Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:eba:node-19987",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 9 September, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/19987",
+      "published": "2026-09-09T15:00:02.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "content_hash": "324a57d93a8e36cf",
+      "first_seen": "2026-09-10T11:23:04.419Z"
+    },
     {
       "id": "urn:regevent:v2:eba:node-19966",
       "type": "guidance",

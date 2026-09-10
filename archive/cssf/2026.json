@@ -1,8 +1,52 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-09T08:46:35.657Z",
+  "updated_at": "2026-09-10T11:23:08.308Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128534",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Quintet Private Bank (Europe) S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-quintet-private-bank-europe-s-a/",
+      "published": "2026-09-09T09:39:24.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "content_hash": "68178ae2055b34fd",
+      "first_seen": "2026-09-10T11:23:07.350Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-128528",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the names of ADEPA ASSET MANAGEMENT S.A. and ADEPA ASSET SERVICING Luxembourg S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-adepa-asset-management-s-a/",
+      "published": "2026-09-09T09:12:33.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "content_hash": "95533c6c59854d32",
+      "first_seen": "2026-09-10T11:23:07.350Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128522",
       "type": "warning",

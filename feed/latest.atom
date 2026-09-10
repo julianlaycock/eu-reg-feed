@@ -3,8 +3,34 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-09T11:26:43.047Z</updated>
+  <updated>2026-09-10T11:23:08.440Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-19987</id>
+    <title>EBA E-mail alert 9 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19987"/>
+    <updated>2026-09-09T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128534</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of Quintet Private Bank (Europe) S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-quintet-private-bank-europe-s-a/"/>
+    <updated>2026-09-09T09:39:24.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128528</id>
+    <title>Warning concerning fraudulent activities by persons misusing the names of ADEPA ASSET MANAGEMENT S.A. and ADEPA ASSET SERVICING Luxembourg S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-adepa-asset-management-s-a/"/>
+    <updated>2026-09-09T09:12:33.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128522</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of DAC Investments S.à r.l.</title>
@@ -83,24 +109,6 @@
     <category term="UCITS"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-27174</id>
-    <title>Number of UCIs</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/number-of-ucis/"/>
-    <updated>2026-09-01T04:00:17.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27232</id>
-    <title>Investment policy of UCIs</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/investment-policy-of-ucis/"/>
-    <updated>2026-09-01T04:00:10.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-19966</id>
     <title>EBA E-mail alert 27 August, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19966"/>
@@ -171,14 +179,6 @@ Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
     <title>EBA E-mail alert 24 July, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19890"/>
     <updated>2026-07-24T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-19883</id>
-    <title>EBA E-mail alert 23 July, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/19883"/>
-    <updated>2026-07-23T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
