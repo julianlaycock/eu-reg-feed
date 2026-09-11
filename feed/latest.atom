@@ -3,8 +3,25 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-10T11:23:08.440Z</updated>
+  <updated>2026-09-11T11:25:07.301Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128574</id>
+    <title>Warning concerning fraudulent activities performed under the name of the Luxembourg company Axxion S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-axxion-s-a/"/>
+    <updated>2026-09-11T06:19:17.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128565</id>
+    <title>Evolution of prudential reporting for payment institutions, electronic money institutions and crypto-asset service providers</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/evolution-of-prudential-reporting-for-payment-institutions-electronic-money-institutions-and-crypto-asset-service-providers/"/>
+    <updated>2026-09-10T13:27:14.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-19987</id>
     <title>EBA E-mail alert 9 September, 2026</title>
@@ -87,23 +104,6 @@
     <title>Net assets of UCIs</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/09/net-assets-of-ucis/"/>
     <updated>2026-09-01T04:00:57.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27301</id>
-    <title>Breakdown according to currency</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/breakdown-according-to-currency/"/>
-    <updated>2026-09-01T04:00:42.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27265</id>
-    <title>Origin of UCI initiators in Luxembourg</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/origin-of-uci-initiators-in-luxembourg/"/>
-    <updated>2026-09-01T04:00:31.000Z</updated>
     <author><name>CSSF</name></author>
     <category term="guidance"/>
     <category term="UCITS"/>

@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.2.0",
-  "generated_at": "2026-09-10T11:23:08.299Z",
+  "generated_at": "2026-09-11T11:25:07.158Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,62 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-09-10T11:23:02.022Z"
+      "fetched_at": "2026-09-11T11:24:58.596Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-10T11:23:04.419Z"
+      "fetched_at": "2026-09-11T11:25:01.066Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-10T11:23:07.350Z"
+      "fetched_at": "2026-09-11T11:25:06.347Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128574",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities performed under the name of the Luxembourg company Axxion S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-axxion-s-a/",
+      "published": "2026-09-11T06:19:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
+      "content_hash": "857d45883e99c734"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-128565",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Evolution of prudential reporting for payment institutions, electronic money institutions and crypto-asset service providers",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/evolution-of-prudential-reporting-for-payment-institutions-electronic-money-institutions-and-crypto-asset-service-providers/",
+      "published": "2026-09-10T13:27:14.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
+      "content_hash": "7e3353a84aefa19d"
+    },
     {
       "id": "urn:regevent:v2:eba:node-19987",
       "type": "guidance",
@@ -41,7 +81,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "324a57d93a8e36cf"
     },
     {
@@ -62,7 +102,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "68178ae2055b34fd"
     },
     {
@@ -83,7 +123,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "95533c6c59854d32"
     },
     {
@@ -104,7 +144,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "54155866c43a1f95"
     },
     {
@@ -123,7 +163,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -144,7 +184,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "6d0609ce0f6a0d92"
     },
     {
@@ -163,7 +203,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "a779f3e744d4d20f"
     },
     {
@@ -182,7 +222,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "a292f9ff2001416b"
     },
     {
@@ -201,7 +241,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "c84d2f6e7097c883"
     },
     {
@@ -222,48 +262,8 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
       "content_hash": "00e67628019f4bf6"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27301",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Breakdown according to currency",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/breakdown-according-to-currency/",
-      "published": "2026-09-01T04:00:42.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
-      "content_hash": "72d1c343ddbdb349"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27265",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Origin of UCI initiators in Luxembourg",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/origin-of-uci-initiators-in-luxembourg/",
-      "published": "2026-09-01T04:00:31.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:07.350Z",
-      "content_hash": "0b30f49ac8231443"
     },
     {
       "id": "urn:regevent:v2:eba:node-19966",
@@ -281,7 +281,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "6e33f68f1fcf69dc"
     },
     {
@@ -300,7 +300,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "197701961dc261ad"
     },
     {
@@ -319,7 +319,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "a475c32b5814428e"
     },
     {
@@ -342,7 +342,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -361,7 +361,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "f8935aad4b1bab0b"
     },
     {
@@ -380,7 +380,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "299b43cfc1e91ba5"
     },
     {
@@ -399,7 +399,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "f910231e0577faef"
     },
     {
@@ -418,7 +418,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "b5a54c45ef0c8c0b"
     },
     {
@@ -437,7 +437,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "548a4fa170f139c5"
     },
     {
@@ -456,7 +456,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -475,7 +475,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -494,7 +494,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -513,7 +513,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -532,7 +532,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -551,7 +551,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -574,7 +574,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -593,7 +593,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -612,7 +612,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -631,7 +631,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -654,7 +654,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -677,7 +677,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -696,7 +696,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -715,7 +715,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -734,7 +734,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -753,7 +753,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -772,7 +772,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -791,7 +791,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-10T11:23:02.022Z",
+      "retrieved_at": "2026-09-11T11:24:58.596Z",
       "content_hash": "b5dbdc1fa68aa80a"
     },
     {
@@ -810,7 +810,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-10T11:23:04.419Z",
+      "retrieved_at": "2026-09-11T11:25:01.066Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]

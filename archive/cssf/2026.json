@@ -1,8 +1,50 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-10T11:23:08.308Z",
+  "updated_at": "2026-09-11T11:25:07.168Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128574",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities performed under the name of the Luxembourg company Axxion S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-axxion-s-a/",
+      "published": "2026-09-11T06:19:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
+      "content_hash": "857d45883e99c734",
+      "first_seen": "2026-09-11T11:25:06.347Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-128565",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Evolution of prudential reporting for payment institutions, electronic money institutions and crypto-asset service providers",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/evolution-of-prudential-reporting-for-payment-institutions-electronic-money-institutions-and-crypto-asset-service-providers/",
+      "published": "2026-09-10T13:27:14.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-11T11:25:06.347Z",
+      "content_hash": "7e3353a84aefa19d",
+      "first_seen": "2026-09-11T11:25:06.347Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128534",
       "type": "warning",
