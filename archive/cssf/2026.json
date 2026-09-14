@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-11T11:25:07.168Z",
+  "updated_at": "2026-09-14T12:52:18.480Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128608",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Profit and loss account of credit institutions as at 30 June 2026 (only in French)",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/profit-and-loss-account-of-credit-institutions-as-at-30-june-2026/",
+      "published": "2026-09-14T09:30:30.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "content_hash": "57804e31c5711f99",
+      "first_seen": "2026-09-14T12:52:17.590Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128574",
       "type": "warning",
