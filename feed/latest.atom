@@ -3,8 +3,24 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-14T12:52:18.606Z</updated>
+  <updated>2026-09-15T11:47:07.421Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128640</id>
+    <title>Active exploitation of a vulnerability on Cisco Secure Email Gateway</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/active-exploitation-of-a-vulnerability-on-cisco-secure-email-gateway/"/>
+    <updated>2026-09-15T10:57:47.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-19999</id>
+    <title>EBA E-mail alert 14 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19999"/>
+    <updated>2026-09-14T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128608</id>
     <title>Profit and loss account of credit institutions as at 30 June 2026 (only in French)</title>
@@ -100,14 +116,6 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-128409</id>
-    <title>eRegister by eDesk – a new gateway to public data</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/eregister-by-edesk-a-new-gateway-to-public-data/"/>
-    <updated>2026-09-01T11:17:13.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-19966</id>
     <title>EBA E-mail alert 27 August, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19966"/>
@@ -170,14 +178,6 @@ Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
     <title>EBA E-mail alert 31 July, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19908"/>
     <updated>2026-07-31T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-19890</id>
-    <title>EBA E-mail alert 24 July, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/19890"/>
-    <updated>2026-07-24T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>

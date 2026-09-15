@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-14T12:52:18.480Z",
+  "updated_at": "2026-09-15T11:47:07.317Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128640",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Active exploitation of a vulnerability on Cisco Secure Email Gateway",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/active-exploitation-of-a-vulnerability-on-cisco-secure-email-gateway/",
+      "published": "2026-09-15T10:57:47.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "content_hash": "1f34cf0bc79e3f66",
+      "first_seen": "2026-09-15T11:47:06.505Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128608",
       "type": "guidance",

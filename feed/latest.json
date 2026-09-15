@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.2.0",
-  "generated_at": "2026-09-14T12:52:18.464Z",
+  "generated_at": "2026-09-15T11:47:07.309Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,60 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-09-14T12:52:12.329Z"
+      "fetched_at": "2026-09-15T11:47:01.137Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-14T12:52:14.661Z"
+      "fetched_at": "2026-09-15T11:47:03.570Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-14T12:52:17.590Z"
+      "fetched_at": "2026-09-15T11:47:06.505Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128640",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Active exploitation of a vulnerability on Cisco Secure Email Gateway",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/active-exploitation-of-a-vulnerability-on-cisco-secure-email-gateway/",
+      "published": "2026-09-15T10:57:47.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "content_hash": "1f34cf0bc79e3f66"
+    },
+    {
+      "id": "urn:regevent:v2:eba:node-19999",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 14 September, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/19999",
+      "published": "2026-09-14T15:00:03.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "content_hash": "ccd2900ea86bcbf6"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128608",
       "type": "guidance",
@@ -41,7 +79,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "57804e31c5711f99"
     },
     {
@@ -62,7 +100,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "857d45883e99c734"
     },
     {
@@ -81,7 +119,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "7e3353a84aefa19d"
     },
     {
@@ -100,7 +138,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "324a57d93a8e36cf"
     },
     {
@@ -121,7 +159,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "68178ae2055b34fd"
     },
     {
@@ -142,7 +180,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "95533c6c59854d32"
     },
     {
@@ -163,7 +201,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "54155866c43a1f95"
     },
     {
@@ -182,7 +220,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -203,7 +241,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "6d0609ce0f6a0d92"
     },
     {
@@ -222,7 +260,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "a779f3e744d4d20f"
     },
     {
@@ -241,27 +279,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
+      "retrieved_at": "2026-09-15T11:47:06.505Z",
       "content_hash": "a292f9ff2001416b"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-128409",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "eRegister by eDesk – a new gateway to public data",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/eregister-by-edesk-a-new-gateway-to-public-data/",
-      "published": "2026-09-01T11:17:13.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:17.590Z",
-      "content_hash": "c84d2f6e7097c883"
     },
     {
       "id": "urn:regevent:v2:eba:node-19966",
@@ -279,7 +298,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "6e33f68f1fcf69dc"
     },
     {
@@ -298,7 +317,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "197701961dc261ad"
     },
     {
@@ -317,7 +336,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "a475c32b5814428e"
     },
     {
@@ -340,7 +359,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -359,7 +378,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "f8935aad4b1bab0b"
     },
     {
@@ -378,7 +397,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "299b43cfc1e91ba5"
     },
     {
@@ -397,7 +416,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "f910231e0577faef"
     },
     {
@@ -416,27 +435,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "b5a54c45ef0c8c0b"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-19890",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 24 July, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19890",
-      "published": "2026-07-24T15:00:02.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
-      "content_hash": "548a4fa170f139c5"
     },
     {
       "id": "urn:regevent:v2:esma:consultation-technical-advice-selected-kpis-unde-dc015ade",
@@ -454,7 +454,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -473,7 +473,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -492,7 +492,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -511,7 +511,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -530,7 +530,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -549,7 +549,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -572,7 +572,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -591,7 +591,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -610,7 +610,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -629,7 +629,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -652,7 +652,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -675,7 +675,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -694,7 +694,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -713,7 +713,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -732,7 +732,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -751,7 +751,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -770,7 +770,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -789,7 +789,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-14T12:52:12.329Z",
+      "retrieved_at": "2026-09-15T11:47:01.137Z",
       "content_hash": "b5dbdc1fa68aa80a"
     },
     {
@@ -808,7 +808,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-14T12:52:14.661Z",
+      "retrieved_at": "2026-09-15T11:47:03.570Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
