@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.2.0",
-  "generated_at": "2026-09-15T11:47:07.309Z",
+  "generated_at": "2026-09-16T11:38:44.203Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,64 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-09-15T11:47:01.137Z"
+      "fetched_at": "2026-09-16T11:38:37.958Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-15T11:47:03.570Z"
+      "fetched_at": "2026-09-16T11:38:40.372Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-15T11:47:06.505Z"
+      "fetched_at": "2026-09-16T11:38:43.332Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128662",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of CYCLOPE INVESTISSEMENTS",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-cyclope-investissements/",
+      "published": "2026-09-16T10:12:47.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
+      "content_hash": "881fbe1ee715e970"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-128649",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Permira Management S.à r.l.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-permira-management-s-a-r-l/",
+      "published": "2026-09-15T11:27:19.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
+      "content_hash": "7a87732d526585a1"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128640",
       "type": "guidance",
@@ -41,7 +83,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "1f34cf0bc79e3f66"
     },
     {
@@ -60,7 +102,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "ccd2900ea86bcbf6"
     },
     {
@@ -79,7 +121,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "57804e31c5711f99"
     },
     {
@@ -100,7 +142,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "857d45883e99c734"
     },
     {
@@ -119,7 +161,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "7e3353a84aefa19d"
     },
     {
@@ -138,7 +180,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "324a57d93a8e36cf"
     },
     {
@@ -159,7 +201,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "68178ae2055b34fd"
     },
     {
@@ -180,7 +222,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "95533c6c59854d32"
     },
     {
@@ -201,7 +243,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "54155866c43a1f95"
     },
     {
@@ -220,7 +262,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -241,46 +283,8 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "6d0609ce0f6a0d92"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-128441",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "CSSF-ALFI webinar on valuation",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/cssf-alfi-webinar-on-valuation/",
-      "published": "2026-09-04T13:05:19.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
-      "content_hash": "a779f3e744d4d20f"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-128429",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Global situation of undertakings for collective investment at the end of July 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/global-situation-of-undertakings-for-collective-investment-at-the-end-of-july-2026/",
-      "published": "2026-09-03T07:31:29.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:06.505Z",
-      "content_hash": "a292f9ff2001416b"
     },
     {
       "id": "urn:regevent:v2:eba:node-19966",
@@ -298,7 +302,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "6e33f68f1fcf69dc"
     },
     {
@@ -317,7 +321,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "197701961dc261ad"
     },
     {
@@ -336,7 +340,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "a475c32b5814428e"
     },
     {
@@ -359,7 +363,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -378,7 +382,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "f8935aad4b1bab0b"
     },
     {
@@ -397,7 +401,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "299b43cfc1e91ba5"
     },
     {
@@ -416,7 +420,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "f910231e0577faef"
     },
     {
@@ -435,7 +439,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "b5a54c45ef0c8c0b"
     },
     {
@@ -454,7 +458,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -473,7 +477,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -492,7 +496,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -511,7 +515,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -530,7 +534,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -549,7 +553,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -572,7 +576,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -591,7 +595,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -610,7 +614,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -629,7 +633,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -652,7 +656,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -675,7 +679,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -694,7 +698,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -713,7 +717,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -732,7 +736,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -751,7 +755,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -770,7 +774,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -789,7 +793,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-15T11:47:01.137Z",
+      "retrieved_at": "2026-09-16T11:38:37.958Z",
       "content_hash": "b5dbdc1fa68aa80a"
     },
     {
@@ -808,7 +812,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-15T11:47:03.570Z",
+      "retrieved_at": "2026-09-16T11:38:40.372Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]

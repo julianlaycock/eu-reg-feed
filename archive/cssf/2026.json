@@ -1,8 +1,52 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-15T11:47:07.317Z",
+  "updated_at": "2026-09-16T11:38:44.211Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128662",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of CYCLOPE INVESTISSEMENTS",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-cyclope-investissements/",
+      "published": "2026-09-16T10:12:47.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
+      "content_hash": "881fbe1ee715e970",
+      "first_seen": "2026-09-16T11:38:43.332Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-128649",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Permira Management S.à r.l.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-permira-management-s-a-r-l/",
+      "published": "2026-09-15T11:27:19.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-16T11:38:43.332Z",
+      "content_hash": "7a87732d526585a1",
+      "first_seen": "2026-09-16T11:38:43.332Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128640",
       "type": "guidance",

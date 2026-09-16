@@ -3,8 +3,26 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-15T11:47:07.421Z</updated>
+  <updated>2026-09-16T11:38:44.315Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128662</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of CYCLOPE INVESTISSEMENTS</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-cyclope-investissements/"/>
+    <updated>2026-09-16T10:12:47.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128649</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of Permira Management S.à r.l.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-permira-management-s-a-r-l/"/>
+    <updated>2026-09-15T11:27:19.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128640</id>
     <title>Active exploitation of a vulnerability on Cisco Secure Email Gateway</title>
@@ -98,22 +116,6 @@
     <author><name>CSSF</name></author>
     <category term="warning"/>
     <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128441</id>
-    <title>CSSF-ALFI webinar on valuation</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/cssf-alfi-webinar-on-valuation/"/>
-    <updated>2026-09-04T13:05:19.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128429</id>
-    <title>Global situation of undertakings for collective investment at the end of July 2026</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/global-situation-of-undertakings-for-collective-investment-at-the-end-of-july-2026/"/>
-    <updated>2026-09-03T07:31:29.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-19966</id>
