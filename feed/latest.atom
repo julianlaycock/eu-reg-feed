@@ -3,8 +3,32 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-16T11:38:44.315Z</updated>
+  <updated>2026-09-17T11:45:09.547Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-26359</id>
+    <title>Development of the bank&amp;#8217;s balance sheet total</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/development-of-the-banks-balance-sheet-total/"/>
+    <updated>2026-09-17T04:00:39.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-26502</id>
+    <title>Quarterly development of employment in banks</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/quarterly-development-of-employment-in-banks/"/>
+    <updated>2026-09-17T04:00:38.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20009</id>
+    <title>EBA E-mail alert 16 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20009"/>
+    <updated>2026-09-16T15:30:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128662</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of CYCLOPE INVESTISSEMENTS</title>
@@ -13,6 +37,38 @@
     <author><name>CSSF</name></author>
     <category term="warning"/>
     <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27780</id>
+    <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
+    <updated>2026-09-16T04:00:55.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27765</id>
+    <title>Notifications sent by the CSSF to the competent authorities of other EEA Member States</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/notifications-sent-by-the-cssf-to-the-competent-authorities-of-other-eea-member-states/"/>
+    <updated>2026-09-16T04:00:53.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27754</id>
+    <title>Notifications received by the CSSF from the competent authorities of other EEA Member States</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/"/>
+    <updated>2026-09-16T04:00:34.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27731</id>
+    <title>CSSF approvals of prospectuses</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/cssf-approvals/"/>
+    <updated>2026-09-16T04:00:29.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128649</id>
@@ -48,56 +104,12 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-128574</id>
-    <title>Warning concerning fraudulent activities performed under the name of the Luxembourg company Axxion S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-axxion-s-a/"/>
-    <updated>2026-09-11T06:19:17.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128565</id>
-    <title>Evolution of prudential reporting for payment institutions, electronic money institutions and crypto-asset service providers</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/evolution-of-prudential-reporting-for-payment-institutions-electronic-money-institutions-and-crypto-asset-service-providers/"/>
-    <updated>2026-09-10T13:27:14.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-19987</id>
     <title>EBA E-mail alert 9 September, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19987"/>
     <updated>2026-09-09T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128534</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of Quintet Private Bank (Europe) S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-quintet-private-bank-europe-s-a/"/>
-    <updated>2026-09-09T09:39:24.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128528</id>
-    <title>Warning concerning fraudulent activities by persons misusing the names of ADEPA ASSET MANAGEMENT S.A. and ADEPA ASSET SERVICING Luxembourg S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-adepa-asset-management-s-a/"/>
-    <updated>2026-09-09T09:12:33.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128522</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of DAC Investments S.à r.l.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-dac-investments-s-a-r-l/"/>
-    <updated>2026-09-09T07:10:42.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb</id>
@@ -107,15 +119,6 @@
     <author><name>ESMA</name></author>
     <category term="consultation"/>
     <summary>Response deadline: 2026-11-09 (open)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128470</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of TEIKO ASSET MANAGEMENT S.À R.L.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-teiko-asset-management-s-a-r-l/"/>
-    <updated>2026-09-07T06:38:31.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-19966</id>
@@ -172,14 +175,6 @@ Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
     <title>EBA E-mail alert 3 August, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19912"/>
     <updated>2026-08-03T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-19908</id>
-    <title>EBA E-mail alert 31 July, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/19908"/>
-    <updated>2026-07-31T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
