@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-17T11:45:09.547Z</updated>
+  <updated>2026-09-18T11:18:44.391Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128741</id>
+    <title>Communication to the Investment Fund Industry regarding the requirement to notify the “suspension of redemption (only)” in the “LMT activation” module related to liquidity management requirements</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/communication-to-the-investment-fund-industry-regarding-the-requirement-to-notify-the-suspension-of-redemption-only-in-the-lmt-activation-module-related-to-liquid/"/>
+    <updated>2026-09-18T09:56:12.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-26359</id>
     <title>Development of the bank&amp;#8217;s balance sheet total</title>
@@ -93,14 +101,6 @@
     <link rel="alternate" href="https://www.eba.europa.eu/node/19999"/>
     <updated>2026-09-14T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128608</id>
-    <title>Profit and loss account of credit institutions as at 30 June 2026 (only in French)</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/profit-and-loss-account-of-credit-institutions-as-at-30-june-2026/"/>
-    <updated>2026-09-14T09:30:30.000Z</updated>
-    <author><name>CSSF</name></author>
     <category term="guidance"/>
   </entry>
   <entry>
