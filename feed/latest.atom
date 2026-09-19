@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-18T11:18:44.391Z</updated>
+  <updated>2026-09-19T11:03:00.419Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20016</id>
+    <title>EBA E-mail alert 18 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20016"/>
+    <updated>2026-09-18T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128741</id>
     <title>Communication to the Investment Fund Industry regarding the requirement to notify the “suspension of redemption (only)” in the “LMT activation” module related to liquidity management requirements</title>
@@ -167,14 +175,6 @@ Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
     <title>EBA E-mail alert 5 August, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19924"/>
     <updated>2026-08-05T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-19912</id>
-    <title>EBA E-mail alert 3 August, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/19912"/>
-    <updated>2026-08-03T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
