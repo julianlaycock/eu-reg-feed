@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-19T11:03:00.419Z</updated>
+  <updated>2026-09-21T12:52:29.156Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128774</id>
+    <title>Investment fund managers</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/investment-fund-managers/"/>
+    <updated>2026-09-21T04:00:39.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20016</id>
     <title>EBA E-mail alert 18 September, 2026</title>
@@ -94,14 +102,6 @@
     <author><name>CSSF</name></author>
     <category term="warning"/>
     <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128640</id>
-    <title>Active exploitation of a vulnerability on Cisco Secure Email Gateway</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/active-exploitation-of-a-vulnerability-on-cisco-secure-email-gateway/"/>
-    <updated>2026-09-15T10:57:47.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-19999</id>

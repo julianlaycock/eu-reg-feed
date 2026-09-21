@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-18T11:18:44.255Z",
+  "updated_at": "2026-09-21T12:52:29.018Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128774",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Investment fund managers",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/investment-fund-managers/",
+      "published": "2026-09-21T04:00:39.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-21T12:52:28.319Z",
+      "content_hash": "3704381a97b2d6d0",
+      "first_seen": "2026-09-21T12:52:28.319Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128741",
       "type": "guidance",
