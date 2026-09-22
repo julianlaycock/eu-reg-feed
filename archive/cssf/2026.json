@@ -1,8 +1,30 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-21T12:52:29.018Z",
+  "updated_at": "2026-09-22T11:42:22.907Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128781",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Triton Lux SCS",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-triton-lux-scs/",
+      "published": "2026-09-21T14:07:13.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-22T11:42:22.062Z",
+      "content_hash": "a4a970f374254d45",
+      "first_seen": "2026-09-22T11:42:22.062Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128774",
       "type": "guidance",
