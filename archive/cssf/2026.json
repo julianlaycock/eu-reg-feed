@@ -1,8 +1,32 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-22T11:42:22.907Z",
+  "updated_at": "2026-09-23T11:41:02.898Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128799",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Communication on the entry into application of the new rules introduced by Directive (EU) 2024/825 as from 27 September 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/communication-on-the-entry-into-application-of-the-new-rules-introduced-by-directive-eu-2024-825-as-from-27-september-2026/",
+      "published": "2026-09-23T06:53:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [
+        {
+          "name": "Directive (EU) 2024/825"
+        }
+      ],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-23T11:41:01.964Z",
+      "content_hash": "58665fc3a4741372",
+      "first_seen": "2026-09-23T11:41:01.964Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128781",
       "type": "warning",

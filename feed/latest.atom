@@ -3,8 +3,17 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-22T11:42:23.039Z</updated>
+  <updated>2026-09-23T11:41:03.068Z</updated>
   <generator version="0.2.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128799</id>
+    <title>Communication on the entry into application of the new rules introduced by Directive (EU) 2024/825 as from 27 September 2026</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/communication-on-the-entry-into-application-of-the-new-rules-introduced-by-directive-eu-2024-825-as-from-27-september-2026/"/>
+    <updated>2026-09-23T06:53:17.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+    <summary>Legislation: Directive (EU) 2024/825</summary>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128781</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of Triton Lux SCS</title>
@@ -92,14 +101,6 @@
     <title>Notifications received by the CSSF from the competent authorities of other EEA Member States</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/09/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/"/>
     <updated>2026-09-16T04:00:34.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27731</id>
-    <title>CSSF approvals of prospectuses</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/cssf-approvals/"/>
-    <updated>2026-09-16T04:00:29.000Z</updated>
     <author><name>CSSF</name></author>
     <category term="guidance"/>
   </entry>
