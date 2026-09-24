@@ -2,6 +2,21 @@
 
 Notable changes per release. Dates are the release date, in UTC.
 
+## 0.3.0 (2026-09-24)
+
+### Added: MCP server
+
+`mcp-server/` is a Model Context Protocol server that exposes the RegEvent feed
+to AI assistants such as Claude Desktop and Claude Code. It has four tools
+(`search_events`, `get_event`, `list_upcoming_deadlines`, `list_sources`) and
+one resource (`eu-reg-feed://schema/regevent`, the RegEvent JSON Schema). The
+feed source is configurable: a local file or the published HTTPS feed, with a
+TTL cache. See `mcp-server/README.md`.
+
+The package has its own tooling (TypeScript, vitest, 33 tests). The root lint
+and Jest configs now ignore `mcp-server/`. Root CI does not build or test it
+yet.
+
 ## 0.2.0 (2026-09-09)
 
 ### Breaking: event identifiers change once
