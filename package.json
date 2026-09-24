@@ -1,6 +1,6 @@
 {
   "name": "eu-reg-feed",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Open standard and reference implementation for machine-readable EU regulatory change feeds",
   "type": "module",
   "main": "dist/index.js",

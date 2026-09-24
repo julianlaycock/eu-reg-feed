@@ -230,6 +230,17 @@ so a source changing shape is caught before it silently empties the feed.
 [CONTRIBUTING.md](CONTRIBUTING.md) covers adding a regulator and the change
 process for the schema itself.
 
+## MCP Server
+
+[`mcp-server/`](mcp-server/) is an [MCP](https://modelcontextprotocol.io)
+server that exposes the feed to MCP clients (Claude Desktop, Claude Code, or
+any other agent that speaks the protocol) as four tools: `search_events`,
+`get_event`, `list_upcoming_deadlines`, `list_sources`, plus a resource
+serving the RegEvent JSON Schema. It reads either a local checkout's
+`feed/latest.json` or the published feed over HTTPS, whichever is configured.
+See [`mcp-server/README.md`](mcp-server/README.md) for the quick start, tool
+reference, and design notes.
+
 ## Companion Project
 
 eu-reg-feed is the monitoring counterpart to [**open-annex-iv**](https://github.com/julianlaycock/open-annex-iv), an open-source AIFMD Annex IV XML serialization library.
