@@ -17,5 +17,5 @@ export default {
       },
     ],
   },
-  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/tests/live/'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/tests/live/', '/mcp-server/'],
 };

@@ -1,0 +1,33 @@
+{
+  "name": "eu-reg-feed-mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server exposing the eu-reg-feed RegEvent feed (search, lookup, upcoming deadlines, sources) to MCP clients such as Claude Desktop and Claude Code",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "eu-reg-feed-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "author": "Julian Laycock <julian.laycock@caelith.tech>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.1.0"
+  }
+}
