@@ -3,8 +3,24 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-24T11:50:36.289Z</updated>
-  <generator version="0.2.0">eu-reg-feed</generator>
+  <updated>2026-09-25T11:53:52.383Z</updated>
+  <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20032</id>
+    <title>EBA E-mail alert 24 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20032"/>
+    <updated>2026-09-24T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20027</id>
+    <title>EBA E-mail alert 23 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20027"/>
+    <updated>2026-09-23T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128799</id>
     <title>Communication on the entry into application of the new rules introduced by Directive (EU) 2024/825 as from 27 September 2026</title>
@@ -32,6 +48,14 @@
     <category term="guidance"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20016</id>
+    <title>EBA E-mail alert 18 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20016"/>
+    <updated>2026-09-18T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-128741</id>
     <title>Communication to the Investment Fund Industry regarding the requirement to notify the “suspension of redemption (only)” in the “LMT activation” module related to liquidity management requirements</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/09/communication-to-the-investment-fund-industry-regarding-the-requirement-to-notify-the-suspension-of-redemption-only-in-the-lmt-activation-module-related-to-liquid/"/>
@@ -53,6 +77,14 @@
     <link rel="alternate" href="https://www.cssf.lu/en/2026/09/quarterly-development-of-employment-in-banks/"/>
     <updated>2026-09-17T04:00:38.000Z</updated>
     <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20009</id>
+    <title>EBA E-mail alert 16 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20009"/>
+    <updated>2026-09-16T15:30:03.000Z</updated>
+    <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
   <entry>
@@ -89,6 +121,22 @@
     <category term="guidance"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-19999</id>
+    <title>EBA E-mail alert 14 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19999"/>
+    <updated>2026-09-14T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-19987</id>
+    <title>EBA E-mail alert 9 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19987"/>
+    <updated>2026-09-09T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb</id>
     <title>Consultation on the update to the Guidelines on disclosure requirements under the Prospectus Regulation</title>
     <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-update-guidelines-disclosure-requirements-under-prospectus"/>
@@ -96,6 +144,30 @@
     <author><name>ESMA</name></author>
     <category term="consultation"/>
     <summary>Response deadline: 2026-11-09 (open)</summary>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-19966</id>
+    <title>EBA E-mail alert 27 August, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19966"/>
+    <updated>2026-08-27T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-19964</id>
+    <title>EBA E-mail alert 26 August, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19964"/>
+    <updated>2026-08-26T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-19957</id>
+    <title>EBA E-mail alert 25 August, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/19957"/>
+    <updated>2026-08-25T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5343b289</id>
@@ -287,5 +359,13 @@ Response deadline: 2025-07-21 (closed)</summary>
     <category term="consultation"/>
     <summary>Responses published
 Response deadline: 2025-06-20 (closed)</summary>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-17072</id>
+    <title>Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation"/>
+    <updated>2024-06-28T08:22:54.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
   </entry>
 </feed>
