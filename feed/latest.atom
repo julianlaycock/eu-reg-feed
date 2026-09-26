@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-25T11:53:52.383Z</updated>
+  <updated>2026-09-26T11:28:06.971Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20044</id>
+    <title>EBA E-mail alert 25 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20044"/>
+    <updated>2026-09-25T15:00:01.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20032</id>
     <title>EBA E-mail alert 24 September, 2026</title>
@@ -158,14 +166,6 @@
     <title>EBA E-mail alert 26 August, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19964"/>
     <updated>2026-08-26T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-19957</id>
-    <title>EBA E-mail alert 25 August, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/19957"/>
-    <updated>2026-08-25T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
