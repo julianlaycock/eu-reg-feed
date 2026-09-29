@@ -1,8 +1,32 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-28T13:59:54.140Z",
+  "updated_at": "2026-09-29T12:56:46.212Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128906",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Additional CSSF operational instructions on DORA major ICT-related incident reporting",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/additional-cssf-operational-instructions-on-dora-major-ict-related-incident-reporting/",
+      "published": "2026-09-29T06:09:26.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [
+        {
+          "name": "DORA (Regulation (EU) 2022/2554)"
+        }
+      ],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-29T12:56:45.227Z",
+      "content_hash": "cd4bb03541542bf9",
+      "first_seen": "2026-09-29T12:56:45.227Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128893",
       "type": "guidance",
