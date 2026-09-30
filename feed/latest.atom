@@ -3,8 +3,25 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-09-29T12:56:46.358Z</updated>
+  <updated>2026-09-30T12:38:32.084Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129094</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of 7GC GP II S.À R.L</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-7gc-gp-ii-s-a-r-l/"/>
+    <updated>2026-09-30T11:28:03.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129034</id>
+    <title>ESMA Data Day 2026 – “Data in the Savings and Investment Union – from burden to opportunity”</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/esma-data-day-2026-data-in-the-savings-and-investment-union-from-burden-to-opportunity/"/>
+    <updated>2026-09-30T08:29:31.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128906</id>
     <title>Additional CSSF operational instructions on DORA major ICT-related incident reporting</title>
@@ -13,6 +30,41 @@
     <author><name>CSSF</name></author>
     <category term="guidance"/>
     <summary>Legislation: DORA (Regulation (EU) 2022/2554)</summary>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27191</id>
+    <title>Net assets of UCIs</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/net-assets-of-ucis/"/>
+    <updated>2026-09-29T04:00:57.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+    <category term="UCITS"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27301</id>
+    <title>Breakdown according to currency</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/breakdown-according-to-currency/"/>
+    <updated>2026-09-29T04:00:42.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27174</id>
+    <title>Number of UCIs</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/number-of-ucis/"/>
+    <updated>2026-09-29T04:00:17.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+    <category term="UCITS"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27232</id>
+    <title>Investment policy of UCIs</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/investment-policy-of-ucis/"/>
+    <updated>2026-09-29T04:00:10.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+    <category term="UCITS"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-128893</id>
@@ -64,61 +116,11 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-128799</id>
-    <title>Communication on the entry into application of the new rules introduced by Directive (EU) 2024/825 as from 27 September 2026</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/communication-on-the-entry-into-application-of-the-new-rules-introduced-by-directive-eu-2024-825-as-from-27-september-2026/"/>
-    <updated>2026-09-23T06:53:17.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <summary>Legislation: Directive (EU) 2024/825</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128781</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of Triton Lux SCS</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-triton-lux-scs/"/>
-    <updated>2026-09-21T14:07:13.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128774</id>
-    <title>Investment fund managers</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/investment-fund-managers/"/>
-    <updated>2026-09-21T04:00:39.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20016</id>
     <title>EBA E-mail alert 18 September, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20016"/>
     <updated>2026-09-18T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128741</id>
-    <title>Communication to the Investment Fund Industry regarding the requirement to notify the “suspension of redemption (only)” in the “LMT activation” module related to liquidity management requirements</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/communication-to-the-investment-fund-industry-regarding-the-requirement-to-notify-the-suspension-of-redemption-only-in-the-lmt-activation-module-related-to-liquid/"/>
-    <updated>2026-09-18T09:56:12.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-26359</id>
-    <title>Development of the bank&amp;#8217;s balance sheet total</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/development-of-the-banks-balance-sheet-total/"/>
-    <updated>2026-09-17T04:00:39.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-26502</id>
-    <title>Quarterly development of employment in banks</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/quarterly-development-of-employment-in-banks/"/>
-    <updated>2026-09-17T04:00:38.000Z</updated>
-    <author><name>CSSF</name></author>
     <category term="guidance"/>
   </entry>
   <entry>

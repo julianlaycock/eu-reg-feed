@@ -1,8 +1,50 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-09-29T12:56:46.212Z",
+  "updated_at": "2026-09-30T12:38:31.972Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129094",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of 7GC GP II S.À R.L",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-7gc-gp-ii-s-a-r-l/",
+      "published": "2026-09-30T11:28:03.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "content_hash": "6461f1b986599e5d",
+      "first_seen": "2026-09-30T12:38:31.344Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129034",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "ESMA Data Day 2026 – “Data in the Savings and Investment Union – from burden to opportunity”",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/esma-data-day-2026-data-in-the-savings-and-investment-union-from-burden-to-opportunity/",
+      "published": "2026-09-30T08:29:31.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "content_hash": "b5eb8230af7c3623",
+      "first_seen": "2026-09-30T12:38:31.344Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-128906",
       "type": "guidance",
@@ -26,6 +68,124 @@
       "retrieved_at": "2026-09-29T12:56:45.227Z",
       "content_hash": "cd4bb03541542bf9",
       "first_seen": "2026-09-29T12:56:45.227Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27191",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Net assets of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/net-assets-of-ucis/",
+      "published": "2026-09-29T04:00:57.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "content_hash": "531de5478926e93f",
+      "first_seen": "2026-09-09T08:46:35.317Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-09T08:46:35.317Z",
+          "content_hash": "00e67628019f4bf6",
+          "title": "Net assets of UCIs",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27301",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Breakdown according to currency",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/breakdown-according-to-currency/",
+      "published": "2026-09-29T04:00:42.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "content_hash": "25b21bbdcab1b431",
+      "first_seen": "2026-09-09T08:46:35.317Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-09T08:46:35.317Z",
+          "content_hash": "72d1c343ddbdb349",
+          "title": "Breakdown according to currency",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27174",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Number of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/number-of-ucis/",
+      "published": "2026-09-29T04:00:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "content_hash": "99148ff1a2fcb0ea",
+      "first_seen": "2026-09-09T08:46:35.317Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-09T08:46:35.317Z",
+          "content_hash": "4cf30f6f01f9c9a6",
+          "title": "Number of UCIs",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27232",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Investment policy of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/09/investment-policy-of-ucis/",
+      "published": "2026-09-29T04:00:10.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "content_hash": "be5a1cd7fb72969d",
+      "first_seen": "2026-09-09T08:46:35.317Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-09T08:46:35.317Z",
+          "content_hash": "8d313d37ab56153a",
+          "title": "Investment policy of UCIs",
+          "summary": null
+        }
+      ]
     },
     {
       "id": "urn:regevent:v2:cssf:p-128893",
@@ -570,48 +730,6 @@
       "first_seen": "2026-09-09T08:46:35.317Z"
     },
     {
-      "id": "urn:regevent:v2:cssf:p-27191",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Net assets of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/net-assets-of-ucis/",
-      "published": "2026-09-01T04:00:57.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
-      "content_hash": "00e67628019f4bf6",
-      "first_seen": "2026-09-09T08:46:35.317Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27301",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Breakdown according to currency",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/breakdown-according-to-currency/",
-      "published": "2026-09-01T04:00:42.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
-      "content_hash": "72d1c343ddbdb349",
-      "first_seen": "2026-09-09T08:46:35.317Z"
-    },
-    {
       "id": "urn:regevent:v2:cssf:p-27265",
       "type": "guidance",
       "regulator": "cssf",
@@ -631,50 +749,6 @@
       "status": "unknown",
       "retrieved_at": "2026-09-09T08:46:35.317Z",
       "content_hash": "0b30f49ac8231443",
-      "first_seen": "2026-09-09T08:46:35.317Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27174",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Number of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/number-of-ucis/",
-      "published": "2026-09-01T04:00:17.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
-      "content_hash": "4cf30f6f01f9c9a6",
-      "first_seen": "2026-09-09T08:46:35.317Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27232",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Investment policy of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/investment-policy-of-ucis/",
-      "published": "2026-09-01T04:00:10.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-09T08:46:35.317Z",
-      "content_hash": "8d313d37ab56153a",
       "first_seen": "2026-09-09T08:46:35.317Z"
     }
   ]
