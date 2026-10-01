@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-09-30T12:38:31.964Z",
+  "generated_at": "2026-10-01T13:20:42.588Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,41 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-09-30T12:38:26.510Z"
+      "fetched_at": "2026-10-01T13:20:37.049Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-30T12:38:28.839Z"
+      "fetched_at": "2026-10-01T13:20:39.412Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-09-30T12:38:31.344Z"
+      "fetched_at": "2026-10-01T13:20:42.080Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:eba:node-20057",
+      "type": "guidance",
+      "regulator": "eba",
+      "jurisdiction": "EU",
+      "title": "EBA E-mail alert 30 September, 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.eba.europa.eu/node/20057",
+      "published": "2026-09-30T15:00:03.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
+      "content_hash": "685c419614e3d5e7"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129094",
       "type": "warning",
@@ -43,7 +62,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "6461f1b986599e5d"
     },
     {
@@ -62,7 +81,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "b5eb8230af7c3623"
     },
     {
@@ -85,7 +104,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "cd4bb03541542bf9"
     },
     {
@@ -106,7 +125,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "531de5478926e93f"
     },
     {
@@ -125,7 +144,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "25b21bbdcab1b431"
     },
     {
@@ -146,7 +165,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "99148ff1a2fcb0ea"
     },
     {
@@ -167,7 +186,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "be5a1cd7fb72969d"
     },
     {
@@ -186,7 +205,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "1386d967b88c34e7"
     },
     {
@@ -205,7 +224,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "828797ebd0ebef59"
     },
     {
@@ -226,7 +245,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:31.344Z",
+      "retrieved_at": "2026-10-01T13:20:42.080Z",
       "content_hash": "8e168a589eca5cc9"
     },
     {
@@ -245,7 +264,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "305c2df8116358f2"
     },
     {
@@ -264,7 +283,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "ff6fe4400dabaa13"
     },
     {
@@ -283,7 +302,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "0e4ddf2fbfd3be82"
     },
     {
@@ -302,7 +321,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "0994150c5b7db161"
     },
     {
@@ -321,7 +340,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "663851cbe0052bf0"
     },
     {
@@ -340,7 +359,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "ccd2900ea86bcbf6"
     },
     {
@@ -359,7 +378,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "324a57d93a8e36cf"
     },
     {
@@ -378,7 +397,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -397,27 +416,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "6e33f68f1fcf69dc"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-19964",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 26 August, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19964",
-      "published": "2026-08-26T15:00:02.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
-      "content_hash": "197701961dc261ad"
     },
     {
       "id": "urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5343b289",
@@ -439,7 +439,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -458,7 +458,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -477,7 +477,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -496,7 +496,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -515,7 +515,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -534,7 +534,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -553,7 +553,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -576,7 +576,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -595,7 +595,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -614,7 +614,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -633,7 +633,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -656,7 +656,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -679,7 +679,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -698,7 +698,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -717,7 +717,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -736,7 +736,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -755,7 +755,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -774,7 +774,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -793,7 +793,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-09-30T12:38:26.510Z",
+      "retrieved_at": "2026-10-01T13:20:37.049Z",
       "content_hash": "b5dbdc1fa68aa80a"
     },
     {
@@ -812,7 +812,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-09-30T12:38:28.839Z",
+      "retrieved_at": "2026-10-01T13:20:39.412Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
