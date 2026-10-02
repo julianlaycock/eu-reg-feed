@@ -3,8 +3,32 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-01T13:20:42.740Z</updated>
+  <updated>2026-10-02T12:39:25.004Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129182</id>
+    <title>The CSSF’s professional secrecy and its legal exceptions (only in French)</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/the-cssfs-professional-secrecy-and-its-legal-exceptions/"/>
+    <updated>2026-10-02T10:32:11.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129146</id>
+    <title>Global situation of undertakings for collective investment at the end of August 2026</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/global-situation-of-undertakings-for-collective-investment-at-the-end-of-august-2026/"/>
+    <updated>2026-10-01T14:30:29.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129139</id>
+    <title>eRegister by eDesk – New functionality now available</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/eregister-by-edesk-new-functionality-now-available/"/>
+    <updated>2026-10-01T13:21:25.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20057</id>
     <title>EBA E-mail alert 30 September, 2026</title>
@@ -73,31 +97,6 @@
     <author><name>CSSF</name></author>
     <category term="guidance"/>
     <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128893</id>
-    <title>Multiple Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/multiple-critical-vulnerabilities-in-citrix-netscaler-adc-and-netscaler-gateway/"/>
-    <updated>2026-09-28T08:52:48.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128856</id>
-    <title>Operational guidance for incident handling</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/operational-guidance-for-incident-handling/"/>
-    <updated>2026-09-28T07:23:21.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-128871</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of Oeno Advisory S.A. and Oeno-Invest Advisory S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-oeno-advisory-s-a-and-oeno-invest-advisory-s-a/"/>
-    <updated>2026-09-28T06:55:19.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20044</id>
