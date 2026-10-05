@@ -1,8 +1,50 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-02T12:39:24.888Z",
+  "updated_at": "2026-10-05T14:45:07.519Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129237",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Communication on the CSSF Feedback Report &#8211; Circular CSSF 24/856",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/communication-on-the-cssf-feedback-report-circular-cssf-24-856/",
+      "published": "2026-10-05T13:04:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-05T14:45:06.904Z",
+      "content_hash": "34eb94819958e1de",
+      "first_seen": "2026-10-05T14:45:06.904Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129225",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities performed under the name of the Luxembourg company Eurobank Private Bank Luxembourg S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-eurobank-private-bank-luxembourg-s-a/",
+      "published": "2026-10-05T12:22:24.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-05T14:45:06.904Z",
+      "content_hash": "673635b93e68fdbf",
+      "first_seen": "2026-10-05T14:45:06.904Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129182",
       "type": "guidance",
