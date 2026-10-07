@@ -3,8 +3,17 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-05T14:45:07.663Z</updated>
+  <updated>2026-10-07T13:28:26.578Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129289</id>
+    <title>AMLA adopts key Regulatory Technical Standards</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/amla-adopts-key-regulatory-technical-standards/"/>
+    <updated>2026-10-07T08:52:54.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+    <category term="AML"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-129237</id>
     <title>Communication on the CSSF Feedback Report &amp;#8211; Circular CSSF 24/856</title>
@@ -96,14 +105,6 @@
     <author><name>CSSF</name></author>
     <category term="guidance"/>
     <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27301</id>
-    <title>Breakdown according to currency</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/breakdown-according-to-currency/"/>
-    <updated>2026-09-29T04:00:42.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20044</id>
