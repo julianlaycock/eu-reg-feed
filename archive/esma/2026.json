@@ -1,8 +1,28 @@
 {
   "regulator": "esma",
   "year": 2026,
-  "updated_at": "2026-09-09T11:26:42.922Z",
+  "updated_at": "2026-10-09T13:21:17.173Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation",
+      "type": "consultation",
+      "regulator": "esma",
+      "jurisdiction": "EU",
+      "title": "Call for evidence on the CCP collateral tokenisation",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.esma.europa.eu/press-news/consultations/call-evidence-ccp-collateral-tokenisation",
+      "published": "2026-10-09T00:00:00.000Z",
+      "effective_date": null,
+      "response_deadline": "2027-01-15",
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "open",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
+      "content_hash": "b6056e80f4df3e4d",
+      "first_seen": "2026-10-09T13:21:11.715Z"
+    },
     {
       "id": "urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb",
       "type": "consultation",

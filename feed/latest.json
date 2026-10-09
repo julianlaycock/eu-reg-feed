@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-10-07T13:28:26.428Z",
+  "generated_at": "2026-10-09T13:21:17.160Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,60 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-10-07T13:28:20.130Z"
+      "fetched_at": "2026-10-09T13:21:11.715Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-07T13:28:22.587Z"
+      "fetched_at": "2026-10-09T13:21:14.041Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-07T13:28:25.485Z"
+      "fetched_at": "2026-10-09T13:21:16.627Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation",
+      "type": "consultation",
+      "regulator": "esma",
+      "jurisdiction": "EU",
+      "title": "Call for evidence on the CCP collateral tokenisation",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.esma.europa.eu/press-news/consultations/call-evidence-ccp-collateral-tokenisation",
+      "published": "2026-10-09T00:00:00.000Z",
+      "effective_date": null,
+      "response_deadline": "2027-01-15",
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "open",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
+      "content_hash": "b6056e80f4df3e4d"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129355",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Communication to the investment fund industry in relation to the information to be provided to the CSSF by a Luxembourg-based IFM intending to perform white-label business",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/communication-to-the-investment-fund-industry-in-relation-to-the-information-to-be-provided-to-the-cssf-by-a-luxembourg-based-ifm-intending-to-perform-white-label-business/",
+      "published": "2026-10-08T13:47:25.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
+      "content_hash": "1c5e6b1f6625b90b"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129289",
       "type": "guidance",
@@ -43,7 +81,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "1ea49415d1d026f6"
     },
     {
@@ -62,7 +100,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "34eb94819958e1de"
     },
     {
@@ -83,7 +121,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "673635b93e68fdbf"
     },
     {
@@ -102,7 +140,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "5880ff7f60673451"
     },
     {
@@ -121,7 +159,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "999e7263185d40cb"
     },
     {
@@ -140,7 +178,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "279c00f5ad7361cb"
     },
     {
@@ -159,7 +197,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "eec8363420762431"
     },
     {
@@ -178,7 +216,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "685c419614e3d5e7"
     },
     {
@@ -199,7 +237,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "6461f1b986599e5d"
     },
     {
@@ -218,7 +256,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "b5eb8230af7c3623"
     },
     {
@@ -241,29 +279,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
+      "retrieved_at": "2026-10-09T13:21:16.627Z",
       "content_hash": "cd4bb03541542bf9"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27191",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Net assets of UCIs",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/net-assets-of-ucis/",
-      "published": "2026-09-29T04:00:57.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "UCITS"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:25.485Z",
-      "content_hash": "531de5478926e93f"
     },
     {
       "id": "urn:regevent:v2:eba:node-20044",
@@ -281,7 +298,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "305c2df8116358f2"
     },
     {
@@ -300,7 +317,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "ff6fe4400dabaa13"
     },
     {
@@ -319,7 +336,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "0e4ddf2fbfd3be82"
     },
     {
@@ -338,7 +355,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "0994150c5b7db161"
     },
     {
@@ -357,7 +374,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "663851cbe0052bf0"
     },
     {
@@ -376,7 +393,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "ccd2900ea86bcbf6"
     },
     {
@@ -395,7 +412,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "324a57d93a8e36cf"
     },
     {
@@ -414,7 +431,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -437,7 +454,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -456,7 +473,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -475,7 +492,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -494,7 +511,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -513,7 +530,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -532,7 +549,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -551,7 +568,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -574,7 +591,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -593,7 +610,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -612,7 +629,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -631,7 +648,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -654,7 +671,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -677,7 +694,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -696,7 +713,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -715,7 +732,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -734,7 +751,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -753,7 +770,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -772,27 +789,8 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
+      "retrieved_at": "2026-10-09T13:21:11.715Z",
       "content_hash": "77088cc1a7ee4978"
-    },
-    {
-      "id": "urn:regevent:v2:esma:consultation-technical-standards-under-regulatio-4aa8c274",
-      "type": "consultation",
-      "regulator": "esma",
-      "jurisdiction": "EU",
-      "title": "Consultation on the Technical Standards under the Regulation on the transparency and integrity of ESG rating activities",
-      "title_lang": "en",
-      "summary": "Responses published",
-      "url": "https://www.esma.europa.eu/press-news/consultations/consultation-technical-standards-under-regulation-transparency-and",
-      "published": "2025-05-02T00:00:00.000Z",
-      "effective_date": null,
-      "response_deadline": "2025-06-20",
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "closed",
-      "retrieved_at": "2026-10-07T13:28:20.130Z",
-      "content_hash": "b5dbdc1fa68aa80a"
     },
     {
       "id": "urn:regevent:v2:eba:node-17072",
@@ -810,7 +808,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-07T13:28:22.587Z",
+      "retrieved_at": "2026-10-09T13:21:14.041Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
