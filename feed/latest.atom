@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-09T13:21:17.305Z</updated>
+  <updated>2026-10-10T12:35:44.223Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20084</id>
+    <title>EBA E-mail alert 9 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20084"/>
+    <updated>2026-10-09T15:45:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation</id>
     <title>Call for evidence on the CCP collateral tokenisation</title>
@@ -159,14 +167,6 @@
     <title>EBA E-mail alert 14 September, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/19999"/>
     <updated>2026-09-14T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-19987</id>
-    <title>EBA E-mail alert 9 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/19987"/>
-    <updated>2026-09-09T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
