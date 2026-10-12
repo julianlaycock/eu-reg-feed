@@ -1,48 +1,52 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-10-10T12:35:44.104Z",
-  "total_events": 40,
-  "total_errors": 0,
+  "generated_at": "2026-10-12T15:31:02.676Z",
+  "total_events": 30,
+  "total_errors": 1,
   "sources": [
     {
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-10-10T12:35:38.110Z"
+      "fetched_at": "2026-10-12T15:30:55.392Z"
     },
     {
       "regulator": "eba",
-      "events": 10,
-      "errors": [],
-      "fetched_at": "2026-10-10T12:35:40.520Z"
+      "events": 0,
+      "errors": [
+        "eba: HTTP 502 fetching https://www.eba.europa.eu/rss.xml"
+      ],
+      "fetched_at": "2026-10-12T15:30:57.651Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-10T12:35:43.329Z"
+      "fetched_at": "2026-10-12T15:31:01.967Z"
     }
   ],
   "events": [
     {
-      "id": "urn:regevent:v2:eba:node-20084",
+      "id": "urn:regevent:v2:cssf:p-129400",
       "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 9 October, 2026",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence",
       "title_lang": "en",
       "summary": null,
-      "url": "https://www.eba.europa.eu/node/20084",
-      "published": "2026-10-09T15:45:02.000Z",
+      "url": "https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/",
+      "published": "2026-10-12T13:27:06.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
-      "tags": [],
+      "tags": [
+        "AML"
+      ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "4a7598e344608444"
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
+      "content_hash": "7032c3d32061424e"
     },
     {
       "id": "urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation",
@@ -60,7 +64,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "b6056e80f4df3e4d"
     },
     {
@@ -79,7 +83,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "1c5e6b1f6625b90b"
     },
     {
@@ -100,7 +104,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "1ea49415d1d026f6"
     },
     {
@@ -119,7 +123,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "34eb94819958e1de"
     },
     {
@@ -140,27 +144,8 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "673635b93e68fdbf"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20066",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 2 October, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20066",
-      "published": "2026-10-02T15:00:02.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "5880ff7f60673451"
     },
     {
       "id": "urn:regevent:v2:cssf:p-129182",
@@ -178,7 +163,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "999e7263185d40cb"
     },
     {
@@ -197,7 +182,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "279c00f5ad7361cb"
     },
     {
@@ -216,27 +201,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "eec8363420762431"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20057",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 30 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20057",
-      "published": "2026-09-30T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "685c419614e3d5e7"
     },
     {
       "id": "urn:regevent:v2:cssf:p-129094",
@@ -256,7 +222,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "6461f1b986599e5d"
     },
     {
@@ -275,145 +241,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
       "content_hash": "b5eb8230af7c3623"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-128906",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Additional CSSF operational instructions on DORA major ICT-related incident reporting",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/additional-cssf-operational-instructions-on-dora-major-ict-related-incident-reporting/",
-      "published": "2026-09-29T06:09:26.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [
-        {
-          "name": "DORA (Regulation (EU) 2022/2554)"
-        }
-      ],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:43.329Z",
-      "content_hash": "cd4bb03541542bf9"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20044",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 25 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20044",
-      "published": "2026-09-25T15:00:01.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "305c2df8116358f2"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20032",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 24 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20032",
-      "published": "2026-09-24T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "ff6fe4400dabaa13"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20027",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 23 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20027",
-      "published": "2026-09-23T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "0e4ddf2fbfd3be82"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20016",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 18 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20016",
-      "published": "2026-09-18T15:00:02.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "0994150c5b7db161"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-20009",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 16 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/20009",
-      "published": "2026-09-16T15:30:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "663851cbe0052bf0"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-19999",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "EBA E-mail alert 14 September, 2026",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/node/19999",
-      "published": "2026-09-14T15:00:03.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "ccd2900ea86bcbf6"
     },
     {
       "id": "urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb",
@@ -431,7 +260,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -454,7 +283,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "5ec8d5bc5585111c"
     },
     {
@@ -473,7 +302,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -492,7 +321,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -511,7 +340,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -530,7 +359,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -549,7 +378,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -568,7 +397,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -591,7 +420,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -610,7 +439,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -629,7 +458,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -648,7 +477,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -671,7 +500,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -694,7 +523,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -713,7 +542,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -732,7 +561,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -751,7 +580,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -770,7 +599,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -789,27 +618,8 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-10-10T12:35:38.110Z",
+      "retrieved_at": "2026-10-12T15:30:55.392Z",
       "content_hash": "77088cc1a7ee4978"
-    },
-    {
-      "id": "urn:regevent:v2:eba:node-17072",
-      "type": "guidance",
-      "regulator": "eba",
-      "jurisdiction": "EU",
-      "title": "Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation",
-      "published": "2024-06-28T08:22:54.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-10T12:35:40.520Z",
-      "content_hash": "680fcc63e9bdc1dc"
     }
   ]
 }

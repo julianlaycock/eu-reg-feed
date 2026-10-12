@@ -1,8 +1,30 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-09T13:21:17.171Z",
+  "updated_at": "2026-10-12T15:31:02.685Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129400",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/",
+      "published": "2026-10-12T13:27:06.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "AML"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-12T15:31:01.967Z",
+      "content_hash": "7032c3d32061424e",
+      "first_seen": "2026-10-12T15:31:01.967Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129355",
       "type": "guidance",
