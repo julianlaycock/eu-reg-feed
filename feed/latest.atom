@@ -3,8 +3,25 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-12T15:31:02.782Z</updated>
+  <updated>2026-10-13T14:15:33.628Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129419</id>
+    <title>Warning concerning the website www.domiafx.com</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-domiafx-com/"/>
+    <updated>2026-10-13T11:53:25.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20089</id>
+    <title>EBA E-mail alert 12 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20089"/>
+    <updated>2026-10-12T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-129400</id>
     <title>AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence</title>
@@ -13,6 +30,14 @@
     <author><name>CSSF</name></author>
     <category term="guidance"/>
     <category term="AML"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20084</id>
+    <title>EBA E-mail alert 9 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20084"/>
+    <updated>2026-10-09T15:45:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation</id>
@@ -58,6 +83,14 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20066</id>
+    <title>EBA E-mail alert 2 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20066"/>
+    <updated>2026-10-02T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-129182</id>
     <title>The CSSF’s professional secrecy and its legal exceptions (only in French)</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/10/the-cssfs-professional-secrecy-and-its-legal-exceptions/"/>
@@ -82,6 +115,14 @@
     <category term="guidance"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20057</id>
+    <title>EBA E-mail alert 30 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20057"/>
+    <updated>2026-09-30T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-129094</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of 7GC GP II S.À R.L</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-7gc-gp-ii-s-a-r-l/"/>
@@ -91,11 +132,43 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129034</id>
-    <title>ESMA Data Day 2026 – “Data in the Savings and Investment Union – from burden to opportunity”</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/esma-data-day-2026-data-in-the-savings-and-investment-union-from-burden-to-opportunity/"/>
-    <updated>2026-09-30T08:29:31.000Z</updated>
-    <author><name>CSSF</name></author>
+    <id>urn:regevent:v2:eba:node-20044</id>
+    <title>EBA E-mail alert 25 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20044"/>
+    <updated>2026-09-25T15:00:01.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20032</id>
+    <title>EBA E-mail alert 24 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20032"/>
+    <updated>2026-09-24T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20027</id>
+    <title>EBA E-mail alert 23 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20027"/>
+    <updated>2026-09-23T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20016</id>
+    <title>EBA E-mail alert 18 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20016"/>
+    <updated>2026-09-18T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20009</id>
+    <title>EBA E-mail alert 16 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20009"/>
+    <updated>2026-09-16T15:30:03.000Z</updated>
+    <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
   <entry>
@@ -114,7 +187,7 @@
     <updated>2026-08-18T00:00:00.000Z</updated>
     <author><name>ESMA</name></author>
     <category term="consultation"/>
-    <summary>Response deadline: 2026-10-12 (open)
+    <summary>Response deadline: 2026-10-12 (closed)
 Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
   </entry>
   <entry>
@@ -287,5 +360,13 @@ Response deadline: 2025-09-19 (closed)</summary>
     <category term="consultation"/>
     <summary>Responses published
 Response deadline: 2025-07-21 (closed)</summary>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-17072</id>
+    <title>Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation"/>
+    <updated>2024-06-28T08:22:54.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
   </entry>
 </feed>
