@@ -3,8 +3,34 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-14T11:56:57.089Z</updated>
+  <updated>2026-10-15T11:33:20.302Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20099</id>
+    <title>EBA E-mail alert 14 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20099"/>
+    <updated>2026-10-14T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129451</id>
+    <title>Warning concerning the fraudulent activities carried out by Decimal Global Limited</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/"/>
+    <updated>2026-10-14T14:30:00.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129438</id>
+    <title>Warning concerning a fraud scheme misusing the former name “Arche Associés S.A.” of the company CORIENT S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-a-fraud-scheme-misusing-the-former-name-arche-associes-s-a-of-the-company-corient-s-a/"/>
+    <updated>2026-10-14T13:36:07.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20094</id>
     <title>EBA E-mail alert 13 October, 2026</title>
@@ -115,29 +141,12 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129139</id>
-    <title>eRegister by eDesk – New functionality now available</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/eregister-by-edesk-new-functionality-now-available/"/>
-    <updated>2026-10-01T13:21:25.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20057</id>
     <title>EBA E-mail alert 30 September, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20057"/>
     <updated>2026-09-30T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129094</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of 7GC GP II S.À R.L</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/09/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-7gc-gp-ii-s-a-r-l/"/>
-    <updated>2026-09-30T11:28:03.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20044</id>
@@ -160,14 +169,6 @@
     <title>EBA E-mail alert 23 September, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20027"/>
     <updated>2026-09-23T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20016</id>
-    <title>EBA E-mail alert 18 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20016"/>
-    <updated>2026-09-18T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>

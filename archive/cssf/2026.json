@@ -1,8 +1,52 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-13T14:15:33.488Z",
+  "updated_at": "2026-10-15T11:33:20.166Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129451",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the fraudulent activities carried out by Decimal Global Limited",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/",
+      "published": "2026-10-14T14:30:00.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-15T11:33:19.573Z",
+      "content_hash": "3799356f549212f9",
+      "first_seen": "2026-10-15T11:33:19.573Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129438",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning a fraud scheme misusing the former name “Arche Associés S.A.” of the company CORIENT S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-a-fraud-scheme-misusing-the-former-name-arche-associes-s-a-of-the-company-corient-s-a/",
+      "published": "2026-10-14T13:36:07.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-15T11:33:19.573Z",
+      "content_hash": "f3713570f06f2182",
+      "first_seen": "2026-10-15T11:33:19.573Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129419",
       "type": "warning",
