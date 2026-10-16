@@ -3,8 +3,32 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-15T11:33:20.302Z</updated>
+  <updated>2026-10-16T11:27:53.267Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27780</id>
+    <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
+    <updated>2026-10-16T04:00:55.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27754</id>
+    <title>Notifications received by the CSSF from the competent authorities of other EEA Member States</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/"/>
+    <updated>2026-10-16T04:00:34.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27731</id>
+    <title>CSSF approvals of prospectuses</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/cssf-approvals/"/>
+    <updated>2026-10-16T04:00:29.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20099</id>
     <title>EBA E-mail alert 14 October, 2026</title>
@@ -108,36 +132,11 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129225</id>
-    <title>Warning concerning fraudulent activities performed under the name of the Luxembourg company Eurobank Private Bank Luxembourg S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-performed-under-the-name-of-the-luxembourg-company-eurobank-private-bank-luxembourg-s-a/"/>
-    <updated>2026-10-05T12:22:24.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20066</id>
     <title>EBA E-mail alert 2 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20066"/>
     <updated>2026-10-02T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129182</id>
-    <title>The CSSF’s professional secrecy and its legal exceptions (only in French)</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/the-cssfs-professional-secrecy-and-its-legal-exceptions/"/>
-    <updated>2026-10-02T10:32:11.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129146</id>
-    <title>Global situation of undertakings for collective investment at the end of August 2026</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/global-situation-of-undertakings-for-collective-investment-at-the-end-of-august-2026/"/>
-    <updated>2026-10-01T14:30:29.000Z</updated>
-    <author><name>CSSF</name></author>
     <category term="guidance"/>
   </entry>
   <entry>

@@ -1,8 +1,92 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-15T11:33:20.166Z",
+  "updated_at": "2026-10-16T11:27:53.132Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-27780",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/",
+      "published": "2026-10-16T04:00:55.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-16T11:27:52.387Z",
+      "content_hash": "59d9d25d0a384f80",
+      "first_seen": "2026-09-17T11:45:08.775Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-17T11:45:08.775Z",
+          "content_hash": "fd0281e38991bf0c",
+          "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27754",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Notifications received by the CSSF from the competent authorities of other EEA Member States",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/",
+      "published": "2026-10-16T04:00:34.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-16T11:27:52.387Z",
+      "content_hash": "3e2d1e07c595b8c9",
+      "first_seen": "2026-09-17T11:45:08.775Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-17T11:45:08.775Z",
+          "content_hash": "3e1d7381603186cd",
+          "title": "Notifications received by the CSSF from the competent authorities of other EEA Member States",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27731",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "CSSF approvals of prospectuses",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/cssf-approvals/",
+      "published": "2026-10-16T04:00:29.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-16T11:27:52.387Z",
+      "content_hash": "480eabd83c77d575",
+      "first_seen": "2026-09-17T11:45:08.775Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-17T11:45:08.775Z",
+          "content_hash": "2d965169f722a2c2",
+          "title": "CSSF approvals of prospectuses",
+          "summary": null
+        }
+      ]
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129451",
       "type": "warning",
@@ -630,26 +714,6 @@
       "first_seen": "2026-09-16T11:38:43.332Z"
     },
     {
-      "id": "urn:regevent:v2:cssf:p-27780",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/",
-      "published": "2026-09-16T04:00:55.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-17T11:45:08.775Z",
-      "content_hash": "fd0281e38991bf0c",
-      "first_seen": "2026-09-17T11:45:08.775Z"
-    },
-    {
       "id": "urn:regevent:v2:cssf:p-27765",
       "type": "guidance",
       "regulator": "cssf",
@@ -667,46 +731,6 @@
       "status": "unknown",
       "retrieved_at": "2026-09-17T11:45:08.775Z",
       "content_hash": "29c697d90a096afc",
-      "first_seen": "2026-09-17T11:45:08.775Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27754",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Notifications received by the CSSF from the competent authorities of other EEA Member States",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/",
-      "published": "2026-09-16T04:00:34.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-17T11:45:08.775Z",
-      "content_hash": "3e1d7381603186cd",
-      "first_seen": "2026-09-17T11:45:08.775Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27731",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "CSSF approvals of prospectuses",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/cssf-approvals/",
-      "published": "2026-09-16T04:00:29.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-17T11:45:08.775Z",
-      "content_hash": "2d965169f722a2c2",
       "first_seen": "2026-09-17T11:45:08.775Z"
     },
     {
