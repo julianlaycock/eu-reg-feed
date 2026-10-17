@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-16T11:27:53.267Z</updated>
+  <updated>2026-10-17T10:47:45.109Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20106</id>
+    <title>EBA E-mail alert 16 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20106"/>
+    <updated>2026-10-16T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-27780</id>
     <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
@@ -160,14 +168,6 @@
     <title>EBA E-mail alert 24 September, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20032"/>
     <updated>2026-09-24T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20027</id>
-    <title>EBA E-mail alert 23 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20027"/>
-    <updated>2026-09-23T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
