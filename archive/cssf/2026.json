@@ -1,8 +1,30 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-16T11:27:53.132Z",
+  "updated_at": "2026-10-19T13:22:01.748Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129585",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.monaccesconseiller.com",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-monaccesconseiller-com/",
+      "published": "2026-10-19T08:31:09.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-19T13:22:01.015Z",
+      "content_hash": "ab15cdf741b3e5c9",
+      "first_seen": "2026-10-19T13:22:01.015Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-27780",
       "type": "guidance",
