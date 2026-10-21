@@ -3,117 +3,8 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-19T13:22:01.883Z</updated>
+  <updated>2026-10-21T11:53:30.081Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129585</id>
-    <title>Warning concerning the website www.monaccesconseiller.com</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-monaccesconseiller-com/"/>
-    <updated>2026-10-19T08:31:09.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20106</id>
-    <title>EBA E-mail alert 16 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20106"/>
-    <updated>2026-10-16T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27780</id>
-    <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
-    <updated>2026-10-16T04:00:55.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27754</id>
-    <title>Notifications received by the CSSF from the competent authorities of other EEA Member States</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/"/>
-    <updated>2026-10-16T04:00:34.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27731</id>
-    <title>CSSF approvals of prospectuses</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/cssf-approvals/"/>
-    <updated>2026-10-16T04:00:29.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20099</id>
-    <title>EBA E-mail alert 14 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20099"/>
-    <updated>2026-10-14T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129451</id>
-    <title>Warning concerning the fraudulent activities carried out by Decimal Global Limited</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/"/>
-    <updated>2026-10-14T14:30:00.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129438</id>
-    <title>Warning concerning a fraud scheme misusing the former name “Arche Associés S.A.” of the company CORIENT S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-a-fraud-scheme-misusing-the-former-name-arche-associes-s-a-of-the-company-corient-s-a/"/>
-    <updated>2026-10-14T13:36:07.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20094</id>
-    <title>EBA E-mail alert 13 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20094"/>
-    <updated>2026-10-13T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129419</id>
-    <title>Warning concerning the website www.domiafx.com</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-domiafx-com/"/>
-    <updated>2026-10-13T11:53:25.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20089</id>
-    <title>EBA E-mail alert 12 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20089"/>
-    <updated>2026-10-12T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129400</id>
-    <title>AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/"/>
-    <updated>2026-10-12T13:27:06.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="AML"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20084</id>
-    <title>EBA E-mail alert 9 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20084"/>
-    <updated>2026-10-09T15:45:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
   <entry>
     <id>urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation</id>
     <title>Call for evidence on the CCP collateral tokenisation</title>
@@ -122,55 +13,6 @@
     <author><name>ESMA</name></author>
     <category term="consultation"/>
     <summary>Response deadline: 2027-01-15 (open)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129355</id>
-    <title>Communication to the investment fund industry in relation to the information to be provided to the CSSF by a Luxembourg-based IFM intending to perform white-label business</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/communication-to-the-investment-fund-industry-in-relation-to-the-information-to-be-provided-to-the-cssf-by-a-luxembourg-based-ifm-intending-to-perform-white-label-business/"/>
-    <updated>2026-10-08T13:47:25.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129289</id>
-    <title>AMLA adopts key Regulatory Technical Standards</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/amla-adopts-key-regulatory-technical-standards/"/>
-    <updated>2026-10-07T08:52:54.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="AML"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20066</id>
-    <title>EBA E-mail alert 2 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20066"/>
-    <updated>2026-10-02T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20057</id>
-    <title>EBA E-mail alert 30 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20057"/>
-    <updated>2026-09-30T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20044</id>
-    <title>EBA E-mail alert 25 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20044"/>
-    <updated>2026-09-25T15:00:01.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20032</id>
-    <title>EBA E-mail alert 24 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20032"/>
-    <updated>2026-09-24T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb</id>
@@ -361,13 +203,5 @@ Response deadline: 2025-09-19 (closed)</summary>
     <category term="consultation"/>
     <summary>Responses published
 Response deadline: 2025-07-21 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-17072</id>
-    <title>Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation"/>
-    <updated>2024-06-28T08:22:54.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
   </entry>
 </feed>
