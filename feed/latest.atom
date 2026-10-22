@@ -3,205 +3,92 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-21T11:53:30.081Z</updated>
+  <updated>2026-10-22T11:56:44.457Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
   <entry>
-    <id>urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation</id>
-    <title>Call for evidence on the CCP collateral tokenisation</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/call-evidence-ccp-collateral-tokenisation"/>
-    <updated>2026-10-09T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Response deadline: 2027-01-15 (open)</summary>
+    <id>urn:regevent:v2:cssf:p-129626</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of the Luxembourg company Fortuna Holding S.à r.l.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-the-luxembourg-company-fortuna-holding-s-a-r-l/"/>
+    <updated>2026-10-22T06:57:16.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb</id>
-    <title>Consultation on the update to the Guidelines on disclosure requirements under the Prospectus Regulation</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-update-guidelines-disclosure-requirements-under-prospectus"/>
-    <updated>2026-09-09T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Response deadline: 2026-11-09 (open)</summary>
+    <id>urn:regevent:v2:cssf:p-129622</id>
+    <title>Critical Security Vulnerabilities in PHP</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/critical-security-vulnerabilities-in-php/"/>
+    <updated>2026-10-21T14:00:51.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-reporting-framework-under-emir-clea-5343b289</id>
-    <title>Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-reporting-framework-under-emir-clearing-activity-recognised"/>
-    <updated>2026-08-18T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Response deadline: 2026-10-12 (closed)
-Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
+    <id>urn:regevent:v2:cssf:p-129585</id>
+    <title>Warning concerning the website www.monaccesconseiller.com</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-monaccesconseiller-com/"/>
+    <updated>2026-10-19T08:31:09.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-technical-advice-selected-kpis-unde-dc015ade</id>
-    <title>Consultation on technical advice on selected KPIs under the Taxonomy Disclosures Delegated Act</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-technical-advice-selected-kpis-under-taxonomy-disclosures"/>
-    <updated>2026-07-01T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-08-12 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-27780</id>
+    <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
+    <updated>2026-10-16T04:00:55.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-amendments-guidelines-standardised-90c7e0d6</id>
-    <title>Consultation on Amendments to the Guidelines on standardised procedures and messaging protocols under CSDR</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-amendments-guidelines-standardised-procedures-and-messaging"/>
-    <updated>2026-05-26T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-07-07 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-27754</id>
+    <title>Notifications received by the CSSF from the competent authorities of other EEA Member States</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/"/>
+    <updated>2026-10-16T04:00:34.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-guidelines-stress-test-scenarios-un-3ce39d05</id>
-    <title>Consultation on the Guidelines on stress test scenarios under the MMF Regulation</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-guidelines-stress-test-scenarios-under-mmf-regulation"/>
-    <updated>2026-05-05T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-08-06 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-27731</id>
+    <title>CSSF approvals of prospectuses</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/cssf-approvals/"/>
+    <updated>2026-10-16T04:00:29.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:call-evidence-market-structure-european-equity-m-386b860e</id>
-    <title>Call for Evidence on the market structure of European equity markets</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/call-evidence-market-structure-european-equity-markets"/>
-    <updated>2026-04-30T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-06-30 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-129451</id>
+    <title>Warning concerning the fraudulent activities carried out by Decimal Global Limited</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/"/>
+    <updated>2026-10-14T14:30:00.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-paper-guidelines-endorsement-under-3f346730</id>
-    <title>Consultation Paper for Guidelines on Endorsement under Article 11 of the ESG Rating Regulation</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-paper-guidelines-endorsement-under-article-11-esg-rating"/>
-    <updated>2026-04-29T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-05-29 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-129438</id>
+    <title>Warning concerning a fraud scheme misusing the former name “Arche Associés S.A.” of the company CORIENT S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-a-fraud-scheme-misusing-the-former-name-arche-associes-s-a-of-the-company-corient-s-a/"/>
+    <updated>2026-10-14T13:36:07.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:call-evidence-restricted-subscription-and-privat-a0c3c558</id>
-    <title>Call for Evidence on the restricted subscription and private credit ratings</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/call-evidence-restricted-subscription-and-private-credit-ratings"/>
-    <updated>2026-04-16T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-05-31 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-129419</id>
+    <title>Warning concerning the website www.domiafx.com</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-domiafx-com/"/>
+    <updated>2026-10-13T11:53:25.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:esma:consultation-regulatory-standards-post-trade-ris-26704627</id>
-    <title>Consultation on the regulatory standards on the post-trade risk reduction services under EMIR 3</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-regulatory-standards-post-trade-risk-reduction-services-under"/>
-    <updated>2026-02-26T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-04-20 (closed)
-Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-joint-esma-and-eba-guidelines-asses-5970d538</id>
-    <title>Consultation on the joint ESMA and EBA guidelines on the assessment of the suitability of members of the management body and key function holders</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-joint-esma-and-eba-guidelines-assessment-suitability-members"/>
-    <updated>2026-02-25T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Response deadline: 2026-05-25 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-guarantees-ccp-collateral-and-certa-71e1a9c2</id>
-    <title>Consultation on guarantees as CCP collateral and on certain aspects of CCP investment policy</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-guarantees-ccp-collateral-and-certain-aspects-ccp-investment"/>
-    <updated>2026-02-23T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-04-30 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-mar-guidelines-delay-disclosure-ins-a249a363</id>
-    <title>Consultation on MAR Guidelines on delay in the disclosure of inside information</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-mar-guidelines-delay-disclosure-inside-information"/>
-    <updated>2026-02-19T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-04-29 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-emir-3-draft-rts-participation-requ-5b433702</id>
-    <title>Consultation on the EMIR 3 draft RTS on Participation Requirements</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-emir-3-draft-rts-participation-requirements"/>
-    <updated>2025-10-09T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2026-01-05 (closed)
-Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-emir-3-draft-rts-margin-transparenc-45ae25ca</id>
-    <title>Consultation on EMIR 3 draft RTS on Margin Transparency requirements</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-emir-3-draft-rts-margin-transparency-requirements"/>
-    <updated>2025-06-24T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2025-09-08 (closed)
-Legislation: EMIR (Regulation (EU) No 648/2012)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-draft-rts-information-clearing-fees-6a0f22fc</id>
-    <title>Consultation on the Draft RTS on information on clearing fees and associated costs</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-draft-rts-information-clearing-fees-and-associated-costs"/>
-    <updated>2025-06-24T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2025-09-08 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:discussion-paper-integrated-collection-funds-dat-3742e831</id>
-    <title>Discussion Paper on the integrated collection of funds’ data</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/discussion-paper-integrated-collection-funds-data"/>
-    <updated>2025-06-23T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2025-09-21 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:call-evidence-comprehensive-approach-simplificat-643b3504</id>
-    <title>Call for evidence on a comprehensive approach for the simplification of financial transaction reporting</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/call-evidence-comprehensive-approach-simplification-financial-transaction"/>
-    <updated>2025-06-23T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2025-09-19 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:consultation-methodology-calculation-market-capi-675dcef1</id>
-    <title>Consultation on the Methodology for the calculation of market capitalisation</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/consultation-methodology-calculation-market-capitalisation"/>
-    <updated>2025-06-19T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Response deadline: 2025-07-25 (closed)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:esma:call-evidence-retail-investor-journey-understand-2ab446eb</id>
-    <title>Call for evidence on the retail investor journey: understanding retail participation in capital markets</title>
-    <link rel="alternate" href="https://www.esma.europa.eu/press-news/consultations/call-evidence-retail-investor-journey-understanding-retail-participation"/>
-    <updated>2025-05-21T00:00:00.000Z</updated>
-    <author><name>ESMA</name></author>
-    <category term="consultation"/>
-    <summary>Responses published
-Response deadline: 2025-07-21 (closed)</summary>
+    <id>urn:regevent:v2:cssf:p-129400</id>
+    <title>AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/"/>
+    <updated>2026-10-12T13:27:06.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+    <category term="AML"/>
   </entry>
 </feed>

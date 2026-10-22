@@ -1,8 +1,50 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-19T13:22:01.748Z",
+  "updated_at": "2026-10-22T11:56:44.372Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129626",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of the Luxembourg company Fortuna Holding S.à r.l.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-the-luxembourg-company-fortuna-holding-s-a-r-l/",
+      "published": "2026-10-22T06:57:16.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-22T11:56:43.588Z",
+      "content_hash": "9da145bcb8dca5c1",
+      "first_seen": "2026-10-22T11:56:43.588Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129622",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Critical Security Vulnerabilities in PHP",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/critical-security-vulnerabilities-in-php/",
+      "published": "2026-10-21T14:00:51.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-22T11:56:43.588Z",
+      "content_hash": "a25105ee0e772135",
+      "first_seen": "2026-10-22T11:56:43.588Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129585",
       "type": "warning",
