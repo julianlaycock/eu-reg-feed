@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-22T11:56:44.457Z</updated>
+  <updated>2026-10-23T11:43:03.844Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20121</id>
+    <title>EBA E-mail alert 22 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20121"/>
+    <updated>2026-10-22T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-129626</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of the Luxembourg company Fortuna Holding S.à r.l.</title>
@@ -32,6 +40,14 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20106</id>
+    <title>EBA E-mail alert 16 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20106"/>
+    <updated>2026-10-16T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-27780</id>
     <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
@@ -56,6 +72,14 @@
     <category term="guidance"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20099</id>
+    <title>EBA E-mail alert 14 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20099"/>
+    <updated>2026-10-14T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-129451</id>
     <title>Warning concerning the fraudulent activities carried out by Decimal Global Limited</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/"/>
@@ -74,6 +98,14 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20094</id>
+    <title>EBA E-mail alert 13 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20094"/>
+    <updated>2026-10-13T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-129419</id>
     <title>Warning concerning the website www.domiafx.com</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-domiafx-com/"/>
@@ -83,6 +115,14 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
+    <id>urn:regevent:v2:eba:node-20089</id>
+    <title>EBA E-mail alert 12 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20089"/>
+    <updated>2026-10-12T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
     <id>urn:regevent:v2:cssf:p-129400</id>
     <title>AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/"/>
@@ -90,5 +130,45 @@
     <author><name>CSSF</name></author>
     <category term="guidance"/>
     <category term="AML"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20084</id>
+    <title>EBA E-mail alert 9 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20084"/>
+    <updated>2026-10-09T15:45:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20066</id>
+    <title>EBA E-mail alert 2 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20066"/>
+    <updated>2026-10-02T15:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20057</id>
+    <title>EBA E-mail alert 30 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20057"/>
+    <updated>2026-09-30T15:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20044</id>
+    <title>EBA E-mail alert 25 September, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20044"/>
+    <updated>2026-09-25T15:00:01.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-17072</id>
+    <title>Call for papers - 13th Annual Research Workshop - Boundaries of Banking Regulation</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/publications-and-media/events/call-papers-13th-annual-research-workshop-boundaries-banking-regulation"/>
+    <updated>2024-06-28T08:22:54.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
   </entry>
 </feed>
