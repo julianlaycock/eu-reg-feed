@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-10-24T11:05:23.379Z",
+  "generated_at": "2026-10-27T12:16:12.976Z",
   "total_events": 20,
   "total_errors": 1,
   "sources": [
@@ -11,22 +11,104 @@
       "errors": [
         "esma: HTTP 403 fetching https://www.esma.europa.eu/press-news/consultations"
       ],
-      "fetched_at": "2026-10-24T11:05:17.743Z"
+      "fetched_at": "2026-10-27T12:16:07.190Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-24T11:05:19.962Z"
+      "fetched_at": "2026-10-27T12:16:09.498Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-24T11:05:22.647Z"
+      "fetched_at": "2026-10-27T12:16:12.262Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129692",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of China Everbright Bank (Europe) S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-china-everbright-bank-europe-s-a/",
+      "published": "2026-10-27T10:31:55.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "content_hash": "a54cc945a732431e"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129686",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the fraudulent activities carried out by Golden Springs Funds SCSp",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-golden-springs-funds-scsp/",
+      "published": "2026-10-27T10:30:05.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "content_hash": "9a3b06a269f27adc"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129680",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of LaCambre Asset Management Luxembourg S.à r.l.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-lacambre-asset-management-luxembourg-s-a-r-l/",
+      "published": "2026-10-27T10:27:56.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "content_hash": "c91ae8e08621e262"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-129670",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/one-year-to-go-for-t1-settlement-the-regulatory-framework-is-complete-now-lets-make-it-happen/",
+      "published": "2026-10-26T13:57:15.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "content_hash": "67bea36f6d5779d5"
+    },
     {
       "id": "urn:regevent:v2:eba:node-20125",
       "type": "guidance",
@@ -43,7 +125,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "8b98c93aa5e43676"
     },
     {
@@ -62,7 +144,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "19a16a6878742b78"
     },
     {
@@ -83,7 +165,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
       "content_hash": "9da145bcb8dca5c1"
     },
     {
@@ -102,7 +184,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
       "content_hash": "a25105ee0e772135"
     },
     {
@@ -123,7 +205,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
       "content_hash": "ab15cdf741b3e5c9"
     },
     {
@@ -142,7 +224,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "2ea5b4443b61a039"
     },
     {
@@ -161,7 +243,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
       "content_hash": "59d9d25d0a384f80"
     },
     {
@@ -180,7 +262,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
       "content_hash": "3e2d1e07c595b8c9"
     },
     {
@@ -199,7 +281,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
+      "retrieved_at": "2026-10-27T12:16:12.262Z",
       "content_hash": "480eabd83c77d575"
     },
     {
@@ -218,50 +300,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "0d8e41f315dd1a7a"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129451",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the fraudulent activities carried out by Decimal Global Limited",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/",
-      "published": "2026-10-14T14:30:00.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
-      "content_hash": "3799356f549212f9"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129438",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning a fraud scheme misusing the former name “Arche Associés S.A.” of the company CORIENT S.A.",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-a-fraud-scheme-misusing-the-former-name-arche-associes-s-a-of-the-company-corient-s-a/",
-      "published": "2026-10-14T13:36:07.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
-      "content_hash": "f3713570f06f2182"
     },
     {
       "id": "urn:regevent:v2:eba:node-20094",
@@ -279,29 +319,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "7956a678b1c13947"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129419",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the website www.domiafx.com",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-domiafx-com/",
-      "published": "2026-10-13T11:53:25.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
-      "content_hash": "485fb293b306d6dc"
     },
     {
       "id": "urn:regevent:v2:eba:node-20089",
@@ -319,29 +338,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "0bb0717bb00a5c0f"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129400",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/",
-      "published": "2026-10-12T13:27:06.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "AML"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:22.647Z",
-      "content_hash": "7032c3d32061424e"
     },
     {
       "id": "urn:regevent:v2:eba:node-20084",
@@ -359,7 +357,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "4a7598e344608444"
     },
     {
@@ -378,7 +376,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "5880ff7f60673451"
     },
     {
@@ -397,7 +395,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "685c419614e3d5e7"
     },
     {
@@ -416,7 +414,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-24T11:05:19.962Z",
+      "retrieved_at": "2026-10-27T12:16:09.498Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]

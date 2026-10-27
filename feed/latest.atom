@@ -3,8 +3,43 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-24T11:05:23.760Z</updated>
+  <updated>2026-10-27T12:16:13.157Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129692</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of China Everbright Bank (Europe) S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-china-everbright-bank-europe-s-a/"/>
+    <updated>2026-10-27T10:31:55.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129686</id>
+    <title>Warning concerning the fraudulent activities carried out by Golden Springs Funds SCSp</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-golden-springs-funds-scsp/"/>
+    <updated>2026-10-27T10:30:05.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129680</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of LaCambre Asset Management Luxembourg S.à r.l.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-lacambre-asset-management-luxembourg-s-a-r-l/"/>
+    <updated>2026-10-27T10:27:56.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129670</id>
+    <title>One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/one-year-to-go-for-t1-settlement-the-regulatory-framework-is-complete-now-lets-make-it-happen/"/>
+    <updated>2026-10-26T13:57:15.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20125</id>
     <title>EBA E-mail alert 23 October, 2026</title>
@@ -88,24 +123,6 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129451</id>
-    <title>Warning concerning the fraudulent activities carried out by Decimal Global Limited</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-decimal-global-limited/"/>
-    <updated>2026-10-14T14:30:00.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129438</id>
-    <title>Warning concerning a fraud scheme misusing the former name “Arche Associés S.A.” of the company CORIENT S.A.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-a-fraud-scheme-misusing-the-former-name-arche-associes-s-a-of-the-company-corient-s-a/"/>
-    <updated>2026-10-14T13:36:07.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20094</id>
     <title>EBA E-mail alert 13 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20094"/>
@@ -114,30 +131,12 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129419</id>
-    <title>Warning concerning the website www.domiafx.com</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-domiafx-com/"/>
-    <updated>2026-10-13T11:53:25.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20089</id>
     <title>EBA E-mail alert 12 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20089"/>
     <updated>2026-10-12T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129400</id>
-    <title>AMLA invites stakeholders to sectoral roundtables on simplified customer due diligence</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/amla-invites-stakeholders-to-sectoral-roundtables-on-simplified-customer-due-diligence/"/>
-    <updated>2026-10-12T13:27:06.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="AML"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20084</id>
