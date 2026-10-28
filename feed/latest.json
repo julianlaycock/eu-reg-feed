@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-10-27T12:16:12.976Z",
+  "generated_at": "2026-10-28T12:59:15.559Z",
   "total_events": 20,
   "total_errors": 1,
   "sources": [
@@ -11,22 +11,146 @@
       "errors": [
         "esma: HTTP 403 fetching https://www.esma.europa.eu/press-news/consultations"
       ],
-      "fetched_at": "2026-10-27T12:16:07.190Z"
+      "fetched_at": "2026-10-28T12:59:09.764Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-27T12:16:09.498Z"
+      "fetched_at": "2026-10-28T12:59:12.151Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-10-27T12:16:12.262Z"
+      "fetched_at": "2026-10-28T12:59:14.864Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-27191",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Net assets of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/net-assets-of-ucis/",
+      "published": "2026-10-28T05:00:57.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
+      "content_hash": "a46a4af0678671fa"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27353",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Development of net assets and number of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/development-of-net-assets-and-number-of-ucis/",
+      "published": "2026-10-28T05:00:52.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
+      "content_hash": "8bd1e1324615b2c5"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27301",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Breakdown according to currency",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/breakdown-according-to-currency/",
+      "published": "2026-10-28T05:00:42.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
+      "content_hash": "8d0e15b5a8e2054a"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27265",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Origin of UCI initiators in Luxembourg",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/origin-of-uci-initiators-in-luxembourg/",
+      "published": "2026-10-28T05:00:31.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
+      "content_hash": "97081e101d2fea77"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27174",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Number of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/number-of-ucis/",
+      "published": "2026-10-28T05:00:17.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
+      "content_hash": "c47048eaf21beeb7"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27232",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Investment policy of UCIs",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/investment-policy-of-ucis/",
+      "published": "2026-10-28T05:00:10.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "UCITS"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
+      "content_hash": "b1b98f3e72082aaf"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129692",
       "type": "warning",
@@ -45,7 +169,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
       "content_hash": "a54cc945a732431e"
     },
     {
@@ -66,7 +190,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
       "content_hash": "9a3b06a269f27adc"
     },
     {
@@ -87,7 +211,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
       "content_hash": "c91ae8e08621e262"
     },
     {
@@ -106,7 +230,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
+      "retrieved_at": "2026-10-28T12:59:14.864Z",
       "content_hash": "67bea36f6d5779d5"
     },
     {
@@ -125,7 +249,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "8b98c93aa5e43676"
     },
     {
@@ -144,69 +268,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "19a16a6878742b78"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129626",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning fraudulent activities by persons misusing the name of the Luxembourg company Fortuna Holding S.à r.l.",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-the-luxembourg-company-fortuna-holding-s-a-r-l/",
-      "published": "2026-10-22T06:57:16.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
-      "content_hash": "9da145bcb8dca5c1"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129622",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Critical Security Vulnerabilities in PHP",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/critical-security-vulnerabilities-in-php/",
-      "published": "2026-10-21T14:00:51.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
-      "content_hash": "a25105ee0e772135"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129585",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the website www.monaccesconseiller.com",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-the-website-www-monaccesconseiller-com/",
-      "published": "2026-10-19T08:31:09.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
-      "content_hash": "ab15cdf741b3e5c9"
     },
     {
       "id": "urn:regevent:v2:eba:node-20106",
@@ -224,65 +287,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "2ea5b4443b61a039"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27780",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/",
-      "published": "2026-10-16T04:00:55.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
-      "content_hash": "59d9d25d0a384f80"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27754",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Notifications received by the CSSF from the competent authorities of other EEA Member States",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/notifications-received-by-the-cssf-from-the-competent-authorities-of-other-eea-member-states/",
-      "published": "2026-10-16T04:00:34.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
-      "content_hash": "3e2d1e07c595b8c9"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27731",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "CSSF approvals of prospectuses",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/cssf-approvals/",
-      "published": "2026-10-16T04:00:29.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:12.262Z",
-      "content_hash": "480eabd83c77d575"
     },
     {
       "id": "urn:regevent:v2:eba:node-20099",
@@ -300,7 +306,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "0d8e41f315dd1a7a"
     },
     {
@@ -319,7 +325,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "7956a678b1c13947"
     },
     {
@@ -338,7 +344,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "0bb0717bb00a5c0f"
     },
     {
@@ -357,7 +363,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "4a7598e344608444"
     },
     {
@@ -376,7 +382,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "5880ff7f60673451"
     },
     {
@@ -395,7 +401,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "685c419614e3d5e7"
     },
     {
@@ -414,7 +420,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-10-27T12:16:09.498Z",
+      "retrieved_at": "2026-10-28T12:59:12.151Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
