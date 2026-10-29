@@ -1,7 +1,7 @@
 {
   "regulator": "esma",
   "year": 2026,
-  "updated_at": "2026-10-09T13:21:17.173Z",
+  "updated_at": "2026-10-29T13:06:01.889Z",
   "events": [
     {
       "id": "urn:regevent:v2:esma:call-evidence-ccp-collateral-tokenisation",
@@ -50,7 +50,7 @@
       "jurisdiction": "EU",
       "title": "Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
       "title_lang": "en",
-      "summary": null,
+      "summary": "Responses published",
       "url": "https://www.esma.europa.eu/press-news/consultations/consultation-reporting-framework-under-emir-clearing-activity-recognised",
       "published": "2026-08-18T00:00:00.000Z",
       "effective_date": null,
@@ -62,10 +62,18 @@
       ],
       "tags": [],
       "attachments": [],
-      "status": "open",
-      "retrieved_at": "2026-09-09T08:46:30.415Z",
-      "content_hash": "5ec8d5bc5585111c",
-      "first_seen": "2026-09-09T08:46:30.415Z"
+      "status": "closed",
+      "retrieved_at": "2026-10-29T13:05:55.729Z",
+      "content_hash": "471f272e0cffe853",
+      "first_seen": "2026-09-09T08:46:30.415Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-09T08:46:30.415Z",
+          "content_hash": "5ec8d5bc5585111c",
+          "title": "Consultation on the reporting framework under EMIR for clearing activity at recognised third-country CCPs",
+          "summary": null
+        }
+      ]
     },
     {
       "id": "urn:regevent:v2:esma:consultation-technical-advice-selected-kpis-unde-dc015ade",
