@@ -3,8 +3,24 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-29T13:06:02.016Z</updated>
+  <updated>2026-10-30T12:59:10.468Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129847</id>
+    <title>CSSF communication on Final Guidance on Money Market Fund Weekly Liquid Asset Levels</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/cssf-communication-on-final-guidance-on-money-market-fund-weekly-liquid-asset-levels/"/>
+    <updated>2026-10-30T10:46:50.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20143</id>
+    <title>EBA E-mail alert 29 October, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20143"/>
+    <updated>2026-10-29T16:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-27191</id>
     <title>Net assets of UCIs</title>
@@ -86,14 +102,6 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129670</id>
-    <title>One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/one-year-to-go-for-t1-settlement-the-regulatory-framework-is-complete-now-lets-make-it-happen/"/>
-    <updated>2026-10-26T13:57:15.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20125</id>
     <title>EBA E-mail alert 23 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20125"/>
@@ -163,14 +171,6 @@
     <title>EBA E-mail alert 2 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20066"/>
     <updated>2026-10-02T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20057</id>
-    <title>EBA E-mail alert 30 September, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20057"/>
-    <updated>2026-09-30T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>

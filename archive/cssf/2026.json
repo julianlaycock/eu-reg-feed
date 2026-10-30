@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-28T12:59:15.565Z",
+  "updated_at": "2026-10-30T12:59:10.344Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129847",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "CSSF communication on Final Guidance on Money Market Fund Weekly Liquid Asset Levels",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/10/cssf-communication-on-final-guidance-on-money-market-fund-weekly-liquid-asset-levels/",
+      "published": "2026-10-30T10:46:50.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-10-30T12:59:09.676Z",
+      "content_hash": "0b1c2b15debf0db4",
+      "first_seen": "2026-10-30T12:59:09.676Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-27191",
       "type": "guidance",
