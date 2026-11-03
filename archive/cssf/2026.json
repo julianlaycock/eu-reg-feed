@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-10-30T12:59:10.344Z",
+  "updated_at": "2026-11-03T14:20:10.532Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129890",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Self-assessment questionnaire (revised Long Form Report)",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/self-assessment-questionnaire-revised-long-form-report/",
+      "published": "2026-11-03T13:48:24.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-03T14:20:09.642Z",
+      "content_hash": "c7bf6688b4b9b972",
+      "first_seen": "2026-11-03T14:20:09.642Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129847",
       "type": "guidance",

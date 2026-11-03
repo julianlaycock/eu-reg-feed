@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-10-30T12:59:10.468Z</updated>
+  <updated>2026-11-03T14:20:10.668Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-129890</id>
+    <title>Self-assessment questionnaire (revised Long Form Report)</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/self-assessment-questionnaire-revised-long-form-report/"/>
+    <updated>2026-11-03T13:48:24.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-129847</id>
     <title>CSSF communication on Final Guidance on Money Market Fund Weekly Liquid Asset Levels</title>
@@ -88,15 +96,6 @@
     <title>Warning concerning the fraudulent activities carried out by Golden Springs Funds SCSp</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-the-fraudulent-activities-carried-out-by-golden-springs-funds-scsp/"/>
     <updated>2026-10-27T10:30:05.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129680</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of LaCambre Asset Management Luxembourg S.à r.l.</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-lacambre-asset-management-luxembourg-s-a-r-l/"/>
-    <updated>2026-10-27T10:27:56.000Z</updated>
     <author><name>CSSF</name></author>
     <category term="warning"/>
     <category term="investor-protection"/>
