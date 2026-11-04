@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-03T14:20:10.532Z",
+  "updated_at": "2026-11-04T14:36:53.894Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129905",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Global situation of undertakings for collective investment at the end of September 2026",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/global-situation-of-undertakings-for-collective-investment-at-the-end-of-september-2026/",
+      "published": "2026-11-04T08:08:59.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "content_hash": "474a23425b4cb68e",
+      "first_seen": "2026-11-04T14:36:53.073Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129890",
       "type": "guidance",
