@@ -1,8 +1,30 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-04T14:36:53.894Z",
+  "updated_at": "2026-11-05T14:42:31.748Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129956",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.terralia-gci.com",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-terralia-gci-com/",
+      "published": "2026-11-05T08:49:09.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
+      "content_hash": "6810e6911bbe4d32",
+      "first_seen": "2026-11-05T14:42:30.825Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129905",
       "type": "guidance",

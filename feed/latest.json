@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-11-04T14:36:53.886Z",
+  "generated_at": "2026-11-05T14:42:31.737Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,43 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-11-04T14:36:47.659Z"
+      "fetched_at": "2026-11-05T14:42:25.637Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-11-04T14:36:49.916Z"
+      "fetched_at": "2026-11-05T14:42:28.142Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-11-04T14:36:53.073Z"
+      "fetched_at": "2026-11-05T14:42:30.825Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-129956",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.terralia-gci.com",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-terralia-gci-com/",
+      "published": "2026-11-05T08:49:09.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
+      "content_hash": "6810e6911bbe4d32"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129905",
       "type": "guidance",
@@ -41,7 +62,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "474a23425b4cb68e"
     },
     {
@@ -60,7 +81,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "c7bf6688b4b9b972"
     },
     {
@@ -79,7 +100,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "0b1c2b15debf0db4"
     },
     {
@@ -98,7 +119,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "f9ec0485c495c57d"
     },
     {
@@ -119,7 +140,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "a46a4af0678671fa"
     },
     {
@@ -140,7 +161,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "8bd1e1324615b2c5"
     },
     {
@@ -159,7 +180,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "8d0e15b5a8e2054a"
     },
     {
@@ -180,7 +201,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "97081e101d2fea77"
     },
     {
@@ -201,7 +222,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "c47048eaf21beeb7"
     },
     {
@@ -222,29 +243,8 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
+      "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "b1b98f3e72082aaf"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-129692",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning fraudulent activities by persons misusing the name of China Everbright Bank (Europe) S.A.",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-china-everbright-bank-europe-s-a/",
-      "published": "2026-10-27T10:31:55.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:53.073Z",
-      "content_hash": "a54cc945a732431e"
     },
     {
       "id": "urn:regevent:v2:eba:node-20125",
@@ -262,7 +262,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "8b98c93aa5e43676"
     },
     {
@@ -281,7 +281,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "19a16a6878742b78"
     },
     {
@@ -300,7 +300,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "2ea5b4443b61a039"
     },
     {
@@ -319,7 +319,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "0d8e41f315dd1a7a"
     },
     {
@@ -338,7 +338,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "7956a678b1c13947"
     },
     {
@@ -357,7 +357,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "0bb0717bb00a5c0f"
     },
     {
@@ -376,7 +376,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "4a7598e344608444"
     },
     {
@@ -395,7 +395,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "b6056e80f4df3e4d"
     },
     {
@@ -414,7 +414,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "5880ff7f60673451"
     },
     {
@@ -433,7 +433,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -456,7 +456,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "471f272e0cffe853"
     },
     {
@@ -475,7 +475,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -494,7 +494,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -513,7 +513,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -532,7 +532,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -551,7 +551,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -570,7 +570,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -593,7 +593,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -612,7 +612,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -631,7 +631,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -650,7 +650,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -673,7 +673,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -696,7 +696,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -715,7 +715,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -734,7 +734,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -753,7 +753,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -772,7 +772,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -791,7 +791,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-04T14:36:47.659Z",
+      "retrieved_at": "2026-11-05T14:42:25.637Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -810,7 +810,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-04T14:36:49.916Z",
+      "retrieved_at": "2026-11-05T14:42:28.142Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
