@@ -1,8 +1,30 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-05T14:42:31.748Z",
+  "updated_at": "2026-11-06T14:19:43.633Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130012",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Finare Asset Management S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-finare-asset-management-s-a/",
+      "published": "2026-11-06T13:12:26.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-06T14:19:42.743Z",
+      "content_hash": "22d7b2482f4c6791",
+      "first_seen": "2026-11-06T14:19:42.743Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-129956",
       "type": "warning",
@@ -24,6 +46,68 @@
       "retrieved_at": "2026-11-05T14:42:30.825Z",
       "content_hash": "6810e6911bbe4d32",
       "first_seen": "2026-11-05T14:42:30.825Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27765",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Notifications sent by the CSSF to the competent authorities of other EEA Member States",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/notifications-sent-by-the-cssf-to-the-competent-authorities-of-other-eea-member-states/",
+      "published": "2026-11-05T05:00:53.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-06T14:19:42.743Z",
+      "content_hash": "076ff11c34ee93a9",
+      "first_seen": "2026-09-17T11:45:08.775Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-17T11:45:08.775Z",
+          "content_hash": "29c697d90a096afc",
+          "title": "Notifications sent by the CSSF to the competent authorities of other EEA Member States",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27731",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "CSSF approvals of prospectuses",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/cssf-approvals/",
+      "published": "2026-11-05T05:00:29.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-06T14:19:42.743Z",
+      "content_hash": "4802dca368890a24",
+      "first_seen": "2026-09-17T11:45:08.775Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-10-16T11:27:52.387Z",
+          "content_hash": "480eabd83c77d575",
+          "title": "CSSF approvals of prospectuses",
+          "summary": null
+        },
+        {
+          "retrieved_at": "2026-09-17T11:45:08.775Z",
+          "content_hash": "2d965169f722a2c2",
+          "title": "CSSF approvals of prospectuses",
+          "summary": null
+        }
+      ]
     },
     {
       "id": "urn:regevent:v2:cssf:p-129905",
@@ -481,34 +565,6 @@
           "retrieved_at": "2026-09-17T11:45:08.775Z",
           "content_hash": "3e1d7381603186cd",
           "title": "Notifications received by the CSSF from the competent authorities of other EEA Member States",
-          "summary": null
-        }
-      ]
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27731",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "CSSF approvals of prospectuses",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/cssf-approvals/",
-      "published": "2026-10-16T04:00:29.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-16T11:27:52.387Z",
-      "content_hash": "480eabd83c77d575",
-      "first_seen": "2026-09-17T11:45:08.775Z",
-      "revisions": [
-        {
-          "retrieved_at": "2026-09-17T11:45:08.775Z",
-          "content_hash": "2d965169f722a2c2",
-          "title": "CSSF approvals of prospectuses",
           "summary": null
         }
       ]
@@ -1020,26 +1076,6 @@
       "retrieved_at": "2026-09-16T11:38:43.332Z",
       "content_hash": "881fbe1ee715e970",
       "first_seen": "2026-09-16T11:38:43.332Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27765",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Notifications sent by the CSSF to the competent authorities of other EEA Member States",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/notifications-sent-by-the-cssf-to-the-competent-authorities-of-other-eea-member-states/",
-      "published": "2026-09-16T04:00:53.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-17T11:45:08.775Z",
-      "content_hash": "29c697d90a096afc",
-      "first_seen": "2026-09-17T11:45:08.775Z"
     },
     {
       "id": "urn:regevent:v2:cssf:p-128649",

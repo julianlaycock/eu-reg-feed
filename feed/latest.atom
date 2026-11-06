@@ -3,8 +3,25 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-05T14:42:31.876Z</updated>
+  <updated>2026-11-06T14:19:43.740Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130012</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of Finare Asset Management S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-finare-asset-management-s-a/"/>
+    <updated>2026-11-06T13:12:26.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20162</id>
+    <title>EBA E-mail alert 5 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20162"/>
+    <updated>2026-11-05T16:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-129956</id>
     <title>Warning concerning the website www.terralia-gci.com</title>
@@ -13,6 +30,22 @@
     <author><name>CSSF</name></author>
     <category term="warning"/>
     <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27765</id>
+    <title>Notifications sent by the CSSF to the competent authorities of other EEA Member States</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/notifications-sent-by-the-cssf-to-the-competent-authorities-of-other-eea-member-states/"/>
+    <updated>2026-11-05T05:00:53.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27731</id>
+    <title>CSSF approvals of prospectuses</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/cssf-approvals/"/>
+    <updated>2026-11-05T05:00:29.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-129905</id>
@@ -71,33 +104,6 @@
     <updated>2026-10-28T05:00:42.000Z</updated>
     <author><name>CSSF</name></author>
     <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27265</id>
-    <title>Origin of UCI initiators in Luxembourg</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/origin-of-uci-initiators-in-luxembourg/"/>
-    <updated>2026-10-28T05:00:31.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27174</id>
-    <title>Number of UCIs</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/number-of-ucis/"/>
-    <updated>2026-10-28T05:00:17.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27232</id>
-    <title>Investment policy of UCIs</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/investment-policy-of-ucis/"/>
-    <updated>2026-10-28T05:00:10.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20125</id>
@@ -163,14 +169,6 @@
     <author><name>ESMA</name></author>
     <category term="consultation"/>
     <summary>Response deadline: 2027-01-15 (open)</summary>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20066</id>
-    <title>EBA E-mail alert 2 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20066"/>
-    <updated>2026-10-02T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:esma:consultation-update-guidelines-disclosure-requir-9adafeeb</id>
