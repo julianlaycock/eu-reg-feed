@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-06T14:19:43.740Z</updated>
+  <updated>2026-11-07T13:06:56.401Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20167</id>
+    <title>EBA E-mail alert 6 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20167"/>
+    <updated>2026-11-06T16:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-130012</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of Finare Asset Management S.A.</title>
@@ -150,14 +158,6 @@
     <title>EBA E-mail alert 12 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20089"/>
     <updated>2026-10-12T15:00:02.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20084</id>
-    <title>EBA E-mail alert 9 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20084"/>
-    <updated>2026-10-09T15:45:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
