@@ -1,8 +1,52 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-06T14:19:43.633Z",
+  "updated_at": "2026-11-09T16:26:08.689Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130041",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of CVC CAPITAL MARKETS SARL",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-cvc-capital-markets-sarl/",
+      "published": "2026-11-09T14:52:09.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-09T16:26:07.937Z",
+      "content_hash": "70a1a949288ceed5",
+      "first_seen": "2026-11-09T16:26:07.937Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130035",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.heres-sarl.com",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-heres-sarl-com/",
+      "published": "2026-11-09T13:21:08.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-09T16:26:07.937Z",
+      "content_hash": "f3adde31432067c4",
+      "first_seen": "2026-11-09T16:26:07.937Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130012",
       "type": "warning",

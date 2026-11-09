@@ -3,8 +3,34 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-07T13:06:56.401Z</updated>
+  <updated>2026-11-09T16:26:08.803Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20174</id>
+    <title>EBA E-mail alert 9 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20174"/>
+    <updated>2026-11-09T16:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130041</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of CVC CAPITAL MARKETS SARL</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-cvc-capital-markets-sarl/"/>
+    <updated>2026-11-09T14:52:09.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130035</id>
+    <title>Warning concerning the website www.heres-sarl.com</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-heres-sarl-com/"/>
+    <updated>2026-11-09T13:21:08.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20167</id>
     <title>EBA E-mail alert 6 November, 2026</title>
@@ -97,23 +123,6 @@
     <category term="UCITS"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-27353</id>
-    <title>Development of net assets and number of UCIs</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/development-of-net-assets-and-number-of-ucis/"/>
-    <updated>2026-10-28T05:00:52.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-    <category term="UCITS"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27301</id>
-    <title>Breakdown according to currency</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/breakdown-according-to-currency/"/>
-    <updated>2026-10-28T05:00:42.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20125</id>
     <title>EBA E-mail alert 23 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20125"/>
@@ -150,14 +159,6 @@
     <title>EBA E-mail alert 13 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20094"/>
     <updated>2026-10-13T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20089</id>
-    <title>EBA E-mail alert 12 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20089"/>
-    <updated>2026-10-12T15:00:02.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
