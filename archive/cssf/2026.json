@@ -1,8 +1,30 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-09T16:26:08.689Z",
+  "updated_at": "2026-11-10T14:56:42.105Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130058",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.eueaa.eu",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-eueaa-eu/",
+      "published": "2026-11-10T11:08:22.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-10T14:56:41.188Z",
+      "content_hash": "6fb482ac17dfdebe",
+      "first_seen": "2026-11-10T14:56:41.188Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130041",
       "type": "warning",
