@@ -3,8 +3,17 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-10T14:56:42.219Z</updated>
+  <updated>2026-11-12T15:19:30.451Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130118</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of Sartafe Finance S.à r.l. SPF</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-sartafe-finance-s-a-r-l-spf/"/>
+    <updated>2026-11-12T11:45:27.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-130058</id>
     <title>Warning concerning the website www.eueaa.eu</title>
@@ -103,14 +112,6 @@
     <title>Self-assessment questionnaire (revised Long Form Report)</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/11/self-assessment-questionnaire-revised-long-form-report/"/>
     <updated>2026-11-03T13:48:24.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129847</id>
-    <title>CSSF communication on Final Guidance on Money Market Fund Weekly Liquid Asset Levels</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/10/cssf-communication-on-final-guidance-on-money-market-fund-weekly-liquid-asset-levels/"/>
-    <updated>2026-10-30T10:46:50.000Z</updated>
     <author><name>CSSF</name></author>
     <category term="guidance"/>
   </entry>
