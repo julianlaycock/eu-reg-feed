@@ -3,8 +3,16 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-12T15:19:30.451Z</updated>
+  <updated>2026-11-14T13:35:26.689Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20193</id>
+    <title>EBA E-mail alert 13 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20193"/>
+    <updated>2026-11-13T16:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-130118</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of Sartafe Finance S.à r.l. SPF</title>
@@ -152,14 +160,6 @@
     <title>EBA E-mail alert 14 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20099"/>
     <updated>2026-10-14T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20094</id>
-    <title>EBA E-mail alert 13 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20094"/>
-    <updated>2026-10-13T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
