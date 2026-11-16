@@ -3,8 +3,25 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-14T13:35:26.689Z</updated>
+  <updated>2026-11-16T15:51:56.687Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130169</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of Caladium S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-caladium-s-a/"/>
+    <updated>2026-11-16T14:45:57.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-27780</id>
+    <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
+    <updated>2026-11-16T05:00:55.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20193</id>
     <title>EBA E-mail alert 13 November, 2026</title>
@@ -104,22 +121,6 @@
     <title>CSSF approvals of prospectuses</title>
     <link rel="alternate" href="https://www.cssf.lu/en/2026/11/cssf-approvals/"/>
     <updated>2026-11-05T05:00:29.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129905</id>
-    <title>Global situation of undertakings for collective investment at the end of September 2026</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/global-situation-of-undertakings-for-collective-investment-at-the-end-of-september-2026/"/>
-    <updated>2026-11-04T08:08:59.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-129890</id>
-    <title>Self-assessment questionnaire (revised Long Form Report)</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/self-assessment-questionnaire-revised-long-form-report/"/>
-    <updated>2026-11-03T13:48:24.000Z</updated>
     <author><name>CSSF</name></author>
     <category term="guidance"/>
   </entry>

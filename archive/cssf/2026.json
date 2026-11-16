@@ -1,8 +1,64 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-12T15:19:30.321Z",
+  "updated_at": "2026-11-16T15:51:56.591Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130169",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Caladium S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-caladium-s-a/",
+      "published": "2026-11-16T14:45:57.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-16T15:51:56.088Z",
+      "content_hash": "fb2d449d48dba766",
+      "first_seen": "2026-11-16T15:51:56.088Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-27780",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/",
+      "published": "2026-11-16T05:00:55.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-16T15:51:56.088Z",
+      "content_hash": "d0aa41cde37f6296",
+      "first_seen": "2026-09-17T11:45:08.775Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-10-16T11:27:52.387Z",
+          "content_hash": "59d9d25d0a384f80",
+          "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
+          "summary": null
+        },
+        {
+          "retrieved_at": "2026-09-17T11:45:08.775Z",
+          "content_hash": "fd0281e38991bf0c",
+          "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
+          "summary": null
+        }
+      ]
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130118",
       "type": "warning",
@@ -600,34 +656,6 @@
       "retrieved_at": "2026-10-19T13:22:01.015Z",
       "content_hash": "ab15cdf741b3e5c9",
       "first_seen": "2026-10-19T13:22:01.015Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-27780",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/10/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/",
-      "published": "2026-10-16T04:00:55.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-10-16T11:27:52.387Z",
-      "content_hash": "59d9d25d0a384f80",
-      "first_seen": "2026-09-17T11:45:08.775Z",
-      "revisions": [
-        {
-          "retrieved_at": "2026-09-17T11:45:08.775Z",
-          "content_hash": "fd0281e38991bf0c",
-          "title": "Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008",
-          "summary": null
-        }
-      ]
     },
     {
       "id": "urn:regevent:v2:cssf:p-27754",
