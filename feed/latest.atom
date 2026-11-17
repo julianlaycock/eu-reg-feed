@@ -3,8 +3,42 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-16T15:51:56.687Z</updated>
+  <updated>2026-11-17T16:04:18.893Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130199</id>
+    <title>Warning concerning the website www.euroinvests.com</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-euroinvests-com/"/>
+    <updated>2026-11-17T12:05:39.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130192</id>
+    <title>New eDesk procedure – Questionnaire on Artificial Intelligence</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/new-edesk-procedure-questionnaire-on-artificial-intelligence/"/>
+    <updated>2026-11-17T11:01:32.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130175</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of Citibank Europe plc, Luxembourg Branch</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-citibank-europe-plc-luxembourg-branch/"/>
+    <updated>2026-11-17T06:53:14.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20197</id>
+    <title>EBA E-mail alert 16 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20197"/>
+    <updated>2026-11-16T16:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-130169</id>
     <title>Warning concerning fraudulent activities by persons misusing the name of Caladium S.A.</title>
@@ -100,31 +134,6 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-129956</id>
-    <title>Warning concerning the website www.terralia-gci.com</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-terralia-gci-com/"/>
-    <updated>2026-11-05T08:49:09.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27765</id>
-    <title>Notifications sent by the CSSF to the competent authorities of other EEA Member States</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/notifications-sent-by-the-cssf-to-the-competent-authorities-of-other-eea-member-states/"/>
-    <updated>2026-11-05T05:00:53.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-27731</id>
-    <title>CSSF approvals of prospectuses</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/cssf-approvals/"/>
-    <updated>2026-11-05T05:00:29.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20143</id>
     <title>EBA E-mail alert 29 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20143"/>
@@ -153,14 +162,6 @@
     <title>EBA E-mail alert 16 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20106"/>
     <updated>2026-10-16T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20099</id>
-    <title>EBA E-mail alert 14 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20099"/>
-    <updated>2026-10-14T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>

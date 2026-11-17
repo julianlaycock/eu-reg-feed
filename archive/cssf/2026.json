@@ -1,8 +1,72 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-16T15:51:56.591Z",
+  "updated_at": "2026-11-17T16:04:18.795Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130199",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning the website www.euroinvests.com",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-euroinvests-com/",
+      "published": "2026-11-17T12:05:39.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "content_hash": "617c2d220db21663",
+      "first_seen": "2026-11-17T16:04:18.291Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130192",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "New eDesk procedure – Questionnaire on Artificial Intelligence",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/new-edesk-procedure-questionnaire-on-artificial-intelligence/",
+      "published": "2026-11-17T11:01:32.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "content_hash": "cb568f037f7dfd79",
+      "first_seen": "2026-11-17T16:04:18.291Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130175",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of Citibank Europe plc, Luxembourg Branch",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-citibank-europe-plc-luxembourg-branch/",
+      "published": "2026-11-17T06:53:14.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "content_hash": "3757c046ba2e8994",
+      "first_seen": "2026-11-17T16:04:18.291Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130169",
       "type": "warning",
