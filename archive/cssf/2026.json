@@ -1,8 +1,50 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-17T16:04:18.795Z",
+  "updated_at": "2026-11-18T15:43:09.751Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130243",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Critical Memory Corruption Vulnerability in OpenJDK Base64 Decoder (Java4Shell)",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/critical-memory-corruption-vulnerability-in-openjdk-base64-decoder-java4shell/",
+      "published": "2026-11-18T10:26:36.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
+      "content_hash": "e5fad0668e2e6f24",
+      "first_seen": "2026-11-18T15:43:08.788Z"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130225",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of One Futur Invests S.à r.l.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-one-futur-invests-s-a-r-l/",
+      "published": "2026-11-18T09:16:09.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
+      "content_hash": "ddb0142614fe5111",
+      "first_seen": "2026-11-18T15:43:08.788Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130199",
       "type": "warning",

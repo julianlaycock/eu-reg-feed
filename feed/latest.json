@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-11-17T16:04:18.788Z",
+  "generated_at": "2026-11-18T15:43:09.744Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,22 +9,62 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-11-17T16:04:13.537Z"
+      "fetched_at": "2026-11-18T15:43:03.560Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-11-17T16:04:15.718Z"
+      "fetched_at": "2026-11-18T15:43:05.967Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-11-17T16:04:18.291Z"
+      "fetched_at": "2026-11-18T15:43:08.788Z"
     }
   ],
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130243",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Critical Memory Corruption Vulnerability in OpenJDK Base64 Decoder (Java4Shell)",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/critical-memory-corruption-vulnerability-in-openjdk-base64-decoder-java4shell/",
+      "published": "2026-11-18T10:26:36.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
+      "content_hash": "e5fad0668e2e6f24"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130225",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of One Futur Invests S.à r.l.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-one-futur-invests-s-a-r-l/",
+      "published": "2026-11-18T09:16:09.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
+      "content_hash": "ddb0142614fe5111"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130199",
       "type": "warning",
@@ -43,7 +83,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "617c2d220db21663"
     },
     {
@@ -62,7 +102,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "cb568f037f7dfd79"
     },
     {
@@ -83,7 +123,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "3757c046ba2e8994"
     },
     {
@@ -102,7 +142,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "82919ef866484a94"
     },
     {
@@ -123,7 +163,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "fb2d449d48dba766"
     },
     {
@@ -142,7 +182,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "d0aa41cde37f6296"
     },
     {
@@ -161,7 +201,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "4d5cb812c8d3825c"
     },
     {
@@ -182,7 +222,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "7c294b8b9a4247ed"
     },
     {
@@ -203,7 +243,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "6fb482ac17dfdebe"
     },
     {
@@ -222,7 +262,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "7f338c2424b9770a"
     },
     {
@@ -243,29 +283,8 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
+      "retrieved_at": "2026-11-18T15:43:08.788Z",
       "content_hash": "70a1a949288ceed5"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-130035",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the website www.heres-sarl.com",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-heres-sarl-com/",
-      "published": "2026-11-09T13:21:08.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
-      "content_hash": "f3adde31432067c4"
     },
     {
       "id": "urn:regevent:v2:eba:node-20167",
@@ -283,29 +302,8 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "30673c640808cd49"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-130012",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning fraudulent activities by persons misusing the name of Finare Asset Management S.A.",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-finare-asset-management-s-a/",
-      "published": "2026-11-06T13:12:26.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:18.291Z",
-      "content_hash": "22d7b2482f4c6791"
     },
     {
       "id": "urn:regevent:v2:eba:node-20162",
@@ -323,7 +321,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "5ab28228db197904"
     },
     {
@@ -342,7 +340,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "f9ec0485c495c57d"
     },
     {
@@ -361,7 +359,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "8b98c93aa5e43676"
     },
     {
@@ -380,7 +378,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "19a16a6878742b78"
     },
     {
@@ -399,7 +397,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "2ea5b4443b61a039"
     },
     {
@@ -418,7 +416,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "b6056e80f4df3e4d"
     },
     {
@@ -437,7 +435,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -460,7 +458,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "471f272e0cffe853"
     },
     {
@@ -479,7 +477,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -498,7 +496,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -517,7 +515,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -536,7 +534,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -555,7 +553,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -574,7 +572,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -597,7 +595,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -616,7 +614,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -635,7 +633,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -654,7 +652,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -677,7 +675,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -700,7 +698,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -719,7 +717,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -738,7 +736,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -757,7 +755,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -776,7 +774,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -795,7 +793,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-17T16:04:13.537Z",
+      "retrieved_at": "2026-11-18T15:43:03.560Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -814,7 +812,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-17T16:04:15.718Z",
+      "retrieved_at": "2026-11-18T15:43:05.967Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
