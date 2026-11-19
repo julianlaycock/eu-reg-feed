@@ -1,8 +1,28 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-18T15:43:09.751Z",
+  "updated_at": "2026-11-19T15:48:16.481Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-130257",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Temporary interruption of the access to eDesk",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/temporary-interruption-of-the-access-to-edesk/",
+      "published": "2026-11-19T07:22:18.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "content_hash": "667b6ac5b52eab47",
+      "first_seen": "2026-11-19T15:48:15.808Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130243",
       "type": "guidance",

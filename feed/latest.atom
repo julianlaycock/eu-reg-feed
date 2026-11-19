@@ -3,8 +3,24 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-18T15:43:09.864Z</updated>
+  <updated>2026-11-19T15:48:16.592Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130257</id>
+    <title>Temporary interruption of the access to eDesk</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/temporary-interruption-of-the-access-to-edesk/"/>
+    <updated>2026-11-19T07:22:18.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20207</id>
+    <title>EBA E-mail alert 18 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20207"/>
+    <updated>2026-11-18T16:00:03.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:cssf:p-130243</id>
     <title>Critical Memory Corruption Vulnerability in OpenJDK Base64 Decoder (Java4Shell)</title>
@@ -108,15 +124,6 @@
     <category term="guidance"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-130041</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of CVC CAPITAL MARKETS SARL</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-cvc-capital-markets-sarl/"/>
-    <updated>2026-11-09T14:52:09.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20167</id>
     <title>EBA E-mail alert 6 November, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20167"/>
@@ -153,14 +160,6 @@
     <title>EBA E-mail alert 22 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20121"/>
     <updated>2026-10-22T15:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20106</id>
-    <title>EBA E-mail alert 16 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20106"/>
-    <updated>2026-10-16T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>
