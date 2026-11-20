@@ -1,7 +1,7 @@
 {
   "schema": "https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/schema/regevent.schema.json",
   "version": "0.3.0",
-  "generated_at": "2026-11-19T15:48:16.473Z",
+  "generated_at": "2026-11-20T15:30:38.870Z",
   "total_events": 40,
   "total_errors": 0,
   "sources": [
@@ -9,40 +9,59 @@
       "regulator": "esma",
       "events": 20,
       "errors": [],
-      "fetched_at": "2026-11-19T15:48:10.523Z"
+      "fetched_at": "2026-11-20T15:30:32.998Z"
     },
     {
       "regulator": "eba",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-11-19T15:48:13.081Z"
+      "fetched_at": "2026-11-20T15:30:35.373Z"
     },
     {
       "regulator": "cssf",
       "events": 10,
       "errors": [],
-      "fetched_at": "2026-11-19T15:48:15.808Z"
+      "fetched_at": "2026-11-20T15:30:38.002Z"
     }
   ],
   "events": [
     {
-      "id": "urn:regevent:v2:cssf:p-130257",
+      "id": "urn:regevent:v2:cssf:p-130306",
       "type": "guidance",
       "regulator": "cssf",
       "jurisdiction": "LU",
-      "title": "Temporary interruption of the access to eDesk",
+      "title": "Access to eDesk restored",
       "title_lang": "en",
       "summary": null,
-      "url": "https://www.cssf.lu/en/2026/11/temporary-interruption-of-the-access-to-edesk/",
-      "published": "2026-11-19T07:22:18.000Z",
+      "url": "https://www.cssf.lu/en/2026/11/access-to-edesk-restored/",
+      "published": "2026-11-20T15:06:20.000Z",
       "effective_date": null,
       "response_deadline": null,
       "affected_legislation": [],
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
-      "content_hash": "667b6ac5b52eab47"
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
+      "content_hash": "87b6c149487fa58f"
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130276",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Critical security vulnerabilities in NGINX (NGINX2ROOT)",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/critical-security-vulnerabilities-in-nginx-nginx2root/",
+      "published": "2026-11-20T07:22:05.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
+      "content_hash": "e233354e2748d62e"
     },
     {
       "id": "urn:regevent:v2:eba:node-20207",
@@ -60,7 +79,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "184685b1e8df2f94"
     },
     {
@@ -79,7 +98,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "e5fad0668e2e6f24"
     },
     {
@@ -100,7 +119,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "ddb0142614fe5111"
     },
     {
@@ -121,7 +140,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "617c2d220db21663"
     },
     {
@@ -140,7 +159,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "cb568f037f7dfd79"
     },
     {
@@ -161,7 +180,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "3757c046ba2e8994"
     },
     {
@@ -180,7 +199,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "82919ef866484a94"
     },
     {
@@ -201,7 +220,7 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "fb2d449d48dba766"
     },
     {
@@ -220,7 +239,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "d0aa41cde37f6296"
     },
     {
@@ -239,7 +258,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "4d5cb812c8d3825c"
     },
     {
@@ -260,29 +279,8 @@
       ],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
+      "retrieved_at": "2026-11-20T15:30:38.002Z",
       "content_hash": "7c294b8b9a4247ed"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-130058",
-      "type": "warning",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Warning concerning the website www.eueaa.eu",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-the-website-www-eueaa-eu/",
-      "published": "2026-11-10T11:08:22.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [
-        "investor-protection"
-      ],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:15.808Z",
-      "content_hash": "6fb482ac17dfdebe"
     },
     {
       "id": "urn:regevent:v2:eba:node-20174",
@@ -300,7 +298,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "7f338c2424b9770a"
     },
     {
@@ -319,7 +317,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "30673c640808cd49"
     },
     {
@@ -338,7 +336,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "5ab28228db197904"
     },
     {
@@ -357,7 +355,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "f9ec0485c495c57d"
     },
     {
@@ -376,7 +374,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "8b98c93aa5e43676"
     },
     {
@@ -395,7 +393,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "19a16a6878742b78"
     },
     {
@@ -414,7 +412,7 @@
       "tags": [],
       "attachments": [],
       "status": "open",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "b6056e80f4df3e4d"
     },
     {
@@ -433,7 +431,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "b54534735ad6b41f"
     },
     {
@@ -456,7 +454,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "471f272e0cffe853"
     },
     {
@@ -475,7 +473,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "832e5268ffa78353"
     },
     {
@@ -494,7 +492,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "4d6b2156139026ef"
     },
     {
@@ -513,7 +511,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "a9ec0ab2482a4163"
     },
     {
@@ -532,7 +530,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "98fd8e8aa372d7ac"
     },
     {
@@ -551,7 +549,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "1354b107d9e2acb2"
     },
     {
@@ -570,7 +568,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "638368db656dbe8b"
     },
     {
@@ -593,7 +591,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "625865e10706f028"
     },
     {
@@ -612,7 +610,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "88cea0b3535fcaf4"
     },
     {
@@ -631,7 +629,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "ad630c5212e7f3ee"
     },
     {
@@ -650,7 +648,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "733030adc4303d82"
     },
     {
@@ -673,7 +671,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "83124f2b8b132e50"
     },
     {
@@ -696,7 +694,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "0f46557c2c241047"
     },
     {
@@ -715,7 +713,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "2d34691a3380c2ca"
     },
     {
@@ -734,7 +732,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "2fa87b186b95c9c5"
     },
     {
@@ -753,7 +751,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "65fb2bd1c6637a02"
     },
     {
@@ -772,7 +770,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "4a9a8a90bd3f77d2"
     },
     {
@@ -791,7 +789,7 @@
       "tags": [],
       "attachments": [],
       "status": "closed",
-      "retrieved_at": "2026-11-19T15:48:10.523Z",
+      "retrieved_at": "2026-11-20T15:30:32.998Z",
       "content_hash": "77088cc1a7ee4978"
     },
     {
@@ -810,7 +808,7 @@
       "tags": [],
       "attachments": [],
       "status": "unknown",
-      "retrieved_at": "2026-11-19T15:48:13.081Z",
+      "retrieved_at": "2026-11-20T15:30:35.373Z",
       "content_hash": "680fcc63e9bdc1dc"
     }
   ]
