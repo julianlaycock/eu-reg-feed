@@ -3,8 +3,33 @@
   <title>eu-reg-feed — EU regulatory change events</title>
   <id>https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom</id>
   <link rel="self" href="https://raw.githubusercontent.com/julianlaycock/eu-reg-feed/main/feed/latest.atom"/>
-  <updated>2026-11-21T14:42:31.217Z</updated>
+  <updated>2026-11-25T17:16:43.581Z</updated>
   <generator version="0.3.0">eu-reg-feed</generator>
+  <entry>
+    <id>urn:regevent:v2:eba:node-20237</id>
+    <title>EBA E-mail alert 25 November, 2026</title>
+    <link rel="alternate" href="https://www.eba.europa.eu/node/20237"/>
+    <updated>2026-11-25T16:00:02.000Z</updated>
+    <author><name>EBA</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-128774</id>
+    <title>Investment fund managers</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/investment-fund-managers/"/>
+    <updated>2026-11-25T13:00:39.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="guidance"/>
+  </entry>
+  <entry>
+    <id>urn:regevent:v2:cssf:p-130382</id>
+    <title>Warning concerning fraudulent activities by persons misusing the name of OREA CAPITAL S.A.</title>
+    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-orea-capital-s-a/"/>
+    <updated>2026-11-25T07:10:02.000Z</updated>
+    <author><name>CSSF</name></author>
+    <category term="warning"/>
+    <category term="investor-protection"/>
+  </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20221</id>
     <title>EBA E-mail alert 20 November, 2026</title>
@@ -98,29 +123,12 @@
     <category term="investor-protection"/>
   </entry>
   <entry>
-    <id>urn:regevent:v2:cssf:p-27780</id>
-    <title>Issuers of securities whose home Member State is Luxembourg pursuant to the Law of 11 January 2008</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/issuers-of-securities-whose-home-member-state-is-luxembourg-pursuant-to-the-law-of-11-january-2008/"/>
-    <updated>2026-11-16T05:00:55.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
     <id>urn:regevent:v2:eba:node-20193</id>
     <title>EBA E-mail alert 13 November, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20193"/>
     <updated>2026-11-13T16:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:cssf:p-130118</id>
-    <title>Warning concerning fraudulent activities by persons misusing the name of Sartafe Finance S.à r.l. SPF</title>
-    <link rel="alternate" href="https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-sartafe-finance-s-a-r-l-spf/"/>
-    <updated>2026-11-12T11:45:27.000Z</updated>
-    <author><name>CSSF</name></author>
-    <category term="warning"/>
-    <category term="investor-protection"/>
   </entry>
   <entry>
     <id>urn:regevent:v2:eba:node-20174</id>
@@ -151,14 +159,6 @@
     <title>EBA E-mail alert 29 October, 2026</title>
     <link rel="alternate" href="https://www.eba.europa.eu/node/20143"/>
     <updated>2026-10-29T16:00:03.000Z</updated>
-    <author><name>EBA</name></author>
-    <category term="guidance"/>
-  </entry>
-  <entry>
-    <id>urn:regevent:v2:eba:node-20125</id>
-    <title>EBA E-mail alert 23 October, 2026</title>
-    <link rel="alternate" href="https://www.eba.europa.eu/node/20125"/>
-    <updated>2026-10-23T15:00:03.000Z</updated>
     <author><name>EBA</name></author>
     <category term="guidance"/>
   </entry>

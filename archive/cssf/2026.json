@@ -1,8 +1,58 @@
 {
   "regulator": "cssf",
   "year": 2026,
-  "updated_at": "2026-11-20T15:30:38.880Z",
+  "updated_at": "2026-11-25T17:16:43.488Z",
   "events": [
+    {
+      "id": "urn:regevent:v2:cssf:p-128774",
+      "type": "guidance",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Investment fund managers",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/investment-fund-managers/",
+      "published": "2026-11-25T13:00:39.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-25T17:16:42.703Z",
+      "content_hash": "b9e116a57a5bf186",
+      "first_seen": "2026-09-21T12:52:28.319Z",
+      "revisions": [
+        {
+          "retrieved_at": "2026-09-21T12:52:28.319Z",
+          "content_hash": "3704381a97b2d6d0",
+          "title": "Investment fund managers",
+          "summary": null
+        }
+      ]
+    },
+    {
+      "id": "urn:regevent:v2:cssf:p-130382",
+      "type": "warning",
+      "regulator": "cssf",
+      "jurisdiction": "LU",
+      "title": "Warning concerning fraudulent activities by persons misusing the name of OREA CAPITAL S.A.",
+      "title_lang": "en",
+      "summary": null,
+      "url": "https://www.cssf.lu/en/2026/11/warning-concerning-fraudulent-activities-by-persons-misusing-the-name-of-orea-capital-s-a/",
+      "published": "2026-11-25T07:10:02.000Z",
+      "effective_date": null,
+      "response_deadline": null,
+      "affected_legislation": [],
+      "tags": [
+        "investor-protection"
+      ],
+      "attachments": [],
+      "status": "unknown",
+      "retrieved_at": "2026-11-25T17:16:42.703Z",
+      "content_hash": "7e19681e2257d200",
+      "first_seen": "2026-11-25T17:16:42.703Z"
+    },
     {
       "id": "urn:regevent:v2:cssf:p-130306",
       "type": "guidance",
@@ -1256,26 +1306,6 @@
       "retrieved_at": "2026-09-22T11:42:22.062Z",
       "content_hash": "a4a970f374254d45",
       "first_seen": "2026-09-22T11:42:22.062Z"
-    },
-    {
-      "id": "urn:regevent:v2:cssf:p-128774",
-      "type": "guidance",
-      "regulator": "cssf",
-      "jurisdiction": "LU",
-      "title": "Investment fund managers",
-      "title_lang": "en",
-      "summary": null,
-      "url": "https://www.cssf.lu/en/2026/09/investment-fund-managers/",
-      "published": "2026-09-21T04:00:39.000Z",
-      "effective_date": null,
-      "response_deadline": null,
-      "affected_legislation": [],
-      "tags": [],
-      "attachments": [],
-      "status": "unknown",
-      "retrieved_at": "2026-09-21T12:52:28.319Z",
-      "content_hash": "3704381a97b2d6d0",
-      "first_seen": "2026-09-21T12:52:28.319Z"
     },
     {
       "id": "urn:regevent:v2:cssf:p-128741",
